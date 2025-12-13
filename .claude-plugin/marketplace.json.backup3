@@ -1,0 +1,1038 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "awesome-claude-skills",
+  "version": "1.0.0",
+  "description": "A curated marketplace of practical Claude Skills for enhancing productivity across Claude.ai, Claude Code, and the Claude API",
+  "owner": {
+    "name": "ComposioHQ",
+    "email": "tech@composio.dev"
+  },
+  "plugins": [
+    {
+      "name": "adaptyv",
+      "description": "Cloud laboratory platform for automated protein testing and validation. Use when designing proteins and needing experimental validation including binding assays, expression testing, thermostability measurements, enzyme activity assays, or protein sequence optimization. Also use for submitting experiments via API, tracking experiment status, downloading results, optimizing protein sequences for better expression using computational tools (NetSolP, SoluProt, SolubleMPNN, ESM), or managing protein design workflows with wet-lab validation.",
+      "source": "./claude-scientific-skills/scientific-skills/adaptyv",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "aeon",
+      "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs.",
+      "source": "./claude-scientific-skills/scientific-skills/aeon",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Creates algorithmic art and generative designs using computational creativity techniques.",
+      "source": "./algorithmic-art",
+      "category": "creative-media"
+    },
+    {
+      "name": "alphafold-database",
+      "description": "Access AlphaFold's 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology.",
+      "source": "./claude-scientific-skills/scientific-skills/alphafold-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "anndata",
+      "description": "This skill should be used when working with annotated data matrices in Python, particularly for single-cell genomics analysis, managing experimental measurements with metadata, or handling large-scale biological datasets. Use when tasks involve AnnData objects, h5ad files, single-cell RNA-seq data, or integration with scanpy/scverse tools.",
+      "source": "./claude-scientific-skills/scientific-skills/anndata",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "arboreto",
+      "description": "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets.",
+      "source": "./claude-scientific-skills/scientific-skills/arboreto",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "article-extractor",
+      "description": "Extract clean article content from URLs (blog posts, articles, tutorials) and save as readable text. Use when user wants to download, extract, or save an article/blog post from a URL without ads, navigation, or clutter.",
+      "source": "./communication-writing/article-extractor",
+      "category": "communication-writing"
+    },
+    {
+      "name": "artifacts-builder",
+      "description": "Builds elaborate, multi-component Claude.ai HTML artifacts using modern frontend technologies including React, Tailwind CSS, and shadcn/ui.",
+      "source": "./development/artifacts-builder",
+      "category": "development"
+    },
+    {
+      "name": "astropy",
+      "description": "Comprehensive Python library for astronomy and astrophysics. This skill should be used when working with astronomical data including celestial coordinates, physical units, FITS files, cosmological calculations, time systems, tables, world coordinate systems (WCS), and astronomical data analysis. Use when tasks involve coordinate transformations, unit conversions, FITS file manipulation, cosmological distance calculations, time scale conversions, or astronomical data processing.",
+      "source": "./claude-scientific-skills/scientific-skills/astropy",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "benchling-integration",
+      "description": "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation.",
+      "source": "./claude-scientific-skills/scientific-skills/benchling-integration",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "biomni",
+      "description": "Autonomous biomedical AI agent framework for executing complex research tasks across genomics, drug discovery, molecular biology, and clinical analysis. Use this skill when conducting multi-step biomedical research including CRISPR screening design, single-cell RNA-seq analysis, ADMET prediction, GWAS interpretation, rare disease diagnosis, or lab protocol optimization. Leverages LLM reasoning with code execution and integrated biomedical databases.",
+      "source": "./claude-scientific-skills/scientific-skills/biomni",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "biopython",
+      "description": "Primary Python toolkit for molecular biology. Preferred for Python-based PubMed/NCBI queries (Bio.Entrez), sequence manipulation, file parsing (FASTA, GenBank, FASTQ, PDB), advanced BLAST workflows, structures, phylogenetics. For quick BLAST, use gget. For direct REST API, use pubmed-database.",
+      "source": "./claude-scientific-skills/scientific-skills/biopython",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "biorxiv-database",
+      "description": "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews.",
+      "source": "./claude-scientific-skills/scientific-skills/biorxiv-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "bioservices",
+      "description": "Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniProt, KEGG, ChEMBL, PubChem, Reactome, QuickGO. Unified API for queries, ID mapping, pathway analysis. For direct REST control, use individual database skills (uniprot-database, kegg-database).",
+      "source": "./claude-scientific-skills/scientific-skills/bioservices",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "brainstorming",
+      "description": "Use when creating or developing, before writing code or implementation plans - refines rough ideas into fully-formed designs through collaborative questioning, alternative exploration, and incremental validation. Don't use during clear 'mechanical' processes",
+      "source": "./communication-writing/brainstorming",
+      "category": "communication-writing"
+    },
+    {
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity and professional design standards.",
+      "source": "./business-marketing/brand-guidelines",
+      "category": "business-marketing"
+    },
+    {
+      "name": "canvas-design",
+      "description": "Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters, designs, and static pieces.",
+      "source": "./creative-media/canvas-design",
+      "category": "creative-media"
+    },
+    {
+      "name": "cellxgene-census",
+      "description": "Query CZ CELLxGENE Census (61M+ cells). Filter by cell type/tissue/disease, retrieve expression data, integrate with scanpy/PyTorch, for population-scale single-cell analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/cellxgene-census",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "changelog-generator",
+      "description": "Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes.",
+      "source": "./development/changelog-generator",
+      "category": "development"
+    },
+    {
+      "name": "chembl-database",
+      "description": "Query ChEMBL's bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry.",
+      "source": "./claude-scientific-skills/scientific-skills/chembl-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "cirq",
+      "description": "Quantum computing framework for building, simulating, optimizing, and executing quantum circuits. Use this skill when working with quantum algorithms, quantum circuit design, quantum simulation (noiseless or noisy), running on quantum hardware (Google, IonQ, AQT, Pasqal), circuit optimization and compilation, noise modeling and characterization, or quantum experiments and benchmarking (VQE, QAOA, QPE, randomized benchmarking).",
+      "source": "./claude-scientific-skills/scientific-skills/cirq",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "clinicaltrials-database",
+      "description": "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching.",
+      "source": "./claude-scientific-skills/scientific-skills/clinicaltrials-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "clinpgx-database",
+      "description": "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions.",
+      "source": "./claude-scientific-skills/scientific-skills/clinpgx-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "clinvar-database",
+      "description": "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine.",
+      "source": "./claude-scientific-skills/scientific-skills/clinvar-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "cobrapy",
+      "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/cobrapy",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "competitive-ads-extractor",
+      "description": "Extracts and analyzes competitors' ads from ad libraries to understand messaging and creative approaches that resonate.",
+      "source": "./business-marketing/competitive-ads-extractor",
+      "category": "business-marketing"
+    },
+    {
+      "name": "content-research-writer",
+      "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing section-by-section feedback.",
+      "source": "./communication-writing/content-research-writer",
+      "category": "communication-writing"
+    },
+    {
+      "name": "cosmic-database",
+      "description": "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication.",
+      "source": "./claude-scientific-skills/scientific-skills/cosmic-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "csv-data-summarizer",
+      "description": "Analyzes CSV files, generates summary stats, and plots quick visualizations using Python and pandas.",
+      "source": "./data-analysis/csv-data-summarizer",
+      "category": "data-analysis"
+    },
+    {
+      "name": "d3js-visualization",
+      "description": "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment.",
+      "source": "./development/d3js-visualization",
+      "category": "development"
+    },
+    {
+      "name": "dask",
+      "description": "Parallel/distributed computing. Scale pandas/NumPy beyond memory, parallel DataFrames/Arrays, multi-file processing, task graphs, for larger-than-RAM datasets and parallel workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/dask",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "datacommons-client",
+      "description": "Work with Data Commons, a platform providing programmatic access to public statistical data from global sources. Use this skill when working with demographic data, economic indicators, health statistics, environmental data, or any public datasets available through Data Commons. Applicable for querying population statistics, GDP figures, unemployment rates, disease prevalence, geographic entity resolution, and exploring relationships between statistical entities.",
+      "source": "./claude-scientific-skills/scientific-skills/datacommons-client",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "datamol",
+      "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery: SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly.",
+      "source": "./claude-scientific-skills/scientific-skills/datamol",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "deep-reading-analyst",
+      "description": "Comprehensive framework for deep analysis of articles, papers, and long-form content using 10+ thinking models (SCQA, 5W2H, critical thinking, inversion, mental models, first principles, systems thinking, six thinking hats). Use when users want to: (1) deeply understand complex articles/content, (2) analyze arguments and identify logical flaws, (3) extract actionable insights from reading materials, (4) create study notes or learning summaries, (5) compare multiple sources, (6) transform knowledge into practical applications, or (7) apply specific thinking frameworks. Triggered by phrases like 'analyze this article,' 'help me understand,' 'deep dive into,' 'extract insights from,' 'use [framework name],' or when users provide URLs/long-form content for analysis.",
+      "source": "./productivity-organization/deep-reading-analyst-skill",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "deepchem",
+      "description": "Molecular machine learning toolkit. Property prediction (ADMET, toxicity), GNNs (GCN, MPNN), MoleculeNet benchmarks, pretrained models, featurization, for drug discovery ML.",
+      "source": "./claude-scientific-skills/scientific-skills/deepchem",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "deeptools",
+      "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
+      "source": "./claude-scientific-skills/scientific-skills/deeptools",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "denario",
+      "description": "Multiagent AI system for scientific research assistance that automates research workflows from data analysis to publication. This skill should be used when generating research ideas from datasets, developing research methodologies, executing computational experiments, performing literature searches, or generating publication-ready papers in LaTeX format. Supports end-to-end research pipelines with customizable agent orchestration.",
+      "source": "./claude-scientific-skills/scientific-skills/denario",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "developer-growth-analysis",
+      "description": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
+      "source": "./development/developer-growth-analysis",
+      "category": "development"
+    },
+    {
+      "name": "diffdock",
+      "description": "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.",
+      "source": "./claude-scientific-skills/scientific-skills/diffdock",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "dnanexus-integration",
+      "description": "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution.",
+      "source": "./claude-scientific-skills/scientific-skills/dnanexus-integration",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "document-skills-docx",
+      "description": "Skills for working with Microsoft Word documents including creation, editing, and formatting using DOCX format.",
+      "source": "./document-skills/docx",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "document-skills-pdf",
+      "description": "Skills for working with PDF documents including creation, editing, forms, and advanced PDF operations.",
+      "source": "./document-skills/pdf",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "document-skills-pptx",
+      "description": "Skills for working with PowerPoint presentations including creation, editing, and formatting using PPTX format.",
+      "source": "./document-skills/pptx",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "document-skills-xlsx",
+      "description": "Skills for working with Excel spreadsheets including creation, editing, formulas, and data manipulation.",
+      "source": "./document-skills/xlsx",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "description": "Generates creative domain name ideas and checks availability across multiple TLDs including .com, .io, .dev, and .ai extensions.",
+      "source": "./business-marketing/domain-name-brainstormer",
+      "category": "business-marketing"
+    },
+    {
+      "name": "drugbank-database",
+      "description": "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug-drug interaction analysis, target identification, chemical similarity searches, ADMET predictions, or any task requiring detailed drug and drug target information from DrugBank.",
+      "source": "./claude-scientific-skills/scientific-skills/drugbank-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "ena-database",
+      "description": "Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats.",
+      "source": "./claude-scientific-skills/scientific-skills/ena-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "ensembl-database",
+      "description": "Query Ensembl genome database REST API for 250+ species. Gene lookups, sequence retrieval, variant analysis, comparative genomics, orthologs, VEP predictions, for genomic research.",
+      "source": "./claude-scientific-skills/scientific-skills/ensembl-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "esm",
+      "description": "Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequence, structure, and function) and ESM C (efficient protein embeddings and representations). Use this skill when working with protein sequences, structures, or function prediction; designing novel proteins; generating protein embeddings; performing inverse folding; or conducting protein engineering tasks. Supports both local model usage and cloud-based Forge API for scalable inference.",
+      "source": "./claude-scientific-skills/scientific-skills/esm",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "etetoolkit",
+      "description": "Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics.",
+      "source": "./claude-scientific-skills/scientific-skills/etetoolkit",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "description": "Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats. This skill should be used when analyzing any scientific data file to understand its structure, content, quality, and characteristics. Automatically detects file type and generates detailed markdown reports with format-specific analysis, quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics, microscopy, spectroscopy, proteomics, metabolomics, and general scientific data formats.",
+      "source": "./claude-scientific-skills/scientific-skills/exploratory-data-analysis",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "family-history-research",
+      "description": "Provides assistance with planning family history and genealogy research projects.",
+      "source": "./communication-writing/family-history-research",
+      "category": "communication-writing"
+    },
+    {
+      "name": "fda-database",
+      "description": "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research.",
+      "source": "./claude-scientific-skills/scientific-skills/fda-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "file-organizer",
+      "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures.",
+      "source": "./productivity-organization/file-organizer",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "source": "./development/finishing-a-development-branch",
+      "category": "development"
+    },
+    {
+      "name": "flowio",
+      "description": "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing.",
+      "source": "./claude-scientific-skills/scientific-skills/flowio",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "fluidsim",
+      "description": "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical flows. Provides pseudospectral methods with FFT, HPC support, and comprehensive output analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/fluidsim",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "gene-database",
+      "description": "Query NCBI Gene via E-utilities/Datasets API. Search by symbol/ID, retrieve gene info (RefSeqs, GO, locations, phenotypes), batch lookups, for gene annotation and functional analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/gene-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "generate-image",
+      "description": "Generate or edit images using AI models (FLUX, Gemini). Use for scientific illustrations, diagrams, schematics, infographics, concept visualizations, and artistic images. Supports image editing to modify existing images (change colors, add/remove elements, style transfer). Useful for figures, posters, and visual explanations.",
+      "source": "./claude-scientific-skills/scientific-skills/generate-image",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "geniml",
+      "description": "This skill should be used when working with genomic interval data (BED files) for machine learning tasks. Use for training region embeddings (Region2Vec, BEDspace), single-cell ATAC-seq analysis (scEmbed), building consensus peaks (universes), or any ML-based analysis of genomic regions. Applies to BED file collections, scATAC-seq data, chromatin accessibility datasets, and region-based genomic feature learning.",
+      "source": "./claude-scientific-skills/scientific-skills/geniml",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "geo-database",
+      "description": "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/geo-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "geopandas",
+      "description": "Python library for working with geospatial vector data including shapefiles, GeoJSON, and GeoPackage files. Use when working with geographic data for spatial analysis, geometric operations, coordinate transformations, spatial joins, overlay operations, choropleth mapping, or any task involving reading/writing/analyzing vector geographic data. Supports PostGIS databases, interactive maps, and integration with matplotlib/folium/cartopy. Use for tasks like buffer analysis, spatial joins between datasets, dissolving boundaries, clipping data, calculating areas/distances, reprojecting coordinate systems, creating maps, or converting between spatial file formats.",
+      "source": "./claude-scientific-skills/scientific-skills/geopandas",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "get-available-resources",
+      "description": "This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource information and strategic recommendations that inform computational approach decisions such as whether to use parallel processing (joblib, multiprocessing), out-of-core computing (Dask, Zarr), GPU acceleration (PyTorch, JAX), or memory-efficient strategies. Use this skill before running analyses, training models, processing large datasets, or any task where resource constraints matter.",
+      "source": "./claude-scientific-skills/scientific-skills/get-available-resources",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "gget",
+      "description": "CLI/Python toolkit for rapid bioinformatics queries. Preferred for quick BLAST searches. Access to 20+ databases: gene info (Ensembl/UniProt), AlphaFold, ARCHS4, Enrichr, OpenTargets, COSMIC, genome downloads. For advanced BLAST/batch processing, use biopython. For multi-database integration, use bioservices.",
+      "source": "./claude-scientific-skills/scientific-skills/gget",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "git-pushing",
+      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
+      "source": "./collaboration-project-management/git-pushing",
+      "category": "collaboration-project-management"
+    },
+    {
+      "name": "gtars",
+      "description": "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications.",
+      "source": "./claude-scientific-skills/scientific-skills/gtars",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "gwas-database",
+      "description": "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic epidemiology and polygenic risk scores.",
+      "source": "./claude-scientific-skills/scientific-skills/gwas-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "histolab",
+      "description": "Digital pathology image processing toolkit for whole slide images (WSI). Use this skill when working with histopathology slides, processing H&E or IHC stained tissue images, extracting tiles from gigapixel pathology images, detecting tissue regions, segmenting tissue masks, or preparing datasets for computational pathology deep learning pipelines. Applies to WSI formats (SVS, TIFF, NDPI), tile-based analysis, and histological image preprocessing workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/histolab",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "hmdb-database",
+      "description": "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.",
+      "source": "./claude-scientific-skills/scientific-skills/hmdb-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "hypogenic",
+      "description": "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for research discovery in domains like deception detection, AI content detection, mental health analysis, or other empirical research tasks.",
+      "source": "./claude-scientific-skills/scientific-skills/hypogenic",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "hypothesis-generation",
+      "description": "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains.",
+      "source": "./claude-scientific-skills/scientific-skills/hypothesis-generation",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "image-enhancer",
+      "description": "Improves image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation.",
+      "source": "./creative-media/image-enhancer",
+      "category": "creative-media"
+    },
+    {
+      "name": "internal-comms",
+      "description": "Helps write internal communications including 3P updates, company newsletters, FAQs, status reports, and project updates using company-specific formats.",
+      "source": "./business-marketing/internal-comms",
+      "category": "business-marketing"
+    },
+    {
+      "name": "invoice-organizer",
+      "description": "Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently.",
+      "source": "./productivity-organization/invoice-organizer",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "kegg-database",
+      "description": "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control.",
+      "source": "./claude-scientific-skills/scientific-skills/kegg-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "labarchive-integration",
+      "description": "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/labarchive-integration",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "lamindb",
+      "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
+      "source": "./claude-scientific-skills/scientific-skills/lamindb",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "latchbio-integration",
+      "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
+      "source": "./claude-scientific-skills/scientific-skills/latchbio-integration",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "lead-research-assistant",
+      "description": "Identifies and qualifies high-quality leads by analyzing your product, searching for target companies, and providing actionable outreach strategies.",
+      "source": "./business-marketing/lead-research-assistant",
+      "category": "business-marketing"
+    },
+    {
+      "name": "literature-review",
+      "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
+      "source": "./claude-scientific-skills/scientific-skills/literature-review",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "markdown-to-epub-converter",
+      "description": "Convert markdown documents and chat summaries into formatted EPUB ebook files that can be read on any device or uploaded to Kindle.",
+      "source": "./document-processing/markdown-to-epub",
+      "category": "document-processing"
+    },
+    {
+      "name": "markitdown",
+      "description": "Convert various file formats (PDF, Office documents, images, audio, web content, structured data) to Markdown optimized for LLM processing. Use when converting documents to markdown, extracting text from PDFs/Office files, transcribing audio, performing OCR on images, extracting YouTube transcripts, or processing batches of files. Supports 20+ formats including DOCX, XLSX, PPTX, PDF, HTML, EPUB, CSV, JSON, images with OCR, and audio with transcription.",
+      "source": "./claude-scientific-skills/scientific-skills/markitdown",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "matchms",
+      "description": "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing.",
+      "source": "./claude-scientific-skills/scientific-skills/matchms",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "matplotlib",
+      "description": "Foundational plotting library. Create line plots, scatter, bar, histograms, heatmaps, 3D, subplots, export PNG/PDF/SVG, for scientific visualization and publication figures.",
+      "source": "./claude-scientific-skills/scientific-skills/matplotlib",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript.",
+      "source": "./development/mcp-builder",
+      "category": "development"
+    },
+    {
+      "name": "medchem",
+      "description": "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.",
+      "source": "./claude-scientific-skills/scientific-skills/medchem",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "meeting-insights-analyzer",
+      "description": "Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, filler words, and leadership style.",
+      "source": "./communication-writing/meeting-insights-analyzer",
+      "category": "communication-writing"
+    },
+    {
+      "name": "metabolomics-workbench-database",
+      "description": "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.",
+      "source": "./claude-scientific-skills/scientific-skills/metabolomics-workbench-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "modal",
+      "description": "Run Python code in the cloud with serverless containers, GPUs, and autoscaling. Use when deploying ML models, running batch processing jobs, scheduling compute-intensive tasks, or serving APIs that require GPU acceleration or dynamic scaling.",
+      "source": "./claude-scientific-skills/scientific-skills/modal",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "molfeat",
+      "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
+      "source": "./claude-scientific-skills/scientific-skills/molfeat",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "move-code-quality-skill",
+      "description": "Analyzes Move language packages against the official Move Book Code Quality Checklist. Use this skill when reviewing Move code, checking Move 2024 Edition compliance, or analyzing Move packages for best practices. Activates automatically when working with .move files or Move.toml manifests.",
+      "source": "./development/move-code-quality-skill",
+      "category": "development"
+    },
+    {
+      "name": "networkx",
+      "description": "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships.",
+      "source": "./claude-scientific-skills/scientific-skills/networkx",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "neurokit2",
+      "description": "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.",
+      "source": "./claude-scientific-skills/scientific-skills/neurokit2",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "notebooklm-integration",
+      "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.",
+      "source": "./communication-writing/notebooklm-integration",
+      "category": "communication-writing"
+    },
+    {
+      "name": "omero-integration",
+      "description": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/omero-integration",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "openalex-database",
+      "description": "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations, discovering open access publications, or conducting bibliometric analysis across 240M+ scholarly works. Use for literature searches, research output analysis, citation analysis, and academic database queries.",
+      "source": "./claude-scientific-skills/scientific-skills/openalex-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "opentargets-database",
+      "description": "Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification.",
+      "source": "./claude-scientific-skills/scientific-skills/opentargets-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "opentrons-integration",
+      "description": "Lab automation platform for Flex/OT-2 robots. Write Protocol API v2 protocols, liquid handling, hardware modules (heater-shaker, thermocycler), labware management, for automated pipetting workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/opentrons-integration",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "paper-2-web",
+      "description": "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). Use this skill for tasks involving paper dissemination, conference preparation, creating explorable academic homepages, generating video abstracts, or producing print-ready posters from LaTeX or PDF sources.",
+      "source": "./claude-scientific-skills/scientific-skills/paper-2-web",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pathml",
+      "description": "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/pathml",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pdb-database",
+      "description": "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery.",
+      "source": "./claude-scientific-skills/scientific-skills/pdb-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "peer-review",
+      "description": "Systematic peer review toolkit. Evaluate methodology, statistics, design, reproducibility, ethics, figure integrity, reporting standards, for manuscript and grant review across disciplines.",
+      "source": "./claude-scientific-skills/scientific-skills/peer-review",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pennylane",
+      "description": "Cross-platform Python library for quantum computing, quantum machine learning, and quantum chemistry. Enables building and training quantum circuits with automatic differentiation, seamless integration with PyTorch/JAX/TensorFlow, and device-independent execution across simulators and quantum hardware (IBM, Amazon Braket, Google, Rigetti, IonQ, etc.). Use when working with quantum circuits, variational quantum algorithms (VQE, QAOA), quantum neural networks, hybrid quantum-classical models, molecular simulations, quantum chemistry calculations, or any quantum computing tasks requiring gradient-based optimization, hardware-agnostic programming, or quantum machine learning workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/pennylane",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "perplexity-search",
+      "description": "Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter. This skill should be used when conducting web searches for current information, finding recent scientific literature, getting grounded answers with source citations, or accessing information beyond the model's knowledge cutoff. Provides access to multiple Perplexity models including Sonar Pro, Sonar Pro Search (advanced agentic search), and Sonar Reasoning Pro through a single OpenRouter API key.",
+      "source": "./claude-scientific-skills/scientific-skills/perplexity-search",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "plotly",
+      "description": "Interactive scientific and statistical data visualization library for Python. Use when creating charts, plots, or visualizations including scatter plots, line charts, bar charts, heatmaps, 3D plots, geographic maps, statistical distributions, financial charts, and dashboards. Supports both quick visualizations (Plotly Express) and fine-grained customization (graph objects). Outputs interactive HTML or static images (PNG, PDF, SVG).",
+      "source": "./claude-scientific-skills/scientific-skills/plotly",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "polars",
+      "description": "Fast DataFrame library (Apache Arrow). Select, filter, group_by, joins, lazy evaluation, CSV/Parquet I/O, expression API, for high-performance data analysis workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/polars",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "protocolsio-integration",
+      "description": "Integration with protocols.io API for managing scientific protocols. This skill should be used when working with protocols.io to search, create, update, or publish protocols; manage protocol steps and materials; handle discussions and comments; organize workspaces; upload and manage files; or integrate protocols.io functionality into workflows. Applicable for protocol discovery, collaborative protocol development, experiment tracking, lab protocol management, and scientific documentation.",
+      "source": "./claude-scientific-skills/scientific-skills/protocolsio-integration",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pubchem-database",
+      "description": "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics.",
+      "source": "./claude-scientific-skills/scientific-skills/pubchem-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pubmed-database",
+      "description": "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.",
+      "source": "./claude-scientific-skills/scientific-skills/pubmed-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pufferlib",
+      "description": "This skill should be used when working with reinforcement learning tasks including high-performance RL training, custom environment development, vectorized parallel simulation, multi-agent systems, or integration with existing RL environments (Gymnasium, PettingZoo, Atari, Procgen, etc.). Use this skill for implementing PPO training, creating PufferEnv environments, optimizing RL performance, or developing policies with CNNs/LSTMs.",
+      "source": "./claude-scientific-skills/scientific-skills/pufferlib",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pydeseq2",
+      "description": "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/pydeseq2",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pydicom",
+      "description": "Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray, ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting DICOM images to other formats, handling compressed DICOM data, or processing medical imaging datasets. Applies to tasks involving medical image analysis, PACS systems, radiology workflows, and healthcare imaging applications.",
+      "source": "./claude-scientific-skills/scientific-skills/pydicom",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pyhealth",
+      "description": "Comprehensive healthcare AI toolkit for developing, testing, and deploying machine learning models with clinical data. This skill should be used when working with electronic health records (EHR), clinical prediction tasks (mortality, readmission, drug recommendation), medical coding systems (ICD, NDC, ATC), physiological signals (EEG, ECG), healthcare datasets (MIMIC-III/IV, eICU, OMOP), or implementing deep learning models for healthcare applications (RETAIN, SafeDrug, Transformer, GNN).",
+      "source": "./claude-scientific-skills/scientific-skills/pyhealth",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pylabrobot",
+      "description": "Laboratory automation toolkit for controlling liquid handlers, plate readers, pumps, heater shakers, incubators, centrifuges, and analytical equipment. Use this skill when automating laboratory workflows, programming liquid handling robots (Hamilton STAR, Opentrons OT-2, Tecan EVO), integrating lab equipment, managing deck layouts and resources (plates, tips, containers), reading plates, or creating reproducible laboratory protocols. Applicable for both simulated protocols and physical hardware control.",
+      "source": "./claude-scientific-skills/scientific-skills/pylabrobot",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pymatgen",
+      "description": "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science.",
+      "source": "./claude-scientific-skills/scientific-skills/pymatgen",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pymc-bayesian-modeling",
+      "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
+      "source": "./claude-scientific-skills/scientific-skills/pymc",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pymoo",
+      "description": "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.",
+      "source": "./claude-scientific-skills/scientific-skills/pymoo",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pyopenms",
+      "description": "Python interface to OpenMS for mass spectrometry data analysis. Use for LC-MS/MS proteomics and metabolomics workflows including file handling (mzML, mzXML, mzTab, FASTA, pepXML, protXML, mzIdentML), signal processing, feature detection, peptide identification, and quantitative analysis. Apply when working with mass spectrometry data, analyzing proteomics experiments, or processing metabolomics datasets.",
+      "source": "./claude-scientific-skills/scientific-skills/pyopenms",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pypict-claude-skill",
+      "description": "Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any piece of requirements or code. Analyzes inputs, generates PICT models with parameters, values, and constraints for valid scenarios using pairwise testing. Outputs the PICT model, markdown table of test cases, and expected results.",
+      "source": "./development/pypict-claude-skill",
+      "category": "development"
+    },
+    {
+      "name": "pysam",
+      "description": "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines.",
+      "source": "./claude-scientific-skills/scientific-skills/pysam",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pytdc",
+      "description": "Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction.",
+      "source": "./claude-scientific-skills/scientific-skills/pytdc",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "pytorch-lightning",
+      "description": "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.",
+      "source": "./claude-scientific-skills/scientific-skills/pytorch-lightning",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "qiskit",
+      "description": "Comprehensive quantum computing toolkit for building, optimizing, and executing quantum circuits. Use when working with quantum algorithms, simulations, or quantum hardware including (1) Building quantum circuits with gates and measurements, (2) Running quantum algorithms (VQE, QAOA, Grover), (3) Transpiling/optimizing circuits for hardware, (4) Executing on IBM Quantum or other providers, (5) Quantum chemistry and materials science, (6) Quantum machine learning, (7) Visualizing circuits and results, or (8) Any quantum computing development task.",
+      "source": "./claude-scientific-skills/scientific-skills/qiskit",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "qutip",
+      "description": "Quantum mechanics simulations and analysis using QuTiP (Quantum Toolbox in Python). Use when working with quantum systems including: (1) quantum states (kets, bras, density matrices), (2) quantum operators and gates, (3) time evolution and dynamics (Schrödinger, master equations, Monte Carlo), (4) open quantum systems with dissipation, (5) quantum measurements and entanglement, (6) visualization (Bloch sphere, Wigner functions), (7) steady states and correlation functions, or (8) advanced methods (Floquet theory, HEOM, stochastic solvers). Handles both closed and open quantum systems across various domains including quantum optics, quantum computing, and condensed matter physics.",
+      "source": "./claude-scientific-skills/scientific-skills/qutip",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "raffle-winner-picker",
+      "description": "Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness.",
+      "source": "./productivity-organization/raffle-winner-picker",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "rdkit",
+      "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
+      "source": "./claude-scientific-skills/scientific-skills/rdkit",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "reactome-database",
+      "description": "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies.",
+      "source": "./claude-scientific-skills/scientific-skills/reactome-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "reportlab",
+      "description": "PDF generation toolkit. Create invoices, reports, certificates, forms, charts, tables, barcodes, QR codes, Canvas/Platypus APIs, for professional document automation.",
+      "source": "./claude-scientific-skills/scientific-skills/reportlab",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "review-implementing",
+      "description": "Process and implement code review feedback systematically. Use when user provides reviewer comments, PR feedback, code review notes, or asks to implement suggestions from reviews.",
+      "source": "./collaboration-project-management/review-implementing",
+      "category": "collaboration-project-management"
+    },
+    {
+      "name": "root-cause-tracing",
+      "description": "Use when errors occur deep in execution and you need to trace back to find the original trigger - systematically traces bugs backward through call stack, adding instrumentation when needed, to identify source of invalid data or incorrect behavior",
+      "source": "./data-analysis/root-cause-tracing",
+      "category": "data-analysis"
+    },
+    {
+      "name": "scanpy",
+      "description": "Single-cell RNA-seq analysis. Load .h5ad/10X data, QC, normalization, PCA/UMAP/t-SNE, Leiden clustering, marker genes, cell type annotation, trajectory, for scRNA-seq analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/scanpy",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scholar-evaluation",
+      "description": "Systematic framework for evaluating scholarly and research work based on the ScholarEval methodology. This skill should be used when assessing research papers, evaluating literature reviews, scoring research methodologies, analyzing scientific writing quality, or applying structured evaluation criteria to academic work. Provides comprehensive assessment across multiple dimensions including problem formulation, literature review, methodology, data collection, analysis, results interpretation, and scholarly writing quality.",
+      "source": "./claude-scientific-skills/scientific-skills/scholar-evaluation",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scientific-brainstorming",
+      "description": "Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop methodologies, identify research gaps, for creative scientific problem-solving.",
+      "source": "./claude-scientific-skills/scientific-skills/scientific-brainstorming",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "description": "Evaluate research rigor. Assess methodology, experimental design, statistical validity, biases, confounding, evidence quality (GRADE, Cochrane ROB), for critical analysis of scientific claims.",
+      "source": "./claude-scientific-skills/scientific-skills/scientific-critical-thinking",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scientific-visualization",
+      "description": "Create publication figures with matplotlib/seaborn/plotly. Multi-panel layouts, error bars, significance markers, colorblind-safe, export PDF/EPS/TIFF, for journal-ready scientific plots.",
+      "source": "./claude-scientific-skills/scientific-skills/scientific-visualization",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scientific-writing",
+      "description": "Write scientific manuscripts. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), abstracts, for research papers and journal submissions.",
+      "source": "./claude-scientific-skills/scientific-skills/scientific-writing",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scikit-bio",
+      "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/scikit-bio",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scikit-learn",
+      "description": "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+      "source": "./claude-scientific-skills/scientific-skills/scikit-learn",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scikit-survival",
+      "description": "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library.",
+      "source": "./claude-scientific-skills/scientific-skills/scikit-survival",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "scvi-tools",
+      "description": "This skill should be used when working with single-cell omics data analysis using scvi-tools, including scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomics, and other single-cell modalities. Use this skill for probabilistic modeling, batch correction, dimensionality reduction, differential expression, cell type annotation, multimodal integration, and spatial analysis tasks.",
+      "source": "./claude-scientific-skills/scientific-skills/scvi-tools",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "seaborn",
+      "description": "Statistical visualization. Scatter, box, violin, heatmaps, pair plots, regression, correlation matrices, KDE, faceted plots, for exploratory analysis and publication figures.",
+      "source": "./claude-scientific-skills/scientific-skills/seaborn",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "shap",
+      "description": "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model.",
+      "source": "./claude-scientific-skills/scientific-skills/shap",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "ship-learn-next",
+      "description": "Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content into concrete action steps, reps, or a learning quest.",
+      "source": "./productivity-organization/ship-learn-next",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "simpy",
+      "description": "Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations, network traffic, logistics, or any system where entities interact with shared resources over time.",
+      "source": "./claude-scientific-skills/scientific-skills/simpy",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations.",
+      "source": "./development/skill-creator",
+      "category": "development"
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Creates animated GIFs optimized for Slack with validators for size constraints and composable animation primitives.",
+      "source": "./creative-media/slack-gif-creator",
+      "category": "creative-media"
+    },
+    {
+      "name": "stable-baselines3",
+      "description": "Use this skill for reinforcement learning tasks including training RL agents (PPO, SAC, DQN, TD3, DDPG, A2C, etc.), creating custom Gym environments, implementing callbacks for monitoring and control, using vectorized environments for parallel training, and integrating with deep RL workflows. This skill should be used when users request RL algorithm implementation, agent training, environment design, or RL experimentation.",
+      "source": "./claude-scientific-skills/scientific-skills/stable-baselines3",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "statistical-analysis",
+      "description": "Statistical analysis toolkit. Hypothesis tests (t-test, ANOVA, chi-square), regression, correlation, Bayesian stats, power analysis, assumption checks, APA reporting, for academic research.",
+      "source": "./claude-scientific-skills/scientific-skills/statistical-analysis",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "statsmodels",
+      "description": "Statistical modeling toolkit. OLS, GLM, logistic, ARIMA, time series, hypothesis tests, diagnostics, AIC/BIC, for rigorous statistical inference and econometric analysis.",
+      "source": "./claude-scientific-skills/scientific-skills/statsmodels",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "string-database",
+      "description": "Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology.",
+      "source": "./claude-scientific-skills/scientific-skills/string-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "sympy",
+      "description": "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters.",
+      "source": "./claude-scientific-skills/scientific-skills/sympy",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "tapestry",
+      "description": "Unified content extraction and action planning. Use when user says \"tapestry <URL>\", \"weave <URL>\", \"help me plan <URL>\", \"extract and plan <URL>\", \"make this actionable <URL>\", or similar phrases indicating they want to extract content and create an action plan. Automatically detects content type (YouTube video, article, PDF) and processes accordingly.",
+      "source": "./productivity-organization/tapestry",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "template-skill",
+      "description": "A template skill that demonstrates the structure and format for creating new Claude Skills.",
+      "source": "./development/template-skill",
+      "category": "development"
+    },
+    {
+      "name": "terminal-title",
+      "description": "Automatically updates terminal window title to reflect the current high-level task. Use at the start of every Claude Code session when the user provides their first prompt, and whenever the user switches to a distinctly new high-level task. Helps developers manage multiple Claude Code terminals by providing clear, at-a-glance identification of what each terminal is working on.",
+      "source": "./development/terminal-title",
+      "category": "development"
+    },
+    {
+      "name": "test-driven-development",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first",
+      "source": "./development/test-driven-development",
+      "category": "development"
+    },
+    {
+      "name": "test-fixing",
+      "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
+      "source": "./collaboration-project-management/test-fixing",
+      "category": "collaboration-project-management"
+    },
+    {
+      "name": "theme-factory",
+      "description": "Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes.",
+      "source": "./creative-media/theme-factory",
+      "category": "creative-media"
+    },
+    {
+      "name": "tooluniverse",
+      "description": "Use this skill when working with scientific research tools and workflows across bioinformatics, cheminformatics, genomics, structural biology, proteomics, and drug discovery. This skill provides access to 600+ scientific tools including machine learning models, datasets, APIs, and analysis packages. Use when searching for scientific tools, executing computational biology workflows, composing multi-step research pipelines, accessing databases like OpenTargets/PubChem/UniProt/PDB/ChEMBL, performing tool discovery for research tasks, or integrating scientific computational resources into LLM workflows.",
+      "source": "./claude-scientific-skills/scientific-skills/tooluniverse",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "torch-geometric",
+      "description": "Graph Neural Networks (PyG). Node/graph classification, link prediction, GCN, GAT, GraphSAGE, heterogeneous graphs, molecular property prediction, for geometric deep learning.",
+      "source": "./claude-scientific-skills/scientific-skills/torch_geometric",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "torchdrug",
+      "description": "Graph-based drug discovery toolkit. Molecular property prediction (ADMET), protein modeling, knowledge graph reasoning, molecular generation, retrosynthesis, GNNs (GIN, GAT, SchNet), 40+ datasets, for PyTorch-based ML on molecules, proteins, and biomedical graphs.",
+      "source": "./claude-scientific-skills/scientific-skills/torchdrug",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "transformers",
+      "description": "This skill should be used when working with pre-trained transformer models for natural language processing, computer vision, audio, or multimodal tasks. Use for text generation, classification, question answering, translation, summarization, image classification, object detection, speech recognition, and fine-tuning models on custom datasets.",
+      "source": "./claude-scientific-skills/scientific-skills/transformers",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "umap-learn",
+      "description": "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.",
+      "source": "./claude-scientific-skills/scientific-skills/umap-learn",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "uniprot-database",
+      "description": "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control.",
+      "source": "./claude-scientific-skills/scientific-skills/uniprot-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "using-git-worktrees",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
+      "source": "./development/using-git-worktrees",
+      "category": "development"
+    },
+    {
+      "name": "uspto-database",
+      "description": "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches.",
+      "source": "./claude-scientific-skills/scientific-skills/uspto-database",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "vaex",
+      "description": "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that don't fit in memory.",
+      "source": "./claude-scientific-skills/scientific-skills/vaex",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "video-downloader",
+      "description": "Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats and quality options.",
+      "source": "./creative-media/video-downloader",
+      "category": "creative-media"
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Tests local web applications using Playwright for verifying frontend functionality, debugging UI behavior, and capturing screenshots.",
+      "source": "./development/webapp-testing",
+      "category": "development"
+    },
+    {
+      "name": "youtube-transcript",
+      "description": "Download YouTube video transcripts when user provides a YouTube URL or asks to download/get/fetch a transcript from YouTube. Also use when user wants to transcribe or get captions/subtitles from a YouTube video.",
+      "source": "./creative-media/youtube-transcript",
+      "category": "creative-media"
+    },
+    {
+      "name": "zarr-python",
+      "description": "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.",
+      "source": "./claude-scientific-skills/scientific-skills/zarr-python",
+      "category": "scientific-tools"
+    },
+    {
+      "name": "zinc-database",
+      "description": "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery.",
+      "source": "./claude-scientific-skills/scientific-skills/zinc-database",
+      "category": "scientific-tools"
+    }
+  ]
+}

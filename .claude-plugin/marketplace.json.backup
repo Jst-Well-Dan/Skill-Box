@@ -1,0 +1,204 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "awesome-claude-skills",
+  "version": "1.0.0",
+  "description": "A curated marketplace of practical Claude Skills for enhancing productivity across Claude.ai, Claude Code, and the Claude API",
+  "owner": {
+    "name": "ComposioHQ",
+    "email": "tech@composio.dev"
+  },
+  "plugins": [
+    {
+      "name": "algorithmic-art",
+      "description": "Creates algorithmic art and generative designs using computational creativity techniques.",
+      "source": "./algorithmic-art",
+      "category": "creative-media"
+    },
+    {
+      "name": "artifacts-builder",
+      "description": "Builds elaborate, multi-component Claude.ai HTML artifacts using modern frontend technologies including React, Tailwind CSS, and shadcn/ui.",
+      "source": "./artifacts-builder",
+      "category": "development"
+    },
+    {
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity and professional design standards.",
+      "source": "./brand-guidelines",
+      "category": "business-marketing"
+    },
+    {
+      "name": "canvas-design",
+      "description": "Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters, designs, and static pieces.",
+      "source": "./canvas-design",
+      "category": "creative-media"
+    },
+    {
+      "name": "changelog-generator",
+      "description": "Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes.",
+      "source": "./changelog-generator",
+      "category": "development"
+    },
+    {
+      "name": "competitive-ads-extractor",
+      "description": "Extracts and analyzes competitors' ads from ad libraries to understand messaging and creative approaches that resonate.",
+      "source": "./competitive-ads-extractor",
+      "category": "business-marketing"
+    },
+    {
+      "name": "content-research-writer",
+      "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing section-by-section feedback.",
+      "source": "./content-research-writer",
+      "category": "communication-writing"
+    },
+    {
+      "name": "csv-data-summarizer",
+      "description": "Analyzes CSV files, generates summary stats, and plots quick visualizations using Python and pandas.",
+      "source": "./csv-data-summarizer",
+      "category": "data-analysis"
+    },
+    {
+      "name": "d3js-visualization",
+      "description": "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment.",
+      "source": "./d3js-visualization",
+      "category": "development"
+    },
+    {
+      "name": "developer-growth-analysis",
+      "description": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
+      "source": "./developer-growth-analysis",
+      "category": "development"
+    },
+    {
+      "name": "document-skills-docx",
+      "description": "Skills for working with Microsoft Word documents including creation, editing, and formatting using DOCX format.",
+      "source": "./document-skills/docx",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "document-skills-pdf",
+      "description": "Skills for working with PDF documents including creation, editing, forms, and advanced PDF operations.",
+      "source": "./document-skills/pdf",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "document-skills-pptx",
+      "description": "Skills for working with PowerPoint presentations including creation, editing, and formatting using PPTX format.",
+      "source": "./document-skills/pptx",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "document-skills-xlsx",
+      "description": "Skills for working with Excel spreadsheets including creation, editing, formulas, and data manipulation.",
+      "source": "./document-skills/xlsx",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "domain-name-brainstormer",
+      "description": "Generates creative domain name ideas and checks availability across multiple TLDs including .com, .io, .dev, and .ai extensions.",
+      "source": "./domain-name-brainstormer",
+      "category": "business-marketing"
+    },
+    {
+      "name": "family-history-research",
+      "description": "Provides assistance with planning family history and genealogy research projects.",
+      "source": "./family-history-research",
+      "category": "communication-writing"
+    },
+    {
+      "name": "file-organizer",
+      "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures.",
+      "source": "./file-organizer",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "image-enhancer",
+      "description": "Improves image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation.",
+      "source": "./image-enhancer",
+      "category": "creative-media"
+    },
+    {
+      "name": "internal-comms",
+      "description": "Helps write internal communications including 3P updates, company newsletters, FAQs, status reports, and project updates using company-specific formats.",
+      "source": "./internal-comms",
+      "category": "business-marketing"
+    },
+    {
+      "name": "invoice-organizer",
+      "description": "Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently.",
+      "source": "./invoice-organizer",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "lead-research-assistant",
+      "description": "Identifies and qualifies high-quality leads by analyzing your product, searching for target companies, and providing actionable outreach strategies.",
+      "source": "./lead-research-assistant",
+      "category": "business-marketing"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript.",
+      "source": "./mcp-builder",
+      "category": "development"
+    },
+    {
+      "name": "meeting-insights-analyzer",
+      "description": "Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, filler words, and leadership style.",
+      "source": "./meeting-insights-analyzer",
+      "category": "communication-writing"
+    },
+    {
+      "name": "move-code-quality-skill",
+      "description": "Analyzes Move language packages against the official Move Book Code Quality Checklist. Use this skill when reviewing Move code, checking Move 2024 Edition compliance, or analyzing Move packages for best practices. Activates automatically when working with .move files or Move.toml manifests.",
+      "source": "./move-code-quality-skill",
+      "category": "development"
+    },
+    {
+      "name": "pypict-claude-skill",
+      "description": "Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any piece of requirements or code. Analyzes inputs, generates PICT models with parameters, values, and constraints for valid scenarios using pairwise testing. Outputs the PICT model, markdown table of test cases, and expected results.",
+      "source": "./pypict-claude-skill",
+      "category": "development"
+    },
+    {
+      "name": "raffle-winner-picker",
+      "description": "Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness.",
+      "source": "./raffle-winner-picker",
+      "category": "productivity-organization"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations.",
+      "source": "./skill-creator",
+      "category": "development"
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Creates animated GIFs optimized for Slack with validators for size constraints and composable animation primitives.",
+      "source": "./slack-gif-creator",
+      "category": "creative-media"
+    },
+    {
+      "name": "template-skill",
+      "description": "A template skill that demonstrates the structure and format for creating new Claude Skills.",
+      "source": "./template-skill",
+      "category": "development"
+    },
+    {
+      "name": "theme-factory",
+      "description": "Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes.",
+      "source": "./theme-factory",
+      "category": "creative-media"
+    },
+    {
+      "name": "video-downloader",
+      "description": "Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats and quality options.",
+      "source": "./video-downloader",
+      "category": "creative-media"
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Tests local web applications using Playwright for verifying frontend functionality, debugging UI behavior, and capturing screenshots.",
+      "source": "./webapp-testing",
+      "category": "development"
+    }
+  ]
+}
