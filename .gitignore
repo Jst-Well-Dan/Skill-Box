@@ -1,0 +1,29 @@
+# Ignore everything by default
+/*
+
+# Keep skill directories
+!/business-marketing/
+!/code-development/
+!/content-creation/
+!/creative-media/
+!/data-analysis/
+!/learning-research/
+!/office-documents/
+!/web-fetch/
+
+# Keep marketplace.json
+!/.claude-plugin/
+/.claude-plugin/*
+!/.claude-plugin/marketplace.json
+
+# Keep .gitignore itself
+!.gitignore
+
+# Ignore sensitive files in skill directories
+**/.env
+**/douyin_cookie.json
+**/douyin_cookies.txt
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+**/.claude/
