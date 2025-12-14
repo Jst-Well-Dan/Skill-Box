@@ -70,13 +70,12 @@
     },
     {
       "name": "changelog-generator",
-      "description": "Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes.",
+      "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
       "source": "./code-development/changelog-generator",
       "category": "code-development",
       "author": {
-        "name": "ComposioHQ",
-        "github": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+        "name": "Jst-Well-Dan",
+        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
       }
     },
     {
@@ -376,6 +375,16 @@
       "description": "Downloads videos from YouTube and other platforms for offline viewing, editing, or archival. Handles various formats and quality options.",
       "source": "./creative-media/video-downloader",
       "category": "creative-media",
+      "author": {
+        "name": "Jst-Well-Dan",
+        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+      }
+    },
+    {
+      "name": "web-fetch",
+      "description": "Use this skill when users want to scrape web content and convert it to clean Markdown. Handles workflows like \"Save this webpage as markdown\", \"Fetch this article\", or \"抓取网页内容\". Supports crawl4ai for general web scraping and specialized WeChat (微信公众号) article fetching.",
+      "source": "./content-creation/web-fetch",
+      "category": "content-creation",
       "author": {
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
