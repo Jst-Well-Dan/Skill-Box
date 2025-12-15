@@ -17,7 +17,10 @@
 !/.claude-plugin/marketplace.json
 
 # Keep .gitignore itself
-.gitignore
+!.gitignore
+
+# Keep README
+!/README.md
 
 # Ignore sensitive files in skill directories
 **/.env
