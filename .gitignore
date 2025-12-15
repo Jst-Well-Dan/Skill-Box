@@ -2,14 +2,13 @@
 /*
 
 # Keep skill directories
-!/business-marketing/
-!/code-development/
-!/content-creation/
-!/creative-media/
-!/data-analysis/
-!/learning-research/
-!/office-documents/
-!/web-fetch/
+!/brand-marketing/
+!/business-analyst/
+!/content-pipeline/
+!/immersive-reading/
+!/no-code-builder/
+!/office-automation/
+!/visual-creative/
 
 # Keep marketplace.json
 !/.claude-plugin/
