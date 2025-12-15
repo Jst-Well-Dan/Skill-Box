@@ -5,7 +5,7 @@
   "description": "An collection of practical skills that transforms your AI assistant from a generalist into a powerful specialist.",
   "owner": {
     "name": "Jst-Well-Dan",
-    "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+    "url": "https://github.com/Jst-Well-Dan/Skill-Box"
   },
   "plugins": [
     {
@@ -15,7 +15,7 @@
       "category": "content-pipeline",
       "author": {
         "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "url": "https://github.com/Jst-Well-Dan/Skill-Box"
       }
     },
     {
@@ -24,8 +24,8 @@
       "source": "./visual-creative/algorithmic-art",
       "category": "visual-creative",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -34,8 +34,8 @@
       "source": "./brand-marketing/Anthropic-brand-guidelines",
       "category": "brand-marketing",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -44,18 +44,8 @@
       "source": "./no-code-builder/artifacts-builder",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
-      }
-    },
-    {
-      "name": "brand-guidelines",
-      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
-      "source": "./brand-marketing/brand-guidelines",
-      "category": "brand-marketing",
-      "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -64,8 +54,8 @@
       "source": "./visual-creative/canvas-design",
       "category": "visual-creative",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -74,8 +64,8 @@
       "source": "./no-code-builder/changelog-generator",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -84,8 +74,8 @@
       "source": "./brand-marketing/competitive-ads-extractor",
       "category": "brand-marketing",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -94,8 +84,8 @@
       "source": "./content-pipeline/content-research-writer",
       "category": "content-pipeline",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -104,18 +94,18 @@
       "source": "./business-analyst/csv-data-summarizer",
       "category": "business-analyst",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "coffeefuelbump",
+        "url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill"
       }
     },
     {
       "name": "deep-reading-analyst",
-      "description": "Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (SCQA, 5W2H, Critical Thinking, Inversion, Systems Thinking). Use when users request: (1) deep analysis of articles/papers, (2) structured reading notes, (3) argument evaluation, (4) insight extraction, (5) multi-source comparison, (6) framework application. Activated by: 'analyze this article', 'deep dive', 'extract insights', 'use [framework name]', 'help me understand', or when users provide long-form content/URLs.",
+      "description": "Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (SCQA, 5W2H, Critical Thinking, Inversion, Systems Thinking). ",
       "source": "./immersive-reading/deep-reading-analyst-skill",
       "category": "immersive-reading",
       "author": {
         "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "url": "https://github.com/Jst-Well-Dan/Skill-Box"
       }
     },
     {
@@ -124,8 +114,8 @@
       "source": "./no-code-builder/developer-growth-analysis",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -134,8 +124,8 @@
       "source": "./no-code-builder/development-brainstorming",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "obra",
+        "url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming"
       }
     },
     {
@@ -144,8 +134,8 @@
       "source": "./office-automation/document-skills-docx",
       "category": "office-automation",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -154,8 +144,8 @@
       "source": "./brand-marketing/domain-name-brainstormer",
       "category": "brand-marketing",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -164,8 +154,8 @@
       "source": "./immersive-reading/family-history-research",
       "category": "immersive-reading",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -174,8 +164,8 @@
       "source": "./office-automation/file-organizer",
       "category": "office-automation",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -184,8 +174,8 @@
       "source": "./no-code-builder/frontend-design",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -195,8 +185,7 @@
       "category": "no-code-builder",
       "author": {
         "name": "mhattingpete",
-        "github": "mhattingpete",
-        "url": "https://github.com/mhattingpete"
+        "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing"
       }
     },
     {
@@ -205,8 +194,8 @@
       "source": "./visual-creative/image-enhancer",
       "category": "visual-creative",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -215,8 +204,8 @@
       "source": "./brand-marketing/internal-comms",
       "category": "brand-marketing",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -225,8 +214,8 @@
       "source": "./office-automation/markdown-to-epub-converter",
       "category": "office-automation",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -235,8 +224,8 @@
       "source": "./no-code-builder/mcp-builder",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -245,8 +234,8 @@
       "source": "./immersive-reading/meeting-insights-analyzer",
       "category": "immersive-reading",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -255,8 +244,8 @@
       "source": "./immersive-reading/notebooklm-integration",
       "category": "immersive-reading",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "PleasePrompto",
+        "url": "https://github.com/PleasePrompto/notebooklm-skill"
       }
     },
     {
@@ -265,8 +254,8 @@
       "source": "./office-automation/document-skills-pdf",
       "category": "office-automation",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -275,8 +264,8 @@
       "source": "./no-code-builder/pypict-claude-skill",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -285,8 +274,8 @@
       "source": "./office-automation/document-skills-pptx",
       "category": "office-automation",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -295,8 +284,8 @@
       "source": "./brand-marketing/raffle-winner-picker",
       "category": "brand-marketing",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -305,8 +294,8 @@
       "source": "./immersive-reading/ship-learn-next",
       "category": "immersive-reading",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "michalparkola",
+        "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next"
       }
     },
     {
@@ -315,8 +304,8 @@
       "source": "./immersive-reading/skill-creator",
       "category": "immersive-reading",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -325,8 +314,8 @@
       "source": "./visual-creative/slack-gif-creator",
       "category": "visual-creative",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -335,8 +324,8 @@
       "source": "./no-code-builder/terminal-title",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -345,8 +334,8 @@
       "source": "./no-code-builder/test-driven-development",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "obra",
+        "url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development"
       }
     },
     {
@@ -356,7 +345,6 @@
       "category": "no-code-builder",
       "author": {
         "name": "mhattingpete",
-        "github": "mhattingpete",
         "url": "https://github.com/mhattingpete"
       }
     },
@@ -366,18 +354,8 @@
       "source": "./visual-creative/theme-factory",
       "category": "visual-creative",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
-      }
-    },
-    {
-      "name": "video-downloader",
-      "description": "Downloads videos from YouTube and other platforms for offline viewing, editing, or archival. Handles various formats and quality options.",
-      "source": "./visual-creative/video-downloader",
-      "category": "visual-creative",
-      "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -387,7 +365,7 @@
       "category": "content-pipeline",
       "author": {
         "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "url": "https://github.com/Jst-Well-Dan/Skill-Box"
       }
     },
     {
@@ -396,8 +374,8 @@
       "source": "./no-code-builder/webapp-testing",
       "category": "no-code-builder",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "ComposioHQ",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       }
     },
     {
@@ -406,8 +384,8 @@
       "source": "./office-automation/document-skills-xlsx",
       "category": "office-automation",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "Anthropic",
+        "url": "https://github.com/anthropics/skills"
       }
     },
     {
@@ -416,8 +394,8 @@
       "source": "./content-pipeline/youtube-transcript",
       "category": "content-pipeline",
       "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/claude-skills-vault"
+        "name": "michalparkola",
+        "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript"
       }
     }
   ]

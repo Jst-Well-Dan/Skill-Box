@@ -219,12 +219,27 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 
 本项目部分技能引用自社区贡献者，感谢以下作者的开源分享：
 
-| 技能 | 作者 | 来源 |
+| 作者 | 技能 | 来源 |
 |------|------|------|
-| **git-pushing** | mhattingpete | [GitHub](https://github.com/mhattingpete) |
-| **test-fixing** | mhattingpete | [GitHub](https://github.com/mhattingpete) |
+| **Anthropic** | algorithmic-art, Anthropic-brand-guidelines, artifacts-builder, canvas-design, docx, frontend-design, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, xlsx | [GitHub](https://github.com/anthropics/skills) |
+| **ComposioHQ** | changelog-generator, competitive-ads-extractor, content-research-writer, developer-growth-analysis, domain-name-brainstormer, family-history-planning, file-organizer, image-enhancer, internal-comms, markdown-to-epub-converter, mcp-builder, meeting-insights-analyzer, pict-test-designer, raffle-winner-picker, terminal-title, webapp-testing | [GitHub](https://github.com/ComposioHQ/awesome-claude-skills) |
+| **mhattingpete** | git-pushing, test-fixing | [GitHub](https://github.com/mhattingpete) |
+| **obra** | development-brainstorming, test-driven-development | [GitHub](https://github.com/obra/superpowers) |
+| **michalparkola** | ship-learn-next, youtube-transcript | [GitHub](https://github.com/michalparkola/tapestry-skills-for-claude-code) |
+| **PleasePrompto** | notebooklm | [GitHub](https://github.com/PleasePrompto/notebooklm-skill) |
+| **coffeefuelbump** | csv-data-summarizer | [GitHub](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
 
 ---
+
+## 相关资源
+
+### 官方文档
+
+- [Claude Skills 概述](https://www.anthropic.com/news/skills) - 官方公告与功能介绍
+- [Skills 使用指南](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - 如何在 Claude 中使用技能
+- [自定义技能创建](https://support.claude.com/en/articles/12512198-creating-custom-skills) - 技能开发指南
+- [为现实世界的 Agent 配备技能](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - 工程博客：Agent Skills 技术详解
+- [Claude 使用案例](https://claude.com/resources/use-cases) - 官方使用场景与灵感
 
 ## 许可证
 
