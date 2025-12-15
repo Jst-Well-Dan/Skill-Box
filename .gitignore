@@ -22,6 +22,9 @@
 # Keep README
 !/README.md
 
+# Keep logo directory
+!/logo/
+
 # Ignore sensitive files in skill directories
 **/.env
 **/__pycache__/

@@ -1,12 +1,12 @@
 <p align="center">
+  <img src="./logo/Skillbox-with-words.jpeg" alt="Skillbox Logo" width="600">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Skills-40+-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
-
-# Skillbox 全域技能库
-
-> **Load Skills, Level Up.** 技能加载实力进阶
 
 <p align="center">
   <em>严选实战技能 · 持续更新</em>
