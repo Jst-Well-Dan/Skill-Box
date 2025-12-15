@@ -17,12 +17,10 @@
 !/.claude-plugin/marketplace.json
 
 # Keep .gitignore itself
-!.gitignore
+.gitignore
 
 # Ignore sensitive files in skill directories
 **/.env
-**/douyin_cookie.json
-**/douyin_cookies.txt
 **/__pycache__/
 **/*.pyc
 **/node_modules/
