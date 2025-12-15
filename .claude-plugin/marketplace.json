@@ -99,6 +99,16 @@
       }
     },
     {
+      "name": "invoice-processor",
+      "description": "Automatically process invoices (发票) from PDFs/images to Excel spreadsheets using AI vision recognition. Use this skill when users mention \"发票\", \"invoice\", \"处理发票\", \"识别发票\", \"提取发票\", or need to convert invoice files to Excel format.",
+      "source": "./business-analyst/invoice-processor",
+      "category": "business-analyst",
+      "author": {
+        "name": "Jst-Well-Dan",
+        "url": "https://github.com/Jst-Well-Dan/Skill-Box"
+      }
+    },
+    {
       "name": "deep-reading-analyst",
       "description": "Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (SCQA, 5W2H, Critical Thinking, Inversion, Systems Thinking). ",
       "source": "./immersive-reading/deep-reading-analyst-skill",

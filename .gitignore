@@ -23,7 +23,7 @@
 !/README.md
 
 # Keep logo directory
-!/logo/
+!/_logo/
 
 # Ignore sensitive files in skill directories
 **/.env

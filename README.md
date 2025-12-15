@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./logo/Skillbox-with-words.jpeg" alt="Skillbox Logo" width="600">
+  <img src="./_logo/Skillbox-with-words.jpeg" alt="Skillbox Logo" width="600">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-40+-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Skills-40-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
@@ -30,9 +30,9 @@ Skillbox 是一个精心整理的 Claude Code 技能合集，专为**非技术�
 | **办公自动化** | Word、Excel、PPT、PDF 一键处理 | 6 |
 | **内容流水线** | 抓取网页、下载视频、提取字幕 | 4 |
 | **沉浸式研读** | 深度阅读、会议分析、笔记整理 | 6 |
-| **视觉与创意** | 海报设计、GIF 制作、图片增强 | 7 |
+| **视觉与创意** | 海报设计、GIF 制作、图片增强 | 5 |
 | **品牌与营销** | 品牌规范、广告分析、域名创意 | 6 |
-| **商业分析师** | 数据分析、CSV 处理、可视化 | 1 |
+| **商业分析师** | 数据分析、CSV 处理、发票识别、可视化 | 2 |
 
 ---
 
@@ -143,7 +143,7 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 ## 完整技能清单
 
 <details>
-<summary>点击展开全部 41 个技能</summary>
+<summary>点击展开全部 40 个技能</summary>
 
 ### 零代码构建 (no-code-builder)
 - **artifacts-builder** - 创建复杂的多组件 HTML 应用
@@ -200,6 +200,7 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 
 ### 商业分析师 (business-analyst)
 - **csv-data-summarizer** - CSV 数据分析可视化
+- **invoice-processor** - 发票识别处理，PDF/图片转 Excel
 
 </details>
 
