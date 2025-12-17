@@ -11,402 +11,442 @@
     {
       "name": "advanced-video-downloader",
       "description": "Download videos from YouTube, Bilibili, TikTok and 1000+ platforms using yt-dlp. Use when user requests video download, provides video URLs, mentions saving/downloading videos, or needs batch downloads. Supports quality selection, audio extraction, playlist downloads, and cookie-based authentication.",
-      "source": "./content-pipeline/advanced-video-downloader",
+      "source": "./",
       "category": "content-pipeline",
       "author": {
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-      }
+      },
+      "skills": ["./content-pipeline/advanced-video-downloader"]
     },
     {
       "name": "algorithmic-art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
-      "source": "./visual-creative/algorithmic-art",
+      "source": "./",
       "category": "visual-creative",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./visual-creative/algorithmic-art"]
     },
     {
       "name": "Anthropic-brand-guidelines",
       "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
-      "source": "./brand-marketing/Anthropic-brand-guidelines",
+      "source": "./",
       "category": "brand-marketing",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./brand-marketing/Anthropic-brand-guidelines"]
     },
     {
       "name": "artifacts-builder",
       "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
-      "source": "./no-code-builder/artifacts-builder",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./no-code-builder/artifacts-builder"]
     },
     {
       "name": "canvas-design",
       "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-      "source": "./visual-creative/canvas-design",
+      "source": "./",
       "category": "visual-creative",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./visual-creative/canvas-design"]
     },
     {
       "name": "changelog-generator",
       "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
-      "source": "./no-code-builder/changelog-generator",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./no-code-builder/changelog-generator"]
     },
     {
       "name": "competitive-ads-extractor",
       "description": "Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns.",
-      "source": "./brand-marketing/competitive-ads-extractor",
+      "source": "./",
       "category": "brand-marketing",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./brand-marketing/competitive-ads-extractor"]
     },
     {
       "name": "content-research-writer",
       "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.",
-      "source": "./content-pipeline/content-research-writer",
+      "source": "./",
       "category": "content-pipeline",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./content-pipeline/content-research-writer"]
     },
     {
       "name": "csv-data-summarizer",
       "description": "Analyzes CSV files, generates summary stats, and plots quick visualizations using Python and pandas.",
-      "source": "./business-analyst/csv-data-summarizer",
+      "source": "./",
       "category": "business-analyst",
       "author": {
         "name": "coffeefuelbump",
         "url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill"
-      }
+      },
+      "skills": ["./business-analyst/csv-data-summarizer"]
     },
     {
       "name": "invoice-processor",
       "description": "Automatically process invoices (发票) from PDFs/images to Excel spreadsheets using AI vision recognition. Use this skill when users mention \"发票\", \"invoice\", \"处理发票\", \"识别发票\", \"提取发票\", or need to convert invoice files to Excel format.",
-      "source": "./business-analyst/invoice-processor",
+      "source": "./",
       "category": "business-analyst",
       "author": {
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-      }
+      },
+      "skills": ["./business-analyst/invoice-processor"]
     },
     {
       "name": "deep-reading-analyst",
       "description": "Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (SCQA, 5W2H, Critical Thinking, Inversion, Systems Thinking). ",
-      "source": "./immersive-reading/deep-reading-analyst-skill",
+      "source": "./",
       "category": "immersive-reading",
       "author": {
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-      }
+      },
+      "skills": ["./immersive-reading/deep-reading-analyst-skill"]
     },
     {
       "name": "developer-growth-analysis",
       "description": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, generating a personalized growth report with actionable recommendations.",
-      "source": "./no-code-builder/developer-growth-analysis",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./no-code-builder/developer-growth-analysis"]
     },
     {
       "name": "development-brainstorming",
       "description": "Use when planning software development tasks, before writing code or implementation plans - refines rough technical ideas into fully-formed designs through collaborative questioning, alternative exploration, and incremental validation. For software architecture, components, data flow, and technical design decisions. Don't use during clear 'mechanical' coding processes",
-      "source": "./no-code-builder/development-brainstorming",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "obra",
         "url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming"
-      }
+      },
+      "skills": ["./no-code-builder/development-brainstorming"]
     },
     {
       "name": "docx",
       "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
-      "source": "./office-automation/document-skills-docx",
+      "source": "./",
       "category": "office-automation",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./office-automation/document-skills-docx"]
     },
     {
       "name": "domain-name-brainstormer",
       "description": "Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking.",
-      "source": "./brand-marketing/domain-name-brainstormer",
+      "source": "./",
       "category": "brand-marketing",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./brand-marketing/domain-name-brainstormer"]
     },
     {
       "name": "family-history-planning",
       "description": "Provides assistance with planning family history and genealogy research projects.",
-      "source": "./immersive-reading/family-history-research",
+      "source": "./",
       "category": "immersive-reading",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./immersive-reading/family-history-research"]
     },
     {
       "name": "file-organizer",
       "description": "Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, suggesting better structures, and automating cleanup tasks. Reduces cognitive load and keeps your digital workspace tidy without manual effort.",
-      "source": "./office-automation/file-organizer",
+      "source": "./",
       "category": "office-automation",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./office-automation/file-organizer"]
     },
     {
       "name": "frontend-design",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
-      "source": "./no-code-builder/frontend-design",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./no-code-builder/frontend-design"]
     },
     {
       "name": "git-pushing",
       "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
-      "source": "./no-code-builder/git-pushing",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "mhattingpete",
         "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing"
-      }
+      },
+      "skills": ["./no-code-builder/git-pushing"]
     },
     {
       "name": "image-enhancer",
       "description": "Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for preparing images for presentations, documentation, or social media posts.",
-      "source": "./visual-creative/image-enhancer",
+      "source": "./",
       "category": "visual-creative",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./visual-creative/image-enhancer"]
     },
     {
       "name": "internal-comms",
       "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
-      "source": "./brand-marketing/internal-comms",
+      "source": "./",
       "category": "brand-marketing",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./brand-marketing/internal-comms"]
     },
     {
       "name": "markdown-to-epub-converter",
       "description": "Convert markdown documents and chat summaries into formatted EPUB ebook files that can be read on any device or uploaded to Kindle.",
-      "source": "./office-automation/markdown-to-epub-converter",
+      "source": "./",
       "category": "office-automation",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./office-automation/markdown-to-epub-converter"]
     },
     {
       "name": "mcp-builder",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
-      "source": "./no-code-builder/mcp-builder",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./no-code-builder/mcp-builder"]
     },
     {
       "name": "meeting-insights-analyzer",
       "description": "Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportunities to listen. Perfect for professionals seeking to improve their communication and leadership skills.",
-      "source": "./immersive-reading/meeting-insights-analyzer",
+      "source": "./",
       "category": "immersive-reading",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./immersive-reading/meeting-insights-analyzer"]
     },
     {
       "name": "notebooklm",
       "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.",
-      "source": "./immersive-reading/notebooklm-integration",
+      "source": "./",
       "category": "immersive-reading",
       "author": {
         "name": "PleasePrompto",
         "url": "https://github.com/PleasePrompto/notebooklm-skill"
-      }
+      },
+      "skills": ["./immersive-reading/notebooklm-integration"]
     },
     {
       "name": "pdf",
       "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
-      "source": "./office-automation/document-skills-pdf",
+      "source": "./",
       "category": "office-automation",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./office-automation/document-skills-pdf"]
     },
     {
       "name": "pict-test-designer",
       "description": "Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any piece of requirements or code. Analyzes inputs, generates PICT models with parameters, values, and constraints for valid scenarios using pairwise testing. Outputs the PICT model, markdown table of test cases, and expected results.",
-      "source": "./no-code-builder/pypict-claude-skill",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./no-code-builder/pypict-claude-skill"]
     },
     {
       "name": "pptx",
       "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
-      "source": "./office-automation/document-skills-pptx",
+      "source": "./",
       "category": "office-automation",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./office-automation/document-skills-pptx"]
     },
     {
       "name": "raffle-winner-picker",
       "description": "Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, raffles, and contests. Ensures fair, unbiased selection with transparency.",
-      "source": "./brand-marketing/raffle-winner-picker",
+      "source": "./",
       "category": "brand-marketing",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./brand-marketing/raffle-winner-picker"]
     },
     {
       "name": "ship-learn-next",
       "description": "Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content into concrete action steps, reps, or a learning quest.",
-      "source": "./immersive-reading/ship-learn-next",
+      "source": "./",
       "category": "immersive-reading",
       "author": {
         "name": "michalparkola",
         "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next"
-      }
+      },
+      "skills": ["./immersive-reading/ship-learn-next"]
     },
     {
       "name": "skill-creator",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
-      "source": "./immersive-reading/skill-creator",
+      "source": "./",
       "category": "immersive-reading",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./immersive-reading/skill-creator"]
     },
     {
       "name": "slack-gif-creator",
       "description": "Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like \"make me a GIF for Slack of X doing Y\".",
-      "source": "./visual-creative/slack-gif-creator",
+      "source": "./",
       "category": "visual-creative",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./visual-creative/slack-gif-creator"]
     },
     {
       "name": "terminal-title",
       "description": "Automatically updates terminal window title to reflect the current high-level task. Use at the start of every Claude Code session when the user provides their first prompt, and whenever the user switches to a distinctly new high-level task. Helps developers manage multiple Claude Code terminals by providing clear, at-a-glance identification of what each terminal is working on.",
-      "source": "./no-code-builder/terminal-title",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./no-code-builder/terminal-title"]
     },
     {
       "name": "test-driven-development",
       "description": "Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first",
-      "source": "./no-code-builder/test-driven-development",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "obra",
         "url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development"
-      }
+      },
+      "skills": ["./no-code-builder/test-driven-development"]
     },
     {
       "name": "test-fixing",
       "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
-      "source": "./no-code-builder/test-fixing",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "mhattingpete",
         "url": "https://github.com/mhattingpete"
-      }
+      },
+      "skills": ["./no-code-builder/test-fixing"]
     },
     {
       "name": "theme-factory",
       "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
-      "source": "./visual-creative/theme-factory",
+      "source": "./",
       "category": "visual-creative",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./visual-creative/theme-factory"]
     },
     {
       "name": "web-fetch",
       "description": "Use this skill when users want to scrape web content and convert it to clean Markdown. Handles workflows like \"Save this webpage as markdown\", \"Fetch this article\", or \"抓取网页内容\". Supports crawl4ai for general web scraping and specialized WeChat (微信公众号) article fetching.",
-      "source": "./content-pipeline/web-fetch",
+      "source": "./",
       "category": "content-pipeline",
       "author": {
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-      }
+      },
+      "skills": ["./content-pipeline/web-fetch"]
     },
     {
       "name": "webapp-testing",
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
-      "source": "./no-code-builder/webapp-testing",
+      "source": "./",
       "category": "no-code-builder",
       "author": {
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      }
+      },
+      "skills": ["./no-code-builder/webapp-testing"]
     },
     {
       "name": "xlsx",
       "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
-      "source": "./office-automation/document-skills-xlsx",
+      "source": "./",
       "category": "office-automation",
       "author": {
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
-      }
+      },
+      "skills": ["./office-automation/document-skills-xlsx"]
     },
     {
       "name": "youtube-transcript",
       "description": "Download YouTube video transcripts when user provides a YouTube URL or asks to download/get/fetch a transcript from YouTube. Also use when user wants to transcribe or get captions/subtitles from a YouTube video.",
-      "source": "./content-pipeline/youtube-transcript",
+      "source": "./",
       "category": "content-pipeline",
       "author": {
         "name": "michalparkola",
         "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript"
-      }
+      },
+      "skills": ["./content-pipeline/youtube-transcript"]
     }
   ]
 }

@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="./_logo/Skillbox-with-words.jpeg" alt="Skillbox Logo" width="600">
+  <img src="./_logo/Skillbox-with-words 1.svg" alt="Skillbox Logo" width="600">
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Skills-40-orange?style=for-the-badge" alt="Skills">
