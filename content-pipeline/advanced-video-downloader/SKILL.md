@@ -1,13 +1,15 @@
 ---
 name: advanced-video-downloader
-description: Download videos from YouTube, Bilibili, TikTok and 1000+ platforms using yt-dlp. Use when user requests video download, provides video URLs, mentions saving/downloading videos, or needs batch downloads. Supports quality selection, audio extraction, playlist downloads, and cookie-based authentication.
+description: Download and transcribe videos from YouTube, Bilibili, TikTok and 1000+ platforms. Use when user requests video download, transcription (转录/字幕提取), or converting video to text/markdown. Supports quality selection, audio extraction, playlist downloads, cookie-based authentication, and AI-powered transcription via SiliconFlow API (免费转录).
 ---
 
 # Advanced Video Downloader
 
 ## Overview
 
-This skill provides comprehensive video downloading capabilities from 1000+ platforms including YouTube, Bilibili, TikTok, Twitter, Instagram, and more using the powerful yt-dlp tool.
+This skill provides comprehensive video downloading and transcription capabilities from 1000+ platforms including YouTube, Bilibili, TikTok, Twitter, Instagram, and more. It combines:
+- **yt-dlp**: Powerful video downloading tool
+- **SiliconFlow API**: Free AI-powered transcription to convert videos to Markdown
 
 ## When to Use This Skill
 
@@ -18,6 +20,9 @@ Activate this skill when the user:
 - Wants to extract audio from videos
 - Needs to download multiple videos or playlists
 - Asks about video quality options
+- Requests video transcription ("转录视频", "提取字幕", "视频转文字")
+- Wants to convert video/audio to text or Markdown
+- Asks to download AND transcribe a video in one workflow
 
 ## Core Capabilities
 
@@ -56,6 +61,21 @@ Choose specific video quality (4K, 1080p, 720p, etc.).
 User: "Download in 4K quality"
 User: "Get the 720p version to save space"
 ```
+
+### 5. Video/Audio Transcription
+Convert video or audio files to Markdown text using SiliconFlow's free AI transcription API.
+
+**Example usage:**
+```
+User: "Transcribe this video to text" / "转录这个视频"
+User: "Download and transcribe this YouTube video"
+User: "将这个音频转成文字"
+User: "Extract transcript from this MP4 file"
+```
+
+**Supported formats:**
+- Audio: MP3, WAV, M4A, FLAC, AAC, OGG, OPUS, WMA
+- Video: MP4, AVI, MOV, MKV, FLV, WMV, WEBM, M4V
 
 ## Response Pattern
 
@@ -121,6 +141,64 @@ After download completes, report:
    Time: 45 seconds at 5.2 MB/s
 ```
 
+## Transcription Response Pattern
+
+When a user requests video/audio transcription:
+
+### Step 1: Check Prerequisites
+```bash
+# Verify SiliconFlow API key is available
+echo $SILICONFLOW_API_KEY
+# Or user must provide via --api-key parameter
+```
+
+**API Key Setup:**
+- Get free API key from: https://cloud.siliconflow.cn/account/ak
+- Copy `.env.example` to `.env` and add your API key
+- Or set environment variable: `SILICONFLOW_API_KEY=sk-xxx`
+
+### Step 2: Validate File
+Ensure the file exists and is a supported format (audio or video).
+
+### Step 3: Execute Transcription
+Use the bundled script `scripts/transcribe_siliconflow.py`:
+
+```bash
+# Basic transcription
+python scripts/transcribe_siliconflow.py --file video.mp4 --api-key sk-xxx
+
+# With custom output path
+python scripts/transcribe_siliconflow.py --file audio.mp3 --output transcript.md --api-key sk-xxx
+
+# Using environment variable for API key
+python scripts/transcribe_siliconflow.py --file video.mp4
+```
+
+### Step 4: Report Transcription Results
+```
+✅ Transcription complete!
+   File: video.mp4
+   Output: 2025-01-15-video.md
+   Size: 12.5 KB
+
+   Preview:
+   --------------------------------------------------
+   [First 200 characters of transcription...]
+   --------------------------------------------------
+```
+
+## Combined Workflow: Download + Transcribe
+
+For requests like "Download and transcribe this video":
+
+```bash
+# Step 1: Download video
+yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best" --merge-output-format mp4 -o "%(title)s.%(ext)s" "VIDEO_URL"
+
+# Step 2: Transcribe the downloaded file
+python scripts/transcribe_siliconflow.py --file "Downloaded Video Title.mp4" --api-key sk-xxx
+```
+
 ## Platform-Specific Notes
 
 ### YouTube
@@ -176,6 +254,18 @@ yt-dlp --cookies cookies.txt "VIDEO_URL"
 2. Use proxy/VPN if legally permitted
 3. Check if video is still available on platform
 
+### Issue: Transcription API key error
+**Solution:**
+1. Verify API key starts with `sk-`
+2. Get free key from: https://cloud.siliconflow.cn/account/ak
+3. Set environment variable: `SILICONFLOW_API_KEY=sk-xxx`
+
+### Issue: Transcription returns empty text
+**Solution:**
+1. Check if audio/video has clear speech
+2. Verify file format is supported
+3. File may be too short or contain only music
+
 ## Common Commands
 
 ### Quality Presets
@@ -217,12 +307,35 @@ yt-dlp -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "PLAYLIST_URL"
 yt-dlp -o "%(uploader)s/%(title)s.%(ext)s" "CHANNEL_URL"
 ```
 
-## References
+## Bundled Resources
 
-### `references/supported_platforms.md`
+### Configuration
+
+#### `.env.example`
+Template for environment variables. Copy to `.env` and add your SiliconFlow API key.
+
+### Scripts
+
+#### `scripts/transcribe_siliconflow.py`
+AI-powered transcription script using SiliconFlow's free API.
+
+**Usage:**
+```bash
+python scripts/transcribe_siliconflow.py --file <audio/video> [--api-key <key>] [--output <path>]
+```
+
+**Parameters:**
+- `--file, -f`: Input audio/video file (required)
+- `--api-key, -k`: SiliconFlow API key (or use `SILICONFLOW_API_KEY` env var)
+- `--output, -o`: Output markdown file path (default: `YYYY-MM-DD-filename.md`)
+- `--model, -m`: Model to use (default: `FunAudioLLM/SenseVoiceSmall`)
+
+### References
+
+#### `references/supported_platforms.md`
 Comprehensive list of 1000+ supported platforms with platform-specific notes and requirements.
 
-### `references/quality_formats.md`
+#### `references/quality_formats.md`
 Detailed explanation of video formats, codecs, and quality selection strategies.
 
 ## Tips for Best Results
@@ -231,8 +344,11 @@ Detailed explanation of video formats, codecs, and quality selection strategies.
 2. **Batch downloads save time** - use playlist URLs when possible
 3. **Audio extraction is faster** - recommend for podcast/music content
 4. **Check file size before downloading** - warn user for very large files (>1GB)
+5. **Transcription works best with clear audio** - consider extracting audio first for better results
 
 ## Sources
 
 - [yt-dlp Documentation](https://github.com/yt-dlp/yt-dlp)
 - [yt-dlp Installation Guide](https://github.com/yt-dlp/yt-dlp#installation)
+- [SiliconFlow API Documentation](https://docs.siliconflow.cn/)
+- [SiliconFlow Free API Key](https://cloud.siliconflow.cn/account/ak)

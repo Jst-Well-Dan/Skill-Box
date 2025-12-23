@@ -1,6 +1,6 @@
 ---
 name: deep-reading-analyst
-description: Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (SCQA, 5W2H, Critical Thinking, Inversion, Systems Thinking).
+description: Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (McKinsey Communication Framework, Comprehensive Task Checklist, Critical Thinking, Inversion Thinking, Systems Thinking).
 ---
 
 # Deep Reading Analyst
