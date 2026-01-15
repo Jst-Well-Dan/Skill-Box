@@ -23,15 +23,23 @@ Skillbox 是一个精心整理的 Claude Code 技能合集，专为**非技术�
 
 ---
 
+## 🔗 相关链接
+
+- **Skillbox 官网**: [https://skill-box.zwtj.site/](https://skill-box.zwtj.site/) - 更直观地查看已有技能
+- **Skillbox Studio**: [https://github.com/Jst-Well-Dan/Skillbox-Studio](https://github.com/Jst-Well-Dan/Skillbox-Studio) - 可视化工具，一键完成 Claude Code 安装与 Skillbox 集成
+
+---
+
+
 ## 技能分区
 
 | 类别 | 说明 | 技能数量 |
 |------|------|:--------:|
-| **零代码构建** | 不写代码也能创建网页、应用、测试用例 | 12 |
+| **零代码构建** | 不写代码也能创建网页、应用、测试用例 | 14 |
 | **办公自动化** | Word、Excel、PPT、PDF 一键处理 | 6 |
 | **内容流水线** | 抓取网页、下载视频、提取字幕 | 4 |
 | **沉浸式研读** | 深度阅读、会议分析、笔记整理 | 6 |
-| **视觉与创意** | 海报设计、GIF 制作、图片增强 | 5 |
+| **视觉与创意** | 海报设计、GIF 制作、图片增强 | 6 |
 | **品牌与营销** | 品牌规范、广告分析、域名创意 | 6 |
 | **商业分析师** | 数据分析、CSV 处理、发票识别、可视化 | 2 |
 
@@ -159,6 +167,8 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 - **test-driven-development** - 测试驱动开发指南
 - **test-fixing** - 自动修复失败的测试
 - **webapp-testing** - 使用 Playwright 测试网页应用
+- **vercel-deploy** - Vercel 一键部署应用
+- **vercel-react-best-practices** - React/Next.js 最佳实践指南
 
 ### 办公自动化 (office-automation)
 - **docx** - Word 文档创建与编辑
@@ -190,6 +200,7 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 - **theme-factory** - 主题工厂
 - **video-downloader** - 视频下载
 - **advanced-video-downloader** - 高级视频下载
+- **web-design-guidelines** - Web 界面设计规范检查
 
 ### 品牌与营销 (brand-marketing)
 - **Anthropic-brand-guidelines** - Anthropic 品牌规范
@@ -230,6 +241,7 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 | **michalparkola** | ship-learn-next, youtube-transcript | [GitHub](https://github.com/michalparkola/tapestry-skills-for-claude-code) |
 | **PleasePrompto** | notebooklm | [GitHub](https://github.com/PleasePrompto/notebooklm-skill) |
 | **coffeefuelbump** | csv-data-summarizer | [GitHub](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
+| **Vercel Labs** | vercel-deploy, vercel-react-best-practices, web-design-guidelines | [GitHub](https://github.com/vercel-labs/agent-skills) |
 
 ---
 
