@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "Skill-Box",
   "version": "1.0.0",
   "description": "An collection of practical skills that transforms your AI assistant from a generalist into a powerful specialist.",
@@ -17,7 +16,9 @@
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
       },
-      "skills": ["./content-pipeline/advanced-video-downloader"]
+      "skills": [
+        "./content-pipeline/advanced-video-downloader"
+      ]
     },
     {
       "name": "algorithmic-art",
@@ -28,7 +29,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./visual-creative/algorithmic-art"]
+      "skills": [
+        "./visual-creative/algorithmic-art"
+      ]
     },
     {
       "name": "Anthropic-brand-guidelines",
@@ -39,7 +42,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./brand-marketing/Anthropic-brand-guidelines"]
+      "skills": [
+        "./brand-marketing/Anthropic-brand-guidelines"
+      ]
     },
     {
       "name": "artifacts-builder",
@@ -50,7 +55,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./no-code-builder/artifacts-builder"]
+      "skills": [
+        "./no-code-builder/artifacts-builder"
+      ]
     },
     {
       "name": "canvas-design",
@@ -61,7 +68,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./visual-creative/canvas-design"]
+      "skills": [
+        "./visual-creative/canvas-design"
+      ]
     },
     {
       "name": "changelog-generator",
@@ -72,7 +81,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./no-code-builder/changelog-generator"]
+      "skills": [
+        "./no-code-builder/changelog-generator"
+      ]
     },
     {
       "name": "competitive-ads-extractor",
@@ -83,7 +94,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./brand-marketing/competitive-ads-extractor"]
+      "skills": [
+        "./brand-marketing/competitive-ads-extractor"
+      ]
     },
     {
       "name": "content-research-writer",
@@ -94,7 +107,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./content-pipeline/content-research-writer"]
+      "skills": [
+        "./content-pipeline/content-research-writer"
+      ]
     },
     {
       "name": "csv-data-summarizer",
@@ -105,7 +120,9 @@
         "name": "coffeefuelbump",
         "url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill"
       },
-      "skills": ["./business-analyst/csv-data-summarizer"]
+      "skills": [
+        "./business-analyst/csv-data-summarizer"
+      ]
     },
     {
       "name": "invoice-processor",
@@ -116,7 +133,9 @@
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
       },
-      "skills": ["./business-analyst/invoice-processor"]
+      "skills": [
+        "./business-analyst/invoice-processor"
+      ]
     },
     {
       "name": "deep-reading-analyst",
@@ -127,7 +146,9 @@
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
       },
-      "skills": ["./immersive-reading/deep-reading-analyst-skill"]
+      "skills": [
+        "./immersive-reading/deep-reading-analyst-skill"
+      ]
     },
     {
       "name": "developer-growth-analysis",
@@ -138,7 +159,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./no-code-builder/developer-growth-analysis"]
+      "skills": [
+        "./no-code-builder/developer-growth-analysis"
+      ]
     },
     {
       "name": "development-brainstorming",
@@ -149,7 +172,9 @@
         "name": "obra",
         "url": "https://github.com/obra/superpowers/tree/main/skills/brainstorming"
       },
-      "skills": ["./no-code-builder/development-brainstorming"]
+      "skills": [
+        "./no-code-builder/development-brainstorming"
+      ]
     },
     {
       "name": "docx",
@@ -160,7 +185,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./office-automation/document-skills-docx"]
+      "skills": [
+        "./office-automation/document-skills-docx"
+      ]
     },
     {
       "name": "domain-name-brainstormer",
@@ -171,7 +198,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./brand-marketing/domain-name-brainstormer"]
+      "skills": [
+        "./brand-marketing/domain-name-brainstormer"
+      ]
     },
     {
       "name": "family-history-planning",
@@ -182,7 +211,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./immersive-reading/family-history-research"]
+      "skills": [
+        "./immersive-reading/family-history-research"
+      ]
     },
     {
       "name": "file-organizer",
@@ -193,7 +224,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./office-automation/file-organizer"]
+      "skills": [
+        "./office-automation/file-organizer"
+      ]
     },
     {
       "name": "frontend-design",
@@ -204,7 +237,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./no-code-builder/frontend-design"]
+      "skills": [
+        "./no-code-builder/frontend-design"
+      ]
     },
     {
       "name": "git-pushing",
@@ -215,7 +250,9 @@
         "name": "mhattingpete",
         "url": "https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing"
       },
-      "skills": ["./no-code-builder/git-pushing"]
+      "skills": [
+        "./no-code-builder/git-pushing"
+      ]
     },
     {
       "name": "image-enhancer",
@@ -226,7 +263,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./visual-creative/image-enhancer"]
+      "skills": [
+        "./visual-creative/image-enhancer"
+      ]
     },
     {
       "name": "internal-comms",
@@ -237,7 +276,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./brand-marketing/internal-comms"]
+      "skills": [
+        "./brand-marketing/internal-comms"
+      ]
     },
     {
       "name": "markdown-to-epub-converter",
@@ -248,7 +289,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./office-automation/markdown-to-epub-converter"]
+      "skills": [
+        "./office-automation/markdown-to-epub-converter"
+      ]
     },
     {
       "name": "mcp-builder",
@@ -259,7 +302,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./no-code-builder/mcp-builder"]
+      "skills": [
+        "./no-code-builder/mcp-builder"
+      ]
     },
     {
       "name": "meeting-insights-analyzer",
@@ -270,7 +315,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./immersive-reading/meeting-insights-analyzer"]
+      "skills": [
+        "./immersive-reading/meeting-insights-analyzer"
+      ]
     },
     {
       "name": "notebooklm",
@@ -281,7 +328,9 @@
         "name": "PleasePrompto",
         "url": "https://github.com/PleasePrompto/notebooklm-skill"
       },
-      "skills": ["./immersive-reading/notebooklm-integration"]
+      "skills": [
+        "./immersive-reading/notebooklm-integration"
+      ]
     },
     {
       "name": "pdf",
@@ -292,7 +341,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./office-automation/document-skills-pdf"]
+      "skills": [
+        "./office-automation/document-skills-pdf"
+      ]
     },
     {
       "name": "pict-test-designer",
@@ -303,7 +354,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./no-code-builder/pypict-claude-skill"]
+      "skills": [
+        "./no-code-builder/pypict-claude-skill"
+      ]
     },
     {
       "name": "pptx",
@@ -314,7 +367,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./office-automation/document-skills-pptx"]
+      "skills": [
+        "./office-automation/document-skills-pptx"
+      ]
     },
     {
       "name": "raffle-winner-picker",
@@ -325,7 +380,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./brand-marketing/raffle-winner-picker"]
+      "skills": [
+        "./brand-marketing/raffle-winner-picker"
+      ]
     },
     {
       "name": "ship-learn-next",
@@ -336,7 +393,9 @@
         "name": "michalparkola",
         "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next"
       },
-      "skills": ["./immersive-reading/ship-learn-next"]
+      "skills": [
+        "./immersive-reading/ship-learn-next"
+      ]
     },
     {
       "name": "skill-creator",
@@ -347,7 +406,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./no-code-builder/skill-creator"]
+      "skills": [
+        "./no-code-builder/skill-creator"
+      ]
     },
     {
       "name": "slack-gif-creator",
@@ -358,7 +419,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./visual-creative/slack-gif-creator"]
+      "skills": [
+        "./visual-creative/slack-gif-creator"
+      ]
     },
     {
       "name": "terminal-title",
@@ -369,7 +432,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./no-code-builder/terminal-title"]
+      "skills": [
+        "./no-code-builder/terminal-title"
+      ]
     },
     {
       "name": "test-driven-development",
@@ -380,7 +445,9 @@
         "name": "obra",
         "url": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development"
       },
-      "skills": ["./no-code-builder/test-driven-development"]
+      "skills": [
+        "./no-code-builder/test-driven-development"
+      ]
     },
     {
       "name": "test-fixing",
@@ -391,7 +458,9 @@
         "name": "mhattingpete",
         "url": "https://github.com/mhattingpete"
       },
-      "skills": ["./no-code-builder/test-fixing"]
+      "skills": [
+        "./no-code-builder/test-fixing"
+      ]
     },
     {
       "name": "theme-factory",
@@ -402,7 +471,48 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./visual-creative/theme-factory"]
+      "skills": [
+        "./visual-creative/theme-factory"
+      ]
+    },
+    {
+      "name": "vercel-deploy",
+      "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link.",
+      "source": "./",
+      "category": "no-code-builder",
+      "author": {
+        "name": "Vercel Labs",
+        "url": "https://github.com/vercel-labs/agent-skills"
+      },
+      "skills": [
+        "./no-code-builder/vercel-deploy-claimable"
+      ]
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "source": "./",
+      "category": "no-code-builder",
+      "author": {
+        "name": "Vercel Labs",
+        "url": "https://github.com/vercel-labs/agent-skills"
+      },
+      "skills": [
+        "./no-code-builder/react-best-practices"
+      ]
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "source": "./",
+      "category": "visual-creative",
+      "author": {
+        "name": "Vercel Labs",
+        "url": "https://github.com/vercel-labs/agent-skills"
+      },
+      "skills": [
+        "./visual-creative/web-design-guidelines"
+      ]
     },
     {
       "name": "web-fetch",
@@ -413,7 +523,9 @@
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
       },
-      "skills": ["./content-pipeline/web-fetch"]
+      "skills": [
+        "./content-pipeline/web-fetch"
+      ]
     },
     {
       "name": "webapp-testing",
@@ -424,7 +536,9 @@
         "name": "ComposioHQ",
         "url": "https://github.com/ComposioHQ/awesome-claude-skills"
       },
-      "skills": ["./no-code-builder/webapp-testing"]
+      "skills": [
+        "./no-code-builder/webapp-testing"
+      ]
     },
     {
       "name": "xlsx",
@@ -435,7 +549,9 @@
         "name": "Anthropic",
         "url": "https://github.com/anthropics/skills"
       },
-      "skills": ["./office-automation/document-skills-xlsx"]
+      "skills": [
+        "./office-automation/document-skills-xlsx"
+      ]
     },
     {
       "name": "youtube-transcript",
@@ -446,7 +562,9 @@
         "name": "michalparkola",
         "url": "https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript"
       },
-      "skills": ["./content-pipeline/youtube-transcript"]
+      "skills": [
+        "./content-pipeline/youtube-transcript"
+      ]
     }
   ]
 }
