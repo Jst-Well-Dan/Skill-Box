@@ -18,8 +18,10 @@
 # Keep .gitignore itself
 !.gitignore
 
-# Keep README
+# Keep README and guides
 !/README.md
+!/添加技能指南.md
+
 
 # Keep logo directory
 !/_logo/

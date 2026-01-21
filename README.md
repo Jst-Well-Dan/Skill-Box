@@ -116,6 +116,37 @@ claude plugin marketplace add ./Skill-Box
 
 ---
 
+## 支持的平台与配置
+
+Skillbox 中的技能不仅适用于 Claude Code，还支持安装到多种 AI 代理（Agent）中。
+
+**一键配置工具（推荐）**
+可以使用 [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill) 提供的脚本进行快速配置，支持交互式选择和自动安装。
+
+**手动路径参考**
+如果需要手动安装，请参考下表的路径配置。使用 `-g` 或 `--global` 参数可安装到全局路径。
+
+| Agent 代理 | 项目路径 (Project Path) | 全局路径 (Global Path) |
+| :--- | :--- | :--- |
+| **Claude Code** | `.claude/skills/` | `~/.claude/skills/` |
+| **Windsurf** | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` |
+| **Cursor** | `.cursor/skills/` | `~/.cursor/skills/` |
+| **GitHub Copilot** | `.github/skills/` | `~/.copilot/skills/` |
+| **Trae** | `.trae/skills/` | `~/.trae/skills/` |
+| **Gemini CLI** | `.gemini/skills/` | `~/.gemini/skills/` |
+| **Roo Code** | `.roo/skills/` | `~/.roo/skills/` |
+| **Antigravity** | `.agent/skills/` | `~/.gemini/antigravity/skills/` |
+| **Clawdbot** | `skills/` | `~/.clawdbot/skills/` |
+| **Goose** | `.goose/skills/` | `~/.config/goose/skills/` |
+| **OpenCode** | `.opencode/skills/` | `~/.config/opencode/skills/` |
+| **Kilo Code** | `.kilocode/skills/` | `~/.kilocode/skills/` |
+| **Kiro CLI** | `.kiro/skills/` | `~/.kiro/skills/` |
+| **Amp** | `.agents/skills/` | `~/.config/agents/skills/` |
+| **Codex** | `.codex/skills/` | `~/.codex/skills/` |
+| **Droid** | `.factory/skills/` | `~/.factory/skills/` |
+
+---
+
 ## 目录结构
 
 ```
