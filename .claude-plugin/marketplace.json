@@ -565,6 +565,97 @@
       "skills": [
         "./content-pipeline/youtube-transcript"
       ]
+    },
+    {
+      "name": "excel-dcf-modeler",
+      "description": "Build discounted cash flow (DCF) valuation models in Excel. Use when creating DCF models, calculating enterprise value, or valuing companies. Trigger with phrases like 'excel dcf', 'build dcf model', 'calculate enterprise value'.",
+      "source": "./",
+      "category": "business-analyst",
+      "author": {
+        "name": "Jeremy Longshore",
+        "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
+      },
+      "skills": [
+        "./business-analyst/excel-dcf-modeler"
+      ]
+    },
+    {
+      "name": "excel-lbo-modeler",
+      "description": "Build leveraged buyout (LBO) models in Excel with debt schedules and IRR analysis. Use when structuring LBO transactions or analyzing PE returns. Trigger with phrases like 'excel lbo', 'build lbo model', 'calculate pe returns'.",
+      "source": "./",
+      "category": "business-analyst",
+      "author": {
+        "name": "Jeremy Longshore",
+        "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
+      },
+      "skills": [
+        "./business-analyst/excel-lbo-modeler"
+      ]
+    },
+    {
+      "name": "excel-pivot-wizard",
+      "description": "Create advanced Excel pivot tables with calculated fields and slicers. Use when building data summaries or creating interactive dashboards. Trigger with phrases like 'excel pivot', 'create pivot table', 'data summary'.",
+      "source": "./",
+      "category": "business-analyst",
+      "author": {
+        "name": "Jeremy Longshore",
+        "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
+      },
+      "skills": [
+        "./business-analyst/excel-pivot-wizard"
+      ]
+    },
+    {
+      "name": "excel-variance-analyzer",
+      "description": "Analyze budget vs actual variances in Excel with drill-down and root cause analysis. Use when performing variance analysis or explaining budget differences. Trigger with phrases like 'excel variance', 'analyze budget variance', 'actual vs budget'.",
+      "source": "./",
+      "category": "business-analyst",
+      "author": {
+        "name": "Jeremy Longshore",
+        "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
+      },
+      "skills": [
+        "./business-analyst/excel-variance-analyzer"
+      ]
+    },
+    {
+      "name": "excalidraw-diagram",
+      "description": "Generate Excalidraw diagrams from text content for Obsidian. Use when user asks to create diagrams, flowcharts, mind maps, or visual representations in Excalidraw format. Triggers on 'Excalidraw', '画图', '流程图', '思维导图', '可视化', 'diagram'.",
+      "source": "./",
+      "category": "visual-creative",
+      "author": {
+        "name": "Axton Liu",
+        "url": "https://github.com/axtonliu/axton-obsidian-visual-skills"
+      },
+      "skills": [
+        "./visual-creative/excalidraw-diagram"
+      ]
+    },
+    {
+      "name": "mermaid-visualizer",
+      "description": "Transform text content into professional Mermaid diagrams for presentations and documentation. Use when users ask to visualize concepts, create flowcharts, or make diagrams from text. Supports process flows, system architectures, comparisons, mindmaps, and more with built-in syntax error prevention.",
+      "source": "./",
+      "category": "visual-creative",
+      "author": {
+        "name": "Axton Liu",
+        "url": "https://github.com/axtonliu/axton-obsidian-visual-skills"
+      },
+      "skills": [
+        "./visual-creative/mermaid-visualizer"
+      ]
+    },
+    {
+      "name": "obsidian-canvas-creator",
+      "description": "Create Obsidian Canvas files from text content, supporting both MindMap and freeform layouts. Use this skill when users want to visualize content as an interactive canvas, create mind maps, or organize information spatially in Obsidian format.",
+      "source": "./",
+      "category": "visual-creative",
+      "author": {
+        "name": "Axton Liu",
+        "url": "https://github.com/axtonliu/axton-obsidian-visual-skills"
+      },
+      "skills": [
+        "./visual-creative/obsidian-canvas-creator"
+      ]
     }
   ]
 }

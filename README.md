@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-40-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Skills-47-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
@@ -39,9 +39,9 @@ Skillbox 是一个精心整理的 Claude Code 技能合集，专为**非技术�
 | **办公自动化** | Word、Excel、PPT、PDF 一键处理 | 6 |
 | **内容流水线** | 抓取网页、下载视频、提取字幕 | 4 |
 | **沉浸式研读** | 深度阅读、会议分析、笔记整理 | 6 |
-| **视觉与创意** | 海报设计、GIF 制作、图片增强 | 6 |
+| **视觉与创意** | 海报设计、GIF 制作、图片增强、Obsidian 可视化 | 9 |
 | **品牌与营销** | 品牌规范、广告分析、域名创意 | 6 |
-| **商业分析师** | 数据分析、CSV 处理、发票识别、可视化 | 2 |
+| **商业分析师** | 数据分析、CSV 处理、发票识别、Excel 财务建模 | 6 |
 
 ---
 
@@ -152,7 +152,7 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 ## 完整技能清单
 
 <details>
-<summary>点击展开全部 40 个技能</summary>
+<summary>点击展开全部 47 个技能</summary>
 
 ### 零代码构建 (no-code-builder)
 - **artifacts-builder** - 创建复杂的多组件 HTML 应用
@@ -198,9 +198,10 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 - **image-enhancer** - 图片增强
 - **slack-gif-creator** - Slack GIF 制作
 - **theme-factory** - 主题工厂
-- **video-downloader** - 视频下载
-- **advanced-video-downloader** - 高级视频下载
 - **web-design-guidelines** - Web 界面设计规范检查
+- **excalidraw-diagram** - Excalidraw 手绘风格图表，支持流程图、思维导图等
+- **mermaid-visualizer** - Mermaid 图表可视化，专业流程图生成
+- **obsidian-canvas-creator** - Obsidian Canvas 创建，思维导图与自由布局
 
 ### 品牌与营销 (brand-marketing)
 - **Anthropic-brand-guidelines** - Anthropic 品牌规范
@@ -213,6 +214,10 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 ### 商业分析师 (business-analyst)
 - **csv-data-summarizer** - CSV 数据分析可视化
 - **invoice-processor** - 发票识别处理，PDF/图片转 Excel
+- **excel-dcf-modeler** - DCF 估值建模，企业价值计算
+- **excel-lbo-modeler** - LBO 杠杆收购建模，私募股权回报分析
+- **excel-pivot-wizard** - 高级数据透视表创建，交互式仪表板
+- **excel-variance-analyzer** - 预算与实际差异分析，根因诊断
 
 </details>
 
@@ -242,6 +247,8 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 | **PleasePrompto** | notebooklm | [GitHub](https://github.com/PleasePrompto/notebooklm-skill) |
 | **coffeefuelbump** | csv-data-summarizer | [GitHub](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
 | **Vercel Labs** | vercel-deploy, vercel-react-best-practices, web-design-guidelines | [GitHub](https://github.com/vercel-labs/agent-skills) |
+| **Axton Liu** | excalidraw-diagram, mermaid-visualizer, obsidian-canvas-creator | [GitHub](https://github.com/axtonliu/axton-obsidian-visual-skills) |
+| **Jeremy Longshore** | excel-dcf-modeler, excel-lbo-modeler, excel-pivot-wizard, excel-variance-analyzer | [GitHub](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
 
 ---
 
