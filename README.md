@@ -4,13 +4,14 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-47-orange?style=for-the-badge" alt="Skills">
-  <img src="https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Plugins-33-blue?style=for-the-badge" alt="Plugins">
+  <img src="https://img.shields.io/badge/Skills-61-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Version-v2.0.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
 
 <p align="center">
-  <em>严选实战技能 · 持续更新</em>
+  <em>严选实战技能 · 持续更新 · 模块化重构版</em>
 </p>
 
 ---
@@ -19,236 +20,134 @@
 
 从自动化工作流到专业内容创作，解锁 AI 的无限可能。
 
-Skillbox 是一个精心整理的 Claude Code 技能合集，专为**非技术人员**设计。无需编程基础，即装即用，让你的 AI 助手瞬间变身各领域专家。
+Skillbox 是一个精心整理的 Claude Code 技能合集，并在 v2.0 中完成了**插件化 (Plugin) 重构**。我们将相关的技能组合成功能强大的插件，让你的安装和使用更加高效。
 
 ---
 
 ## 🔗 相关链接
 
 - **Skillbox 官网**: [https://skill-box.zwtj.site/](https://skill-box.zwtj.site/) - 更直观地查看已有技能
-- **Skillbox Studio**: [https://github.com/Jst-Well-Dan/Skillbox-Studio](https://github.com/Jst-Well-Dan/Skillbox-Studio) - 可视化工具，一键完成 Claude Code 安装与 Skillbox 集成
+- **Skillbox Studio**: [https://github.com/Jst-Well-Dan/Skillbox-Studio](https://github.com/Jst-Well-Dan/Skillbox-Studio) - 可视化管理工具
 
 ---
 
+## 插件分类
 
-## 技能分区
-
-| 类别 | 说明 | 技能数量 |
-|------|------|:--------:|
-| **零代码构建** | 不写代码也能创建网页、应用、测试用例 | 14 |
-| **办公自动化** | Word、Excel、PPT、PDF 一键处理 | 6 |
-| **内容流水线** | 抓取网页、下载视频、提取字幕 | 4 |
-| **沉浸式研读** | 深度阅读、会议分析、笔记整理 | 6 |
-| **视觉与创意** | 海报设计、GIF 制作、图片增强、Obsidian 可视化 | 9 |
-| **品牌与营销** | 品牌规范、广告分析、域名创意 | 6 |
-| **商业分析师** | 数据分析、CSV 处理、发票识别、Excel 财务建模 | 6 |
-
----
-
-## 热门技能推荐
-
-### 办公自动化
-| 技能 | 能帮你做什么 |
-|------|-------------|
-| **docx** | 创建、编辑 Word 文档，支持批注和修订 |
-| **xlsx** | Excel 数据分析，公式计算，图表生成 |
-| **pptx** | 制作演示文稿，添加备注和布局 |
-| **pdf** | PDF 合并拆分、表单填写、文字提取 |
-| **markdown-to-epub** | 把文章转成电子书，可传到 Kindle 阅读 |
-
-### 视觉与创意
-| 技能 | 能帮你做什么 |
-|------|-------------|
-| **canvas-design** | 设计海报、宣传图、PNG/PDF 输出 |
-| **slack-gif-creator** | 制作 Slack 表情动图 |
-| **theme-factory** | 10 种预设主题，一键美化文档 |
-| **image-enhancer** | 截图增强，提升清晰度 |
-
-### 内容流水线
-| 技能 | 能帮你做什么 |
-|------|-------------|
-| **web-fetch** | 抓取网页内容转成 Markdown |
-| **youtube-transcript** | 下载 YouTube 视频字幕 |
-| **video-downloader** | 下载 YouTube、B站等平台视频 |
-
-### 沉浸式研读
-| 技能 | 能帮你做什么 |
-|------|-------------|
-| **deep-reading-analyst** | 用 5 种思维模型深度分析文章 |
-| **meeting-insights** | 分析会议录音，发现沟通问题 |
-| **notebooklm** | 连接 Google NotebookLM，引用笔记回答问题 |
-
-### 品牌与营销
-| 技能 | 能帮你做什么 |
-|------|-------------|
-| **domain-name-brainstormer** | 头脑风暴域名创意并检查可用性 |
-| **competitive-ads-extractor** | 分析竞争对手广告策略 |
-| **raffle-winner-picker** | 从名单中随机抽奖 |
+| 类别 | 说明 | 插件数量 | 包含技能 |
+|------|------|:--------:|:--------:|
+| **零代码构建** | 不写代码也能完成前端开发、测试与自动化工作流 | 7 | 15 |
+| **办公自动化** | Word、Excel、PPT、PDF 统一处理套件 | 3 | 6 |
+| **内容流水线** | 网页采集、视频下载、AI内容创作全流程 | 6 | 18 |
+| **沉浸式研读** | 深度阅读分析与行动转化 | 3 | 4 |
+| **视觉与创意** | 视觉设计、视频制作、Obsidian 可视化与主题美化 | 9 | 11 |
+| **品牌与营销** | 品牌规范、内部沟通与抽奖工具 | 3 | 3 |
+| **商业分析师** | 数据分析工具包、金融建模与发票识别 | 3 | 6 |
 
 ---
 
-## 快速开始
+## 🌟 核心插件推荐
+
+### 📥 内容采集器 (content-harvester)
+> *一站式网页与多媒体资源采集*
+- **web-fetch**: 抓取网页内容转成 Markdown
+- **advanced-video-downloader**: 下载 YouTube、B站等 1000+ 平台视频
+- **youtube-transcript**: 自动提取 YouTube 视频字幕
+
+### 📊 数据分析工具包 (data-analysis-toolkit)
+> *从数据清洗到深度洞察*
+- **csv-data-summarizer**: CSV 数据一键摘要与可视化
+- **excel-pivot-wizard**: 创建高级数据透视表与仪表板
+- **excel-variance-analyzer**: 预算与实际差异根因分析
+
+### 📑 办公文档套件 (document-suite)
+> *Office 全家桶统一处理*
+- **docx / xlsx / pptx / pdf**: 创建、编辑、分析 Word/Excel/PPT/PDF，保留格式。
+
+### 🧠 阅读行动转化 (reading-to-action)
+> *将高质量输入转化为实际产出*
+- **deep-reading-analyst**: 5 大思维模型深度剖析文章
+- **ship-learn-next**: 制定实战型的学习与行动计划
+
+---
+
+## 🚀 快速开始
 
 ### 方式一：一键安装（推荐）
 
-在终端运行：
+在终端运行以下命令，即可安装整个技能库：
 
 ```bash
 claude plugin install Jst-Well-Dan/Skill-Box
 ```
 
-### 方式二：本地安装
+### 方式二：安装特定插件
 
-下载仓库到本地后，运行：
+重构后，你可以更方便地安装功能组合。例如安装办公套件：
 
 ```bash
-claude plugin marketplace add ./Skill-Box
+claude plugin add document-suite
 ```
 
 ### 使用技能
 
-技能市场安装后，需要使用/plugin 命令添加技能。
-添加技能后，Claude 会**自动识别**何时使用。例如：
+插件安装后，Claude 会**自动识别**何时调用相关技能。例如：
 
-- 你说："帮我分析这个 Excel 文件" → 自动使用 **xlsx** 技能
-- 你说："把这篇文章做个深度分析" → 自动使用 **deep-reading-analyst** 技能
-- 你说："帮我设计一张海报" → 自动使用 **canvas-design** 技能
+- "分析这个 PDF 并总结到 Word" → 自动调用 **document-suite**
+- "抓取这个网页并分析其商业模式" → 自动调用 **content-harvester** 和 **data-analysis-toolkit**
 
 ---
 
-## 支持的平台与配置
-
-Skillbox 中的技能不仅适用于 Claude Code，还支持安装到多种 AI 代理（Agent）中。
-
-**一键配置工具（推荐）**
-可以使用 [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill) 提供的脚本进行快速配置，支持交互式选择和自动安装。
-
-**手动路径参考**
-如果需要手动安装，请参考下表的路径配置。使用 `-g` 或 `--global` 参数可安装到全局路径。
-
-| Agent 代理 | 项目路径 (Project Path) | 全局路径 (Global Path) |
-| :--- | :--- | :--- |
-| **Claude Code** | `.claude/skills/` | `~/.claude/skills/` |
-| **Windsurf** | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` |
-| **Cursor** | `.cursor/skills/` | `~/.cursor/skills/` |
-| **GitHub Copilot** | `.github/skills/` | `~/.copilot/skills/` |
-| **Trae** | `.trae/skills/` | `~/.trae/skills/` |
-| **Gemini CLI** | `.gemini/skills/` | `~/.gemini/skills/` |
-| **Roo Code** | `.roo/skills/` | `~/.roo/skills/` |
-| **Antigravity** | `.agent/skills/` | `~/.gemini/antigravity/skills/` |
-| **Clawdbot** | `skills/` | `~/.clawdbot/skills/` |
-| **Goose** | `.goose/skills/` | `~/.config/goose/skills/` |
-| **OpenCode** | `.opencode/skills/` | `~/.config/opencode/skills/` |
-| **Kilo Code** | `.kilocode/skills/` | `~/.kilocode/skills/` |
-| **Kiro CLI** | `.kiro/skills/` | `~/.kiro/skills/` |
-| **Amp** | `.agents/skills/` | `~/.config/agents/skills/` |
-| **Codex** | `.codex/skills/` | `~/.codex/skills/` |
-| **Droid** | `.factory/skills/` | `~/.factory/skills/` |
-
----
-
-## 目录结构
-
-```
-Skillbox/
-├── no-code-builder/        # 零代码构建
-├── office-automation/      # 办公自动化
-├── content-pipeline/       # 内容流水线
-├── immersive-reading/      # 沉浸式研读
-├── visual-creative/        # 视觉与创意
-├── brand-marketing/        # 品牌与营销
-├── business-analyst/       # 商业分析师
-└── .claude-plugin/
-    └── marketplace.json    # 技能注册表
-```
-
----
-
-## 常见问题
-
-### Q: 什么是 Claude Code？
-Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里有"Code"，但它不只是写代码——它可以帮你处理文档、分析数据、管理文件等各种任务。
-
-### Q: 技能会自动更新吗？
-不会。你需要手动 `git pull` 来获取最新技能。
-
-### Q: 我能创建自己的技能吗？
-可以！使用 **skill-creator** 技能，它会指导你一步步创建自定义技能。
-
-### Q: 技能安全吗？
-本仓库所有技能都经过审核。技能本质上是一组说明文档和脚本，你可以随时查看源码。
-
----
-
-## 完整技能清单
+## 📂 完整列表 (v2.0)
 
 <details>
-<summary>点击展开全部 47 个技能</summary>
+<summary>点击展开 33 个插件 / 61 个技能详细清单</summary>
 
-### 零代码构建 (no-code-builder)
-- **artifacts-builder** - 创建复杂的多组件 HTML 应用
-- **changelog-generator** - 从 Git 提交自动生成更新日志
-- **developer-growth-analysis** - 分析编码习惯，生成成长报告
-- **development-brainstorming** - 软件设计头脑风暴
-- **frontend-design** - 创建高质量前端界面
-- **git-pushing** - 自动提交和推送代码
-- **mcp-builder** - 创建 MCP 服务器集成外部服务
-- **pypict-claude-skill** - 使用 PICT 设计测试用例
-- **terminal-title** - 自动更新终端窗口标题
-- **test-driven-development** - 测试驱动开发指南
-- **test-fixing** - 自动修复失败的测试
-- **webapp-testing** - 使用 Playwright 测试网页应用
-- **vercel-deploy** - Vercel 一键部署应用
-- **vercel-react-best-practices** - React/Next.js 最佳实践指南
+### 零代码构建 (No-Code Builder)
+- **frontend-builder**: `artifacts-builder`, `frontend-design`, `react-best-practices`, `vercel-deploy`
+- **testing-toolkit**: `pypict`, `tdd`, `test-fixing`, `webapp-testing`
+- **dev-workflow**: `changelog-generator`, `dev-brainstorming`, `git-pushing`
+- **skill-creator**: 技能创建指南
+- **mcp-builder**: MCP 服务器构建指南
+- **developer-growth-analysis**: 编码模式与成长分析
+- **terminal-title**: 终端标题自动更新
 
-### 办公自动化 (office-automation)
-- **docx** - Word 文档创建与编辑
-- **xlsx** - Excel 电子表格处理
-- **pptx** - PowerPoint 演示文稿制作
-- **pdf** - PDF 文档操作
-- **file-organizer** - 智能文件整理
-- **markdown-to-epub-converter** - Markdown 转电子书
+### 办公自动化 (Office Automation)
+- **document-suite**: `docx`, `pdf`, `pptx`, `xlsx`
+- **markdown-to-epub-converter**: Markdown 转电子书
+- **file-organizer**: 智能文件整理
 
-### 内容流水线 (content-pipeline)
-- **advanced-video-downloader** - 多平台视频下载
-- **content-research-writer** - 内容研究与写作助手
-- **web-fetch** - 网页内容抓取
-- **youtube-transcript** - YouTube 字幕下载
+### 内容流水线 (Content Pipeline)
+- **content-harvester**: `video-downloader`, `web-fetch`, `youtube-transcript`
+- **content-research-writer**: 研究型写作助手
+- **baoyu-content-creation-suite**: `xhs-images`, `post-to-x`, `post-to-wechat`, `article-illustrator`, `cover-image`, `slide-deck`, `comic`, `infographic`, `gemini-web`, `image-gen` (来源: [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills))
+- **baoyu-x-to-markdown**: X推文转Markdown (来源: [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills))
+- **baoyu-url-to-markdown**: 网页转Markdown (来源: [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills))
 
-### 沉浸式研读 (immersive-reading)
-- **deep-reading-analyst** - 深度阅读分析框架
-- **family-history-research** - 家族历史研究规划
-- **meeting-insights-analyzer** - 会议洞察分析
-- **notebooklm** - NotebookLM 集成
-- **ship-learn-next** - 学习内容转行动计划
-- **skill-creator** - 技能创建指南
+### 沉浸式研读 (Immersive Reading)
+- **reading-to-action**: `deep-reading`, `ship-learn-next`
+- **notebooklm-integration**: Google NotebookLM 集成
+- **family-history-research**: 家族史研究规划
 
-### 视觉与创意 (visual-creative)
-- **algorithmic-art** - 算法艺术创作
-- **canvas-design** - 画布设计
-- **image-enhancer** - 图片增强
-- **slack-gif-creator** - Slack GIF 制作
-- **theme-factory** - 主题工厂
-- **web-design-guidelines** - Web 界面设计规范检查
-- **excalidraw-diagram** - Excalidraw 手绘风格图表，支持流程图、思维导图等
-- **mermaid-visualizer** - Mermaid 图表可视化，专业流程图生成
-- **obsidian-canvas-creator** - Obsidian Canvas 创建，思维导图与自由布局
+### 视觉与创意 (Visual Creative)
+- **obsidian-visual-suite**: `excalidraw`, `mermaid`, `obsidian-canvas`
+- **algorithmic-art**: 算法艺术创作
+- **canvas-design**: 海报与画布设计
+- **image-enhancer**: 图片增强与清晰化
+- **slack-gif-creator**: Slack 动图制作
+- **theme-factory**: 主题工厂（10+ 预设）
+- **web-design-guidelines**: 设计规范检查
+- **baoyu-compress-image**: 图片批量压缩 (来源: [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills))
+- **remotion-best-practices**: Remotion视频制作 (46个最佳实践) (来源: [remotion-dev/skills](https://github.com/remotion-dev/skills))
 
-### 品牌与营销 (brand-marketing)
-- **Anthropic-brand-guidelines** - Anthropic 品牌规范
-- **brand-guidelines** - 品牌规范应用
-- **competitive-ads-extractor** - 竞品广告分析
-- **domain-name-brainstormer** - 域名创意生成
-- **internal-comms** - 内部沟通模板
-- **raffle-winner-picker** - 随机抽奖
+### 品牌与营销 (Brand Marketing)
+- **anthropic-brand-guidelines**: Anthropic 品牌设计规范
+- **internal-comms**: 内部沟通模板
+- **raffle-winner-picker**: 随机抽奖工具
 
-### 商业分析师 (business-analyst)
-- **csv-data-summarizer** - CSV 数据分析可视化
-- **invoice-processor** - 发票识别处理，PDF/图片转 Excel
-- **excel-dcf-modeler** - DCF 估值建模，企业价值计算
-- **excel-lbo-modeler** - LBO 杠杆收购建模，私募股权回报分析
-- **excel-pivot-wizard** - 高级数据透视表创建，交互式仪表板
-- **excel-variance-analyzer** - 预算与实际差异分析，根因诊断
+### 商业分析师 (Business Analyst)
+- **data-analysis-toolkit**: `csv-summarizer`, `pivot-wizard`, `variance-analyzer`
+- **financial-modeling-suite**: `dcf-modeler`, `lbo-modeler`
+- **invoice-processor**: 发票识别处理
 
 </details>
 
@@ -256,46 +155,11 @@ Claude Code 是 Anthropic 推出的命令行 AI 编程助手。虽然名字里�
 
 ## 贡献与反馈
 
-欢迎提交新技能或改进现有技能！
+欢迎提交新插件构想或改进现有技能！
 
 - 发现问题？[提交 Issue](https://github.com/Jst-Well-Dan/Skill-Box/issues)
 - 有新想法？[发起 Discussion](https://github.com/Jst-Well-Dan/Skill-Box/discussions)
-- 想贡献技能？查看 [技能创建指南](./immersive-reading/skill-creator/SKILL.md)
-
----
-
-## 致谢
-
-本项目部分技能引用自社区贡献者，感谢以下作者的开源分享：
-
-| 作者 | 技能 | 来源 |
-|------|------|------|
-| **Anthropic** | algorithmic-art, Anthropic-brand-guidelines, artifacts-builder, canvas-design, docx, frontend-design, pdf, pptx, skill-creator, slack-gif-creator, theme-factory, xlsx | [GitHub](https://github.com/anthropics/skills) |
-| **ComposioHQ** | changelog-generator, competitive-ads-extractor, content-research-writer, developer-growth-analysis, domain-name-brainstormer, family-history-planning, file-organizer, image-enhancer, internal-comms, markdown-to-epub-converter, mcp-builder, meeting-insights-analyzer, pict-test-designer, raffle-winner-picker, terminal-title, webapp-testing | [GitHub](https://github.com/ComposioHQ/awesome-claude-skills) |
-| **mhattingpete** | git-pushing, test-fixing | [GitHub](https://github.com/mhattingpete) |
-| **obra** | development-brainstorming, test-driven-development | [GitHub](https://github.com/obra/superpowers) |
-| **michalparkola** | ship-learn-next, youtube-transcript | [GitHub](https://github.com/michalparkola/tapestry-skills-for-claude-code) |
-| **PleasePrompto** | notebooklm | [GitHub](https://github.com/PleasePrompto/notebooklm-skill) |
-| **coffeefuelbump** | csv-data-summarizer | [GitHub](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
-| **Vercel Labs** | vercel-deploy, vercel-react-best-practices, web-design-guidelines | [GitHub](https://github.com/vercel-labs/agent-skills) |
-| **Axton Liu** | excalidraw-diagram, mermaid-visualizer, obsidian-canvas-creator | [GitHub](https://github.com/axtonliu/axton-obsidian-visual-skills) |
-| **Jeremy Longshore** | excel-dcf-modeler, excel-lbo-modeler, excel-pivot-wizard, excel-variance-analyzer | [GitHub](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
-
----
-
-## 相关资源
-
-### 官方文档
-
-- [Claude Skills 概述](https://www.anthropic.com/news/skills) - 官方公告与功能介绍
-- [Skills 使用指南](https://support.claude.com/en/articles/12512180-using-skills-in-claude) - 如何在 Claude 中使用技能
-- [自定义技能创建](https://support.claude.com/en/articles/12512198-creating-custom-skills) - 技能开发指南
-- [为现实世界的 Agent 配备技能](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - 工程博客：Agent Skills 技术详解
-- [Claude 使用案例](https://claude.com/resources/use-cases) - 官方使用场景与灵感
-
-## 许可证
-
-MIT License - 自由使用、修改和分发
+- 想要贡献？查看 [技能创建指南](./no-code-builder/skill-creator/SKILL.md)
 
 ---
 
