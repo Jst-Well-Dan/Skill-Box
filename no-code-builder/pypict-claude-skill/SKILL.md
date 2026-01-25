@@ -61,14 +61,14 @@ ParameterName: Value1, Value2, Value3
 IF [Parameter1] = "Value" THEN [Parameter2] <> "OtherValue";
 ```
 
-**Refer to references/pict_syntax.md for:**
+**Refer to docs/pict_syntax.md for:**
 - Complete syntax reference
 - Constraint grammar and operators
 - Advanced features (sub-models, aliasing, negative testing)
 - Command-line options
 - Detailed constraint patterns
 
-**Refer to references/examples.md for:**
+**Refer to docs/examples.md for:**
 - Complete real-world examples by domain
 - Software function testing examples
 - Web application, API, and mobile testing examples
@@ -128,7 +128,7 @@ python scripts/pict_helper.py parse output.txt
 2. Use online PICT tools like:
    - https://pairwise.yuuniworks.com/
    - https://pairwise.teremokgames.com/
-3. Or install PICT locally (see references/pict_syntax.md)
+3. Or install PICT locally (see docs/pict_syntax.md)
 
 ### 4. Determine Expected Outputs
 
@@ -302,8 +302,8 @@ constraints = [
 
 ## References
 
-- **references/pict_syntax.md** - Complete PICT syntax reference with grammar and operators
-- **references/examples.md** - Comprehensive real-world examples across different domains
+- **docs/pict_syntax.md** - Complete PICT syntax reference with grammar and operators
+- **docs/examples.md** - Comprehensive real-world examples across different domains
 - **scripts/pict_helper.py** - Python utilities for model generation and output formatting
 - [PICT GitHub Repository](https://github.com/microsoft/pict) - Official PICT documentation
 - [pypict Documentation](https://github.com/kmaehashi/pypict) - Python binding documentation
