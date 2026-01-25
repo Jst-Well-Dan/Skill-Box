@@ -109,16 +109,15 @@
       ]
     },
     {
-      "name": "reading-to-action",
-      "description": "Transform reading into results: deep multi-model analysis and actionable learning pathways.",
+      "name": "deep-reading",
+      "description": "Deep reading collaborative system using multi-layered AI agents to help transform articles from 'read' to 'understood' to 'mastered', with actionable plans.",
       "category": "immersive-reading",
       "author": {
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
       },
       "skills": [
-        "./immersive-reading/deep-reading-analyst-skill",
-        "./immersive-reading/ship-learn-next"
+        "./immersive-reading/deep-reading"
       ]
     },
     {
