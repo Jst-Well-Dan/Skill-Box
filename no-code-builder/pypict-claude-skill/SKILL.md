@@ -1,6 +1,7 @@
 ---
 name: pict-test-designer
 description: Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any piece of requirements or code. Analyzes inputs, generates PICT models with parameters, values, and constraints for valid scenarios using pairwise testing. Outputs the PICT model, markdown table of test cases, and expected results.
+author: ComposioHQ
 ---
 
 # PICT Test Designer

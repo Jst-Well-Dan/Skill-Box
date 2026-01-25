@@ -1,6 +1,7 @@
 ---
 name: development-brainstorming
 description: Use when planning software development tasks, before writing code or implementation plans - refines rough technical ideas into fully-formed designs through collaborative questioning, alternative exploration, and incremental validation. For software architecture, components, data flow, and technical design decisions. Don't use during clear 'mechanical' coding processes
+author: obra
 ---
 
 # Development Brainstorming: Ideas Into Technical Designs
