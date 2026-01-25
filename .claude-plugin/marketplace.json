@@ -163,7 +163,8 @@
         "./no-code-builder/artifacts-builder",
         "./no-code-builder/frontend-design",
         "./no-code-builder/react-best-practices",
-        "./no-code-builder/vercel-deploy-claimable"
+        "./no-code-builder/vercel-deploy-claimable",
+        "./no-code-builder/web-design-guidelines"
       ]
     },
     {
@@ -374,18 +375,6 @@
       },
       "skills": [
         "./visual-creative/theme-factory"
-      ]
-    },
-    {
-      "name": "web-design-guidelines",
-      "description": "Review UI code for Web Interface Guidelines compliance.",
-      "category": "visual-creative",
-      "author": {
-        "name": "Vercel Labs",
-        "url": "https://github.com/vercel-labs/agent-skills"
-      },
-      "skills": [
-        "./visual-creative/web-design-guidelines"
       ]
     },
     {

@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Plugins-33-blue?style=for-the-badge" alt="Plugins">
-  <img src="https://img.shields.io/badge/Skills-68-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Plugins-32-blue?style=for-the-badge" alt="Plugins">
+  <img src="https://img.shields.io/badge/Skills-61-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Version-v2.0.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
@@ -38,11 +38,11 @@ Skillbox 是一个精心整理的 Claude Code 技能合集。我们将相关的�
 
 | 类别 | 说明 | 插件数量 | 包含技能 |
 |------|------|:--------:|:--------:|
-| **零代码构建** | 不写代码也能完成前端开发、测试与自动化工作流 | 7 | 15 |
+| **零代码构建** | 不写代码也能完成前端开发、测试与自动化工作流 | 7 | 16 |
 | **办公自动化** | Word、Excel、PPT、PDF 统一处理套件 | 3 | 6 |
-| **内容流水线** | 网页采集、视频下载、AI内容创作全流程 | 6 | 17 |
+| **内容流水线** | 网页采集、视频下载、AI内容创作全流程 | 5 | 16 |
 | **沉浸式研读** | 深度阅读分析与行动转化 | 3 | 4 |
-| **视觉与创意** | 视觉设计、视频制作、Obsidian 可视化与主题美化 | 11 | 19 |
+| **视觉与创意** | 视觉设计、视频制作、Obsidian 可视化与主题美化 | 8 | 10 |
 | **品牌与营销** | 品牌规范、内部沟通与抽奖工具 | 3 | 3 |
 | **商业分析师** | 数据分析工具包、金融建模与发票识别 | 3 | 6 |
 
@@ -103,7 +103,7 @@ claude plugin add document-suite
 ## 📂 完整列表 (v2.0)
 
 <details>
-<summary>点击展开 33 个插件 / 68 个技能详细清单</summary>
+<summary>点击展开 32 个插件 / 61 个技能详细清单</summary>
 
 ### 零代码构建 (No-Code Builder)
 
@@ -115,6 +115,7 @@ claude plugin add document-suite
 - `frontend-design` - 前端界面设计
 - `react-best-practices` - React最佳实践
 - `vercel-deploy` - 部署到Vercel
+- `web-design-guidelines` - Web界面设计指南合规性检查
 
 **来源:** [Anthropic](https://github.com/anthropics/skills) | [Vercel Labs](https://github.com/vercel-labs/agent-skills)
 
@@ -292,17 +293,12 @@ claude plugin add document-suite
 
 **来源:** [Anthropic](https://github.com/anthropics/skills)
 
-#### 25. web-design-guidelines
-> 依据 Web 界面设计指南 (WIG) 审核 UI 代码合规性。
-
-**来源:** [Vercel Labs](https://github.com/vercel-labs/agent-skills)
-
-#### 26. baoyu-compress-image
+#### 25. baoyu-compress-image
 > 批量图像压缩与文件体积优化工具。
 
 **来源:** [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills)
 
-#### 27. remotion-best-practices
+#### 26. remotion-best-practices
 > Remotion 视频创作全面指南：基于 React 的视频生产、动画制作、音频处理、字幕添加及 3D 内容构建的 46 项最佳实践。
 
 **来源:** [Remotion](https://github.com/remotion-dev/skills)
@@ -311,17 +307,17 @@ claude plugin add document-suite
 
 ### 品牌与营销 (Brand Marketing)
 
-#### 28. anthropic-brand-guidelines
+#### 27. anthropic-brand-guidelines
 > 为任何 Artifact 应用 Anthropic 官方品牌配色与字体规范。
 
 **来源:** [Anthropic](https://github.com/anthropics/skills)
 
-#### 29. internal-comms
+#### 28. internal-comms
 > 助力各类内部沟通文案的撰写。
 
 **来源:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
 
-#### 30. raffle-winner-picker
+#### 29. raffle-winner-picker
 > 专为赠送、抽奖和竞赛设计的随机中奖者抽取工具。
 
 **来源:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
@@ -330,7 +326,7 @@ claude plugin add document-suite
 
 ### 商业分析师 (Business Analyst)
 
-#### 31. data-analysis-toolkit
+#### 30. data-analysis-toolkit
 > 全能数据分析工具包：包含 CSV 摘要、透视表及差异分析，提供全方位商业数据洞察。
 
 **包含技能:**
@@ -340,7 +336,7 @@ claude plugin add document-suite
 
 **来源:** [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
 
-#### 32. financial-modeling-suite
+#### 31. financial-modeling-suite
 > 专业金融建模套件：DCF 估值与 LBO 分析，完美适配投行与企业财务。
 
 **包含技能:**
@@ -349,7 +345,7 @@ claude plugin add document-suite
 
 **来源:** [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
 
-#### 33. invoice-processor
+#### 32. invoice-processor
 > 发票自动化处理：利用 AI 视觉将 PDF/图片发票提取至 Excel。
 
 **来源:** [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box)

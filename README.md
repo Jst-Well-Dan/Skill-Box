@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Plugins-33-blue?style=for-the-badge" alt="Plugins">
-  <img src="https://img.shields.io/badge/Skills-68-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Plugins-32-blue?style=for-the-badge" alt="Plugins">
+  <img src="https://img.shields.io/badge/Skills-61-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Version-v2.0.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
@@ -38,11 +38,11 @@ Skillbox is a curated collection of skills for Claude Code. We group related ski
 
 | Category | Description | Plugins | Skills |
 |------|------|:--------:|:--------:|
-| **No-Code Builder** | Web development, testing, and automation workflows without writing code. | 7 | 15 |
+| **No-Code Builder** | Web development, testing, and automation workflows without writing code. | 7 | 16 |
 | **Office Automation** | Unified processing suite for Word, Excel, PPT, and PDF. | 3 | 6 |
-| **Content Pipeline** | Full workflow for web harvesting, video downloading, and AI content creation. | 6 | 17 |
+| **Content Pipeline** | Full workflow for web harvesting, video downloading, and AI content creation. | 5 | 16 |
 | **Immersive Reading** | Deep reading analysis and action conversion. | 3 | 4 |
-| **Visual & Creative** | Visual design, video production, Obsidian visualization, and theme styling. | 11 | 19 |
+| **Visual & Creative** | Visual design, video production, Obsidian visualization, and theme styling. | 8 | 10 |
 | **Brand & Marketing** | Brand guidelines, internal communications, and raffle tools. | 3 | 3 |
 | **Business Analyst** | Data analysis toolkit, financial modeling, and invoice recognition. | 3 | 6 |
 
@@ -103,7 +103,7 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 ## 📂 Full List (v2.0)
 
 <details>
-<summary>Click to expand the detailed list of 33 plugins / 68 skills</summary>
+<summary>Click to expand the detailed list of 32 plugins / 61 skills</summary>
 
 ### No-Code Builder
 
@@ -115,6 +115,7 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 - `frontend-design` - Frontend UI design
 - `react-best-practices` - React best practices
 - `vercel-deploy` - Deployment to Vercel
+- `web-design-guidelines` - Web UI design guidelines compliance check
 
 **Source:** [Anthropic](https://github.com/anthropics/skills) | [Vercel Labs](https://github.com/vercel-labs/agent-skills)
 
@@ -292,17 +293,12 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 
 **Source:** [Anthropic](https://github.com/anthropics/skills)
 
-#### 25. web-design-guidelines
-> Review UI code for Web Interface Guidelines compliance.
-
-**Source:** [Vercel Labs](https://github.com/vercel-labs/agent-skills)
-
-#### 26. baoyu-compress-image
+#### 25. baoyu-compress-image
 > Batch compress images and optimize file sizes.
 
 **Source:** [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills)
 
-#### 27. remotion-best-practices
+#### 26. remotion-best-practices
 > Comprehensive guide for Remotion video creation: React-based video production, animations, audio, captions, 3D content, and 46 best practices.
 
 **Source:** [Remotion](https://github.com/remotion-dev/skills)
@@ -311,17 +307,17 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 
 ### Brand & Marketing
 
-#### 28. anthropic-brand-guidelines
+#### 27. anthropic-brand-guidelines
 > Applies Anthropic's official brand colors and typography to any sort of artifact.
 
 **Source:** [Anthropic](https://github.com/anthropics/skills)
 
-#### 29. internal-comms
+#### 28. internal-comms
 > Resources to help write all kinds of internal communications.
 
 **Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
 
-#### 30. raffle-winner-picker
+#### 29. raffle-winner-picker
 > Picks random winners for giveaways, raffles, and contests.
 
 **Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
@@ -330,7 +326,7 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 
 ### Business Analyst
 
-#### 31. data-analysis-toolkit
+#### 30. data-analysis-toolkit
 > Complete data analysis toolkit: CSV summarization, pivot tables, and variance analysis for comprehensive business data insights.
 
 **Included Skills:**
@@ -340,7 +336,7 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 
 **Source:** [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
 
-#### 32. financial-modeling-suite
+#### 31. financial-modeling-suite
 > Professional financial modeling suite for DCF valuation and LBO analysis. Perfect for investment banking and corporate finance.
 
 **Included Skills:**
@@ -349,7 +345,7 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 
 **Source:** [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
 
-#### 33. invoice-processor
+#### 32. invoice-processor
 > Automatically process invoices from PDFs/images to Excel using AI vision.
 
 **Source:** [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box)
