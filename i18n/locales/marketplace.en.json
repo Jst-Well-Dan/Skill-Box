@@ -1,0 +1,340 @@
+{
+  "skills": {
+    "Anthropic-brand-guidelines": {
+      "name": "Anthropic Brand Guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply."
+    },
+    "advanced-video-downloader": {
+      "name": "Advanced Video Downloader",
+      "description": "Download videos from YouTube, Bilibili, TikTok and 1000+ platforms using yt-dlp. Use when user requests video download, provides video URLs, mentions saving/downloading videos, or needs batch downloads. Supports quality selection, audio extraction, playlist downloads, and cookie-based authentication."
+    },
+    "algorithmic-art": {
+      "name": "Algorithmic Art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations."
+    },
+    "anthropic-brand-guidelines": {
+      "name": "Anthropic Brand Guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact."
+    },
+    "artifacts-builder": {
+      "name": "artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts."
+    },
+    "baoyu-article-illustrator": {
+      "name": "baoyu-article-illustrator",
+      "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style two-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\"."
+    },
+    "baoyu-comic": {
+      "name": "baoyu-comic",
+      "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\"."
+    },
+    "baoyu-compress-image": {
+      "name": "Baoyu Compress Image",
+      "description": "Batch compress images and optimize file sizes."
+    },
+    "baoyu-content-creation-suite": {
+      "name": "Baoyu Content Creation Suite",
+      "description": "Complete content creation workflow: AI image generation, multi-platform publishing (Xiaohongshu/X/WeChat), article illustrations, slide decks, comics, and infographics."
+    },
+    "baoyu-cover-image": {
+      "name": "baoyu-cover-image",
+      "description": "Generates article cover images with 4 dimensions (type, style, text, mood) and 20 hand-drawn styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", \"make cover\", or mentions \"封面图\"."
+    },
+    "baoyu-danger-gemini-web": {
+      "name": "baoyu-danger-gemini-web",
+      "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation."
+    },
+    "baoyu-danger-x-to-markdown": {
+      "name": "baoyu-danger-x-to-markdown",
+      "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion."
+    },
+    "baoyu-image-gen": {
+      "name": "baoyu-image-gen",
+      "description": "Generates images using official OpenAI and Google APIs via AI SDK. Supports text-to-image, reference images, aspect ratios, and quality presets. Use when user asks to \"generate image with API\", \"use official API for images\", \"create image with OpenAI/Google\", or needs API-based generation instead of browser-based."
+    },
+    "baoyu-infographic": {
+      "name": "baoyu-infographic",
+      "description": "Generates professional infographics with 20 layout types and 17 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", or \"可视化\"."
+    },
+    "baoyu-post-to-wechat": {
+      "name": "baoyu-post-to-wechat",
+      "description": "Posts content to WeChat Official Account (微信公众号) via Chrome CDP automation. Supports article posting (文章) with full markdown formatting and image-text posting (图文) with multiple images. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"图文/文章\"."
+    },
+    "baoyu-post-to-x": {
+      "name": "baoyu-post-to-x",
+      "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). Uses real Chrome with CDP to bypass anti-automation. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\"."
+    },
+    "baoyu-slide-deck": {
+      "name": "baoyu-slide-deck",
+      "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\"."
+    },
+    "baoyu-url-to-markdown": {
+      "name": "Baoyu Url To Markdown",
+      "description": "Convert web page content to Markdown format."
+    },
+    "baoyu-x-to-markdown": {
+      "name": "Baoyu X To Markdown",
+      "description": "Convert X (Twitter) posts to Markdown format."
+    },
+    "baoyu-xhs-images": {
+      "name": "baoyu-xhs-images",
+      "description": "Generates Xiaohongshu (Little Red Book) infographic series with 9 visual styles and 6 layouts. Breaks content into 1-10 cartoon-style images optimized for XHS engagement. Use when user mentions \"小红书图片\", \"XHS images\", \"RedNote infographics\", \"小红书种草\", or wants social media infographics for Chinese platforms."
+    },
+    "canvas-design": {
+      "name": "Canvas Design",
+      "description": "Create beautiful static visual art and posters."
+    },
+    "changelog-generator": {
+      "name": "changelog-generator",
+      "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation."
+    },
+    "content-harvester": {
+      "name": "Content Harvester",
+      "description": "Complete content harvesting: scrape webpages, download videos, and extract YouTube transcripts."
+    },
+    "content-research-writer": {
+      "name": "Content Research Writer",
+      "description": "Assists in writing high-quality content with research, citations, and section feedback."
+    },
+    "csv-data-summarizer": {
+      "name": "csv-data-summarizer",
+      "description": "Analyzes CSV files, generates summary stats, and plots quick visualizations using Python and pandas."
+    },
+    "data-analysis-toolkit": {
+      "name": "Data Analysis Toolkit",
+      "description": "Complete data analysis toolkit: CSV summarization, pivot tables, and variance analysis for comprehensive business data insights."
+    },
+    "deep-reading": {
+      "name": "Deep Reading",
+      "description": "Deep reading collaborative system using multi-layered AI agents to help transform articles from 'read' to 'understood' to 'mastered', with actionable plans."
+    },
+    "deep-reading-analyst-skill": {
+      "name": "deep-reading-analyst",
+      "description": "Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (McKinsey Communication Framework, Comprehensive Task Checklist, Critical Thinking, Inversion Thinking, Systems Thinking)."
+    },
+    "dev-workflow": {
+      "name": "Dev Workflow",
+      "description": "Streamline development: brainstorm features, push changes, and auto-generate changelogs."
+    },
+    "developer-growth-analysis": {
+      "name": "Developer Growth Analysis",
+      "description": "Identify coding patterns and growth areas from chat history."
+    },
+    "development-brainstorming": {
+      "name": "Development Brainstorming",
+      "description": "Use when planning software development tasks, before writing code or implementation plans - refines rough technical ideas into fully-formed designs through collaborative questioning, alternative exploration, and incremental validation. For software architecture, components, data flow, and technical design decisions. Don't use during clear 'mechanical' coding processes"
+    },
+    "document-skills-docx": {
+      "name": "docx",
+      "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks\""
+    },
+    "document-skills-pdf": {
+      "name": "pdf",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
+    },
+    "document-skills-pptx": {
+      "name": "pptx",
+      "description": "\"Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks\""
+    },
+    "document-skills-xlsx": {
+      "name": "xlsx",
+      "description": "\"Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas\""
+    },
+    "document-suite": {
+      "name": "Document Suite",
+      "description": "Complete office document toolkit: create, edit, and analyze Word, Excel, PowerPoint, and PDF."
+    },
+    "docx": {
+      "name": "Docx",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
+    },
+    "excalidraw-diagram": {
+      "name": "excalidraw-diagram",
+      "description": "Generate Excalidraw diagrams from text content for Obsidian. Use when user asks to create diagrams, flowcharts, mind maps, or visual representations in Excalidraw format. Triggers on \"Excalidraw\", \"画图\", \"流程图\", \"思维导图\", \"可视化\", \"diagram\"."
+    },
+    "excel-dcf-modeler": {
+      "name": "excel-dcf-modeler",
+      "description": "|"
+    },
+    "excel-lbo-modeler": {
+      "name": "excel-lbo-modeler",
+      "description": "|"
+    },
+    "excel-pivot-wizard": {
+      "name": "excel-pivot-wizard",
+      "description": "|"
+    },
+    "excel-variance-analyzer": {
+      "name": "excel-variance-analyzer",
+      "description": "|"
+    },
+    "family-history-planning": {
+      "name": "Family History Planning",
+      "description": "Provides assistance with planning family history and genealogy research projects."
+    },
+    "family-history-research": {
+      "name": "Family History Research",
+      "description": "Assistance with planning family history and genealogy research projects."
+    },
+    "file-organizer": {
+      "name": "File Organizer",
+      "description": "Intelligently organizes files and folders by understanding context."
+    },
+    "financial-modeling-suite": {
+      "name": "Financial Modeling Suite",
+      "description": "Professional financial modeling suite for DCF valuation and LBO analysis. Perfect for investment banking and corporate finance."
+    },
+    "frontend-builder": {
+      "name": "Frontend Builder",
+      "description": "End-to-end frontend development: design interfaces, build artifacts, follow best practices, and deploy."
+    },
+    "frontend-design": {
+      "name": "Frontend Design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics."
+    },
+    "git-pushing": {
+      "name": "git-pushing",
+      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests."
+    },
+    "image-enhancer": {
+      "name": "Image Enhancer",
+      "description": "Improves quality of images/screenshots by enhancing resolution and clarity."
+    },
+    "internal-comms": {
+      "name": "Internal Comms",
+      "description": "Resources to help write all kinds of internal communications."
+    },
+    "invoice-processor": {
+      "name": "Invoice Processor",
+      "description": "Automatically process invoices (发票) from PDFs/images to Excel spreadsheets using AI vision recognition. Use this skill when users mention \"发票\", \"invoice\", \"处理发票\", \"识别发票\", \"提取发票\", or need to convert invoice files to Excel format."
+    },
+    "markdown-to-epub-converter": {
+      "name": "Markdown To Epub Converter",
+      "description": "Convert markdown documents and chat summaries into EPUB ebook files."
+    },
+    "mcp-builder": {
+      "name": "Mcp Builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers."
+    },
+    "mermaid-visualizer": {
+      "name": "mermaid-visualizer",
+      "description": "Transform text content into professional Mermaid diagrams for presentations and documentation. Use when users ask to visualize concepts, create flowcharts, or make diagrams from text. Supports process flows, system architectures, comparisons, mindmaps, and more with built-in syntax error prevention."
+    },
+    "notebooklm": {
+      "name": "Notebooklm",
+      "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses."
+    },
+    "notebooklm-integration": {
+      "name": "Notebooklm Integration",
+      "description": "Query Google NotebookLM notebooks for source-grounded answers."
+    },
+    "obsidian-canvas-creator": {
+      "name": "obsidian-canvas-creator",
+      "description": "Create Obsidian Canvas files from text content, supporting both MindMap and freeform layouts. Use this skill when users want to visualize content as an interactive canvas, create mind maps, or organize information spatially in Obsidian format."
+    },
+    "obsidian-visual-suite": {
+      "name": "Obsidian Visual Suite",
+      "description": "Complete visualization toolkit for Obsidian: Excalidraw, Mermaid, and Canvas."
+    },
+    "pdf": {
+      "name": "Pdf",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
+    },
+    "pict-test-designer": {
+      "name": "Pict Test Designer",
+      "description": "Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any piece of requirements or code. Analyzes inputs, generates PICT models with parameters, values, and constraints for valid scenarios using pairwise testing. Outputs the PICT model, markdown table of test cases, and expected results."
+    },
+    "pptx": {
+      "name": "Pptx",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
+    },
+    "pypict-claude-skill": {
+      "name": "pict-test-designer",
+      "description": "Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any piece of requirements or code. Analyzes inputs, generates PICT models with parameters, values, and constraints for valid scenarios using pairwise testing. Outputs the PICT model, markdown table of test cases, and expected results."
+    },
+    "raffle-winner-picker": {
+      "name": "Raffle Winner Picker",
+      "description": "Picks random winners for giveaways, raffles, and contests."
+    },
+    "react-best-practices": {
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
+    },
+    "reading-to-action": {
+      "name": "Reading To Action",
+      "description": "Transform reading into results: deep multi-model analysis and actionable learning pathways."
+    },
+    "remotion": {
+      "name": "remotion-best-practices",
+      "description": "Best practices for Remotion - Video creation in React"
+    },
+    "remotion-best-practices": {
+      "name": "Remotion Best Practices",
+      "description": "Comprehensive guide for Remotion video creation: React-based video production, animations, audio, captions, 3D content, and 46 best practices."
+    },
+    "ship-learn-next": {
+      "name": "ship-learn-next",
+      "description": "Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content into concrete action steps, reps, or a learning quest."
+    },
+    "skill-creator": {
+      "name": "Skill Creator",
+      "description": "Guide for creating and updating effective Claude skills."
+    },
+    "slack-gif-creator": {
+      "name": "Slack Gif Creator",
+      "description": "Toolkit for creating animated GIFs optimized for Slack."
+    },
+    "terminal-title": {
+      "name": "Terminal Title",
+      "description": "Automatically updates terminal window title based on current task."
+    },
+    "test-driven-development": {
+      "name": "test-driven-development",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first"
+    },
+    "test-fixing": {
+      "name": "test-fixing",
+      "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass."
+    },
+    "testing-toolkit": {
+      "name": "Testing Toolkit",
+      "description": "Complete testing toolkit: PICT design, TDD methodology, automated test fixing, and E2E testing."
+    },
+    "theme-factory": {
+      "name": "Theme Factory",
+      "description": "Toolkit for styling artifacts with preset or on-the-fly themes."
+    },
+    "vercel-deploy": {
+      "name": "Vercel Deploy",
+      "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link."
+    },
+    "vercel-deploy-claimable": {
+      "name": "vercel-deploy",
+      "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link."
+    },
+    "vercel-react-best-practices": {
+      "name": "Vercel React Best Practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
+    },
+    "web-design-guidelines": {
+      "name": "Web Design Guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
+    },
+    "web-fetch": {
+      "name": "Web Fetch",
+      "description": "Use this skill when users want to scrape web content and convert it to clean Markdown. Handles workflows like \"Save this webpage as markdown\", \"Fetch this article\", or \"抓取网页内容\". Supports crawl4ai for general web scraping and specialized WeChat (微信公众号) article fetching."
+    },
+    "webapp-testing": {
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+    },
+    "xlsx": {
+      "name": "Xlsx",
+      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
+    },
+    "youtube-transcript": {
+      "name": "youtube-transcript",
+      "description": "Download YouTube video transcripts when user provides a YouTube URL or asks to download/get/fetch a transcript from YouTube. Also use when user wants to transcribe or get captions/subtitles from a YouTube video."
+    }
+  }
+}

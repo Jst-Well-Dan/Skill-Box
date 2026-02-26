@@ -9,6 +9,7 @@
 !/no-code-builder/
 !/office-automation/
 !/visual-creative/
+!/i18n/
 
 # Keep marketplace.json
 !/.claude-plugin/

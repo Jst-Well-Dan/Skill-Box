@@ -1,0 +1,412 @@
+{
+  "skills": {
+    "Anthropic-brand-guidelines": {
+      "name": "Anthropic品牌指南",
+      "description": "将Anthropic的官方品牌颜色和字体应用于可能受益于Anthropic外观和感觉的任何艺术品。当需要品牌颜色或风格指南、视觉格式化或公司设计标准时使用。"
+    },
+    "advanced-video-downloader": {
+      "name": "高级视频下载器",
+      "description": "使用yt-dlp从YouTube、Bilibili、TikTok等1000多个平台下载视频。当用户请求视频下载、提供视频URL、提及保存/下载视频或需要批量下载时使用。支持质量选择、音频提取、播放列表下载和基于cookie的认证。"
+    },
+    "algorithmic-art": {
+      "name": "算法艺术",
+      "description": "使用 p5.js 通过种子随机性和交互式参数探索创建算法艺术。当用户请求使用代码创作艺术、生成艺术、算法艺术、流场或粒子系统时使用。创建原创算法艺术而不是复制现有艺术家的作品以避免版权侵犯。"
+    },
+    "anthropic-brand-guidelines": {
+      "name": "Anthropic品牌指南",
+      "description": "将Anthropic的官方品牌色彩和字体应用于任何类型的物品。"
+    },
+    "article-extractor": {
+      "name": "文章提取器",
+      "description": "从 URL 提取干净的文章内容（博客文章、文章、教程）并保存为可读文本。当用户想要从 URL 下载、提取或保存文章/博客文章时使用，无需广告、导航或杂乱信息。"
+    },
+    "artifacts-builder": {
+      "name": "Artifact 构建器",
+      "description": "使用 modern 前端技术（包括 React、Tailwind CSS 和 shadcn/ui）构建精美的多组件 Claude.ai HTML artifacts。"
+    },
+    "baoyu-article-illustrator": {
+      "name": "文章插图助手",
+      "description": "分析文章结构，识别需添加视觉辅助的段落，采用类型×风格二维方法生成插图。适用于用户请求“为文章配图”、“添加图片”、“为文章生成图片”等情况。"
+    },
+    "baoyu-comic": {
+      "name": "知识漫画创作",
+      "description": "知识漫画创作者，支持多种艺术风格和语气。创作原创教育漫画，包含详细的分镜布局和连续图像生成。适用于用户请求创建“知识漫画”、“教育漫画”、“传记漫画”、“教程漫画”或“Logicomix风格漫画”。"
+    },
+    "baoyu-compress-image": {
+      "name": "图片批量压缩",
+      "description": "批量压缩图片并优化文件大小。"
+    },
+    "baoyu-content-creation-suite": {
+      "name": "宝玉内容创作套件",
+      "description": "完整内容创作流程：AI图像生成、多平台发布（小红书/X/微信）、文章插图、演示文稿、漫画和图表。"
+    },
+    "baoyu-cover-image": {
+      "name": "文章封面图生成",
+      "description": "生成具有4个维度（类型、风格、文本、情绪）和20种手绘风格的文章封面图。支持电影（2.35:1）、宽屏（16:9）和方形（1:1）画幅。在用户请求“生成封面图”、“创建文章封面”、“制作封面”或提及“封面图”时使用。"
+    },
+    "baoyu-danger-gemini-web": {
+      "name": "Gemini Web 图片生成",
+      "description": "通过逆向工程Gemini Web API生成图像和文本。支持文本生成、根据提示生成图像、视觉输入的参考图像以及多轮对话。适用于其他技能需要图像生成后端支持时，或用户请求“使用Gemini生成图像”、“Gemini文本生成”或需要具备视觉能力的AI生成时使用。"
+    },
+    "baoyu-danger-x-to-markdown": {
+      "name": "X/Twitter 内容提取",
+      "description": "将X（Twitter）推文和文章转换为Markdown格式，并带有YAML前置信息。使用逆向工程API，需用户同意。当用户提及“X转换为Markdown”、“推文转换为Markdown”、“保存推文”或提供x.com/twitter.com URL进行转换时使用。"
+    },
+    "baoyu-image-gen": {
+      "name": "AI 图像生成",
+      "description": "通过AI SDK使用官方OpenAI和Google API生成图像。支持文本转图像、参考图像、长宽比和画质预设。适用于用户请求“使用API生成图像”、“使用官方API进行图像处理”、“用OpenAI/Google创建图像”或需要基于API的生成而非基于浏览器的生成时使用。"
+    },
+    "baoyu-infographic": {
+      "name": "专业信息图生成",
+      "description": "生成包含20种布局和17种视觉风格的职业级信息图。分析内容，推荐布局与风格的组合，并生成可直接发布的精美信息图。适用于用户请求创建“信息图”、“信息图”、“视觉摘要”或“可视化”时使用。"
+    },
+    "baoyu-post-to-wechat": {
+      "name": "微信公众号发布",
+      "description": "通过Chrome CDP自动化将内容发布至微信公众号。支持全文markdown格式文章发布和图文发布（含多图）。当用户提及“发布公众号”、“post to wechat”、“微信公众号”或“图文/文章”时使用。"
+    },
+    "baoyu-post-to-x": {
+      "name": "X/Twitter 发布助手",
+      "description": "将内容文章发布至X（Twitter）。支持带图片/视频的常规帖子以及X Articles（长篇Markdown格式）。利用真实的Chrome浏览器与CDP技术绕过反自动化检测。在用户请求“发布至X”、“推文”、“发布到Twitter”或“在X上分享”时使用。"
+    },
+    "baoyu-slide-deck": {
+      "name": "专业幻灯片制作",
+      "description": "从内容生成专业幻灯片图像。根据风格指南创建大纲，然后生成单个幻灯片图像。适用于用户请求“创建幻灯片”、“制作演示文稿”、“生成演示文稿”、“幻灯片演示文稿”或“PPT”时使用。"
+    },
+    "baoyu-url-to-markdown": {
+      "name": "网页内容提取",
+      "description": "将网页内容转换为 Markdown 格式。"
+    },
+    "baoyu-x-to-markdown": {
+      "name": "Twitter 帖子提取",
+      "description": "将推特帖子转换为Markdown格式。"
+    },
+    "baoyu-xhs-images": {
+      "name": "小红书插图系列",
+      "description": "Claude 可生成9种视觉风格和6种布局的小红书（小红书）信息图表系列。将内容分解为1-10张卡通风格图像，专为小红书互动优化。当用户提及“小红书图片”、“XHS图片”、“红笔记信息图表”、“小红书种草”或希望获得适用于中国平台的社会媒体信息图表时使用。"
+    },
+    "brainstorming": {
+      "name": "头脑风暴",
+      "description": "在创建或开发时使用，在编写代码或实施计划之前 - 通过协作提问、替代方案探索和增量验证，将粗略的想法完善为成熟的设计。不要在明确的'机械'过程中使用。"
+    },
+    "brand-guidelines": {
+      "name": "品牌指南",
+      "description": "将 Anthropic 的官方品牌颜色和排版应用到 artifacts，以实现一致的视觉识别和专业的设计标准。"
+    },
+    "canvas-design": {
+      "name": "画布设计",
+      "description": "使用设计理念和美学原则在 PNG 和 PDF 文档中创建精美的视觉艺术，适用于海报、设计和静态作品。"
+    },
+    "changelog-generator": {
+      "name": "变更日志生成器",
+      "description": "通过分析历史记录并将技术提交转换为用户友好的发布说明，自动创建面向用户的变更日志。"
+    },
+    "competitive-ads-extractor": {
+      "name": "竞品广告提取器",
+      "description": "从广告库中提取和分析竞争对手的广告，以了解引起共鸣的信息传递和创意方法。"
+    },
+    "content-harvester": {
+      "name": "内容采集器",
+      "description": "全面内容采集：抓取网页、下载视频和提取YouTube字幕。"
+    },
+    "content-research-writer": {
+      "name": "内容研究写作助手",
+      "description": "通过进行研究、添加引用、改进钩子并提供逐段反馈来协助撰写高质量内容。"
+    },
+    "csv-data-summarizer": {
+      "name": "CSV 数据汇总器",
+      "description": "分析 CSV 文件，生成汇总统计信息，并使用 Python 和 pandas 绘制快速可视化。"
+    },
+    "d3js-visualization": {
+      "name": "D3.js 可视化",
+      "description": "使用 d3.js 创建交互式数据可视化。当创建自定义图表、图形、网络图、地理可视化或任何需要对视觉元素、过渡或交互进行细粒度控制的复杂基于 SVG 的数据可视化时，应使用此技能。用于超越标准图表库的定制可视化，无论是在 React、Vue、Svelte、原生 JavaScript 还是任何其他环境中。"
+    },
+    "data-analysis-toolkit": {
+      "name": "数据分析工具",
+      "description": "全面数据分析工具包：提供CSV汇总、数据透视表和方差分析，助力深入洞察企业数据。"
+    },
+    "deep-reading": {
+      "name": "深度阅读",
+      "description": "深度阅读协作系统，采用多层人工智能代理，助力将文章从“阅读”转变为“理解”，进而达到“精通”，并提供可执行的计划。适用于用户需要深入理解复杂文章/论文、系统整理阅读笔记、批判性思考内容、发现隐藏的逻辑问题和假设，或将知识转化为行动计划时使用。触发关键词：深度阅读、批判性思维、阅读笔记、文章分析、苏格拉底提问、行动计划。"
+    },
+    "deep-reading-analyst": {
+      "name": "深度阅读分析器",
+      "description": "使用5种经过验证的思维模型（麦肯锡沟通框架、全面任务清单、批判性思维、逆向思维、系统思维）对文章、论文和长篇内容进行系统分析的分析框架。"
+    },
+    "deep-reading-analyst-skill": {
+      "name": "深度阅读分析",
+      "description": "系统分析框架，适用于文章、论文和长篇内容，采用五种经过验证的思维模型（麦肯锡沟通框架、全面任务清单、批判性思维、逆向思维、系统思维）。"
+    },
+    "dev-workflow": {
+      "name": "开发流程",
+      "description": "简化开发流程：头脑风暴功能，推进变更，自动生成变更日志。"
+    },
+    "developer-growth-analysis": {
+      "name": "开发者成长分析",
+      "description": "分析您最近的 Claude Code 聊天历史，以识别编码模式、开发差距和改进领域，从 HackerNews 策划相关学习资源，并自动向您的 Slack DM 发送个性化成长报告。"
+    },
+    "development-brainstorming": {
+      "name": "开发头脑风暴",
+      "description": "在编写代码或实施计划之前，规划软件开发任务时使用。通过协作提问、替代探索和逐步验证，将粗糙的技术想法精炼成完整的设计。适用于软件架构、组件、数据流和技术设计决策。不要在明确的'机械'编码过程中使用。"
+    },
+    "document-skills-docx": {
+      "name": "Word 文档技能",
+      "description": "使用 DOCX 格式处理 Microsoft Word 文档的技能，包括创建、编辑和格式化。"
+    },
+    "document-skills-pdf": {
+      "name": "PDF 文档技能",
+      "description": "处理 PDF 文档的技能，包括创建、编辑、表单和高级 PDF 操作。"
+    },
+    "document-skills-pptx": {
+      "name": "PowerPoint 演示技能",
+      "description": "使用 PPTX 格式处理 PowerPoint 演示文稿的技能，包括创建、编辑和格式化。"
+    },
+    "document-skills-xlsx": {
+      "name": "Excel 表格技能",
+      "description": "处理 Excel 电子表格的技能，包括创建、编辑、公式和数据操作。"
+    },
+    "document-suite": {
+      "name": "文档套件",
+      "description": "完整的办公文档工具包：创建、编辑和分析Word、Excel、PowerPoint和PDF文档。"
+    },
+    "docx": {
+      "name": "Word 文档处理",
+      "description": "全面的文档创建、编辑和分析功能，支持修订追踪、批注、格式保留和文本提取。当 Claude 需要处理专业文档（.docx 文件）时使用，包括：(1) 创建新文档，(2) 修改或编辑内容，(3) 处理修订追踪，(4) 添加批注，或其他任何文档任务。"
+    },
+    "domain-name-brainstormer": {
+      "name": "域名头脑风暴器",
+      "description": "生成创意域名想法，并检查多个 TLD（包括 .com、.io、.dev 和 .ai 扩展名）的可用性。"
+    },
+    "excalidraw-diagram": {
+      "name": "Excalidraw 绘图助手",
+      "description": "从文本内容为 Obsidian 生成 Excalidraw 图表。适用于创建流程图、思维导图或各种可视化表示。"
+    },
+    "excel-dcf-modeler": {
+      "name": "Excel DCF 估值建模",
+      "description": "在 Excel 中构建现金流折现 (DCF) 估值模型。用于创建 DCF 模型、计算企业价值或评估公司价值。支持 'excel dcf'、'构建 dcf 模型' 等指令。"
+    },
+    "excel-lbo-modeler": {
+      "name": "Excel LBO 杠杆收购建模",
+      "description": "在 Excel 中构建包含债务偿还计划和内部收益率 (IRR) 分析的杠杆收购 (LBO) 模型。用于构建 LBO 交易结构或分析私募股权回报。"
+    },
+    "excel-pivot-wizard": {
+      "name": "Excel 透视表向导",
+      "description": "创建带有计算字段和切片器的高级 Excel 数据透视表。用于构建数据摘要 or 创建交互式仪表板。"
+    },
+    "excel-variance-analyzer": {
+      "name": "Excel 差异分析器",
+      "description": "在 Excel 中对预算与实际差异进行分析，支持钻取和根本原因分析。用于执行差异分析或解释预算差异。"
+    },
+    "family-history-planning": {
+      "name": "家族史研究规划",
+      "description": "提供家族史和家谱研究项目规划方面的协助，帮助您追溯家族历史和血统关系。"
+    },
+    "family-history-research": {
+      "name": "家族史研究",
+      "description": "提供家族史和家谱研究项目规划方面的协助。"
+    },
+    "file-organizer": {
+      "name": "文件整理器",
+      "description": "通过理解上下文、查找重复项并建议更好的组织结构来智能地组织文件和文件夹。"
+    },
+    "financial-modeling-suite": {
+      "name": "财务建模套件",
+      "description": "专业DCF估值和LBO分析财务建模套件。适用于投资银行和公司金融。"
+    },
+    "finishing-a-development-branch": {
+      "name": "完成开发分支",
+      "description": "当实施完成、所有测试通过并且您需要决定如何集成工作时使用 - 通过呈现合并、PR 或清理的结构化选项来指导完成开发工作。"
+    },
+    "frontend-builder": {
+      "name": "前端构建器",
+      "description": "端到端前端开发：设计界面、构建工件、遵循最佳实践和部署。"
+    },
+    "frontend-design": {
+      "name": "前端设计",
+      "description": "创建独特的、生产级前端界面，具有高设计质量。当用户要求构建 Web 组件、页面或应用程序时使用此技能。生成富有创意、精致的代码，避免通用的 AI 美学。"
+    },
+    "git-pushing": {
+      "name": "Git 推送",
+      "description": "使用常规提交消息暂存、提交和推送 git 更改。当用户想要提交和推送更改、提到推送到远程或要求保存和推送他们的工作时使用。"
+    },
+    "image-enhancer": {
+      "name": "图像增强器",
+      "description": "通过增强分辨率、清晰度和清晰度来提高图像和截图质量，用于专业演示和文档。"
+    },
+    "internal-comms": {
+      "name": "内部通讯",
+      "description": "帮助撰写内部通讯，包括 3P 更新、公司新闻通讯、常见问题解答、状态报告和使用公司特定格式的项目更新。"
+    },
+    "invoice-organizer": {
+      "name": "发票整理器",
+      "description": "通过读取文件、提取信息并一致地重命名，自动整理发票和收据以进行税务准备。"
+    },
+    "invoice-processor": {
+      "name": "发票处理器",
+      "description": "自动处理PDFs/images中的发票，将其转换为Excel表格，利用AI视觉识别技术。当用户提及“发票”、“发票处理”、“识别发票”、“提取发票”或需要将发票文件转换为Excel格式时，可使用此技能。"
+    },
+    "lead-research-assistant": {
+      "name": "潜在客户研究助手",
+      "description": "通过分析您的产品、搜索目标公司并提供可操作的外展策略来识别和筛选高质量潜在客户。"
+    },
+    "markdown-to-epub-converter": {
+      "name": "Markdown 转 EPUB 转换器",
+      "description": "将 markdown 文档和聊天摘要转换为格式化的 EPUB 电子书文件，可以在任何设备上阅读或上传到 Kindle。"
+    },
+    "mcp-builder": {
+      "name": "MCP 构建器",
+      "description": "指导使用 Python 或 TypeScript 创建高质量的 MCP（模型上下文协议）服务器，以将外部 API 和服务与 LLM 集成。"
+    },
+    "meeting-insights-analyzer": {
+      "name": "会议洞察分析器",
+      "description": "分析会议记录以揭示行为模式，包括冲突避免、发言比率、填充词和领导风格。"
+    },
+    "mermaid-visualizer": {
+      "name": "Mermaid 可视化器",
+      "description": "将文本内容转换为专业的 Mermaid 图表，用于演示和文档。支持流程图、系统架构、思维导图等，内置语法错误预防。"
+    },
+    "move-code-quality-skill": {
+      "name": "Move 代码质量技能",
+      "description": "根据官方 Move Book 代码质量检查表分析 Move 语言包。在审查 Move 代码、检查 Move 2024 Edition 合规性或分析 Move 包的最佳实践时使用此技能。"
+    },
+    "notebooklm": {
+      "name": "NotebookLM 集成",
+      "description": "使用此技能直接从 Claude Code 查询您的 Google NotebookLM 笔记本，获取来自 Gemini 的基于来源、有引用支持的答案。支持浏览器自动化、笔记本库管理和持久认证。通过仅基于文档的响应大幅减少幻觉问题。"
+    },
+    "notebooklm-integration": {
+      "name": "NotebookLM 集成",
+      "description": "使用此技能直接从 Claude Code 查询您的 Google NotebookLM 笔记本，以获得来自 Gemini 的基于来源、有引用支持的答案。"
+    },
+    "obsidian-canvas-creator": {
+      "name": "Obsidian Canvas 画布创建器",
+      "description": "从文本内容创建 Obsidian Canvas 文件，支持思维导图和自由布局。适用于将内容可视化为交互式画布或空间化组织信息。"
+    },
+    "obsidian-visual-suite": {
+      "name": "Obsidian绘图套件",
+      "description": "Obsidian 完整可视化工具包：Excalidraw、Mermaid 和 Canvas。"
+    },
+    "pdf": {
+      "name": "PDF 文档处理",
+      "description": "全面的 PDF 操作工具包，支持提取文本和表格、创建新 PDF、合并/拆分文档以及处理表单。当 Claude 需要填写 PDF 表单或以编程方式批量处理、生成或分析 PDF 文档时使用。"
+    },
+    "pict-test-designer": {
+      "name": "PICT 测试用例设计器",
+      "description": "使用 PICT（成对独立组合测试）为任何需求或代码设计全面的测试用例。分析输入参数，使用成对测试生成带有参数、值和有效场景约束的 PICT 模型。输出 PICT 模型、测试用例的 Markdown 表格和预期结果。"
+    },
+    "pptx": {
+      "name": "PPT 演示文稿处理",
+      "description": "演示文稿的创建、编辑和分析功能。当 Claude 需要处理演示文稿（.pptx 文件）时使用，包括：(1) 创建新演示文稿，(2) 修改或编辑内容，(3) 处理布局，(4) 添加批注或演讲者备注，或其他任何演示文稿任务。"
+    },
+    "pypict-claude-skill": {
+      "name": "PyPICT 测试技能",
+      "description": "使用 PICT（成对独立组合测试）为任何需求或代码设计全面的测试用例。分析输入，生成带有参数、值和有效场景约束 of PICT 模型。"
+    },
+    "raffle-winner-picker": {
+      "name": "抽奖助手",
+      "description": "使用加密安全的随机性从列表、电子表格或 Google Sheets 中随机选择赠品和竞赛的获胜者。"
+    },
+    "react-best-practices": {
+      "name": "Vercel React 优实践",
+      "description": "Vercel 工程团队提供的 React 和 Next.js 性能优化指南。该技能适用于编写、审查或重构 React/Next.js 代码时，以确保最佳的性能模式。在涉及 React 组件、Next.js 页面、数据获取、包优化或性能改进的任务中触发。"
+    },
+    "reading-to-action": {
+      "name": "阅读行动",
+      "description": "将阅读转化为成果：深度多模型分析和可执行的学习路径。"
+    },
+    "remotion": {
+      "name": "动作优化",
+      "description": "最佳实践：Remotion - 基于React的视频制作"
+    },
+    "remotion-best-practices": {
+      "name": "Remotion 最佳实践",
+      "description": "全面指南：Remotion视频制作，基于React的视频制作、动画、音频、字幕、3D内容及46项最佳实践。"
+    },
+    "review-implementing": {
+      "name": "审查实施",
+      "description": "系统地处理和实施代码审查反馈。当用户提供审查者评论、PR 反馈、代码审查笔记或要求实施审查建议时使用。"
+    },
+    "root-cause-tracing": {
+      "name": "根因追踪",
+      "description": "当错误在执行深处发生并且您需要追溯以找到原始触发器时使用 - 通过调用堆栈向后系统地追踪错误。"
+    },
+    "ship-learn-next": {
+      "name": "发布-学习-下一步",
+      "description": "使用 Ship-Learn-Next 框架将学习内容（如 YouTube 转录、文章、教程）转化为可操作的实施计划。"
+    },
+    "skill-creator": {
+      "name": "技能创建器",
+      "description": "为创建有效的 Claude 技能提供指导，通过专业知识、工作流程和工具集成扩展功能。"
+    },
+    "slack-gif-creator": {
+      "name": "Slack GIF 创建器",
+      "description": "创建针对 Slack 优化的动画 GIF，具有大小约束验证器和可组合的动画原语。"
+    },
+    "tapestry": {
+      "name": "Tapestry 内容提取",
+      "description": "统一的内容提取和行动规划。自动检测内容类型（YouTube 视频、文章、PDF）并相应处理。"
+    },
+    "template-skill": {
+      "name": "模板技能",
+      "description": "演示创建新 Claude 技能的结构和格式的模板技能。"
+    },
+    "terminal-title": {
+      "name": "终端标题",
+      "description": "自动更新终端窗口标题以反映当前的高级任务。帮助开发人员管理多个 Claude Code 终端。"
+    },
+    "test-driven-development": {
+      "name": "测试驱动开发",
+      "description": "在实施任何功能或错误修复时使用，在编写实施代码之前 - 首先编写测试，观察它失败，编写最少的代码使其通过。"
+    },
+    "test-fixing": {
+      "name": "测试修复",
+      "description": "使用智能错误分组运行测试并系统地修复所有失败的测试。"
+    },
+    "testing-toolkit": {
+      "name": "测试工具集",
+      "description": "完整的测试工具包：PICT 设计、TDD 方法论、自动化测试修复和端到端测试。"
+    },
+    "theme-factory": {
+      "name": "主题工厂",
+      "description": "将专业字体和颜色主题应用于 artifacts，包括幻灯片、文档、报告和 HTML 登录页面，提供 10 个预设主题。"
+    },
+    "using-git-worktrees": {
+      "name": "使用 Git Worktrees",
+      "description": "在开始需要与当前工作区隔离的功能工作或执行实施计划之前使用 - 创建具有智能目录选择和安全验证的隔离 git worktrees。"
+    },
+    "vercel-deploy": {
+      "name": "Vercel 部署",
+      "description": "将应用程序和网站部署到 Vercel。当用户请求部署操作时使用此技能，例如\\\"部署我的应用\\\"、\\\"部署到生产环境\\\"、\\\"创建预览部署\\\"、\\\"部署并给我链接\\\"或\\\"上线发布\\\"。无需身份验证 - 返回预览 URL 和可认领的部署链接。"
+    },
+    "vercel-deploy-claimable": {
+      "name": "Vercel部署",
+      "description": "部署应用和网站至 Vercel。在用户请求部署操作，如“部署我的应用”、“将此部署至生产环境”、“创建预览部署”、“部署并提供链接”或“推送到线上”时使用此技能。无需身份验证 - 返回预览 URL 和可认领的部署链接。"
+    },
+    "vercel-react-best-practices": {
+      "name": "Vercel React 最佳实践",
+      "description": "来自 Vercel 工程团队的 React 和 Next.js 性能优化指南。在编写、审查或重构 React/Next.js 代码时使用此技能，以确保最佳性能模式。适用于涉及 React 组件、Next.js 页面、数据获取、打包优化或性能改进的任务。"
+    },
+    "video-downloader": {
+      "name": "视频下载器",
+      "description": "从 YouTube 和其他平台下载视频以供离线观看、编辑或存档，支持各种格式和质量选项。"
+    },
+    "web-design-guidelines": {
+      "name": "Web 设计指南",
+      "description": "审查 UI 代码是否符合 Web 界面设计指南。当被要求\\\"审查我的 UI\\\"、\\\"检查可访问性\\\"、\\\"审计设计\\\"、\\\"审查用户体验\\\"或\\\"根据最佳实践检查我的网站\\\"时使用。"
+    },
+    "web-fetch": {
+      "name": "网页内容抓取",
+      "description": "当用户想要抓取网页内容并将其转换为干净的 Markdown 时使用此技能。处理诸如「将此网页保存为 Markdown」、「获取这篇文章」或「抓取网页内容」等工作流程。支持使用 crawl4ai 进行通用网页抓取，以及专门的微信公众号文章获取。"
+    },
+    "webapp-testing": {
+      "name": "Web 应用测试",
+      "description": "使用 Playwright 测试本地 Web 应用程序，以验证前端功能、调试 UI 行为和捕获屏幕截图。"
+    },
+    "xlsx": {
+      "name": "Excel 表格处理",
+      "description": "全面的电子表格创建、编辑和分析功能，支持公式、格式设置、数据分析和可视化。当 Claude 需要处理电子表格（.xlsx、.xlsm、.csv、.tsv 等）时使用，包括：(1) 创建带有公式和格式的新电子表格，(2) 读取或分析数据，(3) 在保留公式的同时修改现有电子表格，(4) 在电子表格中进行数据分析和可视化，或 (5) 重新计算公式。"
+    },
+    "youtube-transcript": {
+      "name": "YouTube 转录",
+      "description": "下载 YouTube 视频转录时用户提供 YouTube URL 或要求从 YouTube 下载/获取/提取转录。"
+    }
+  }
+}
