@@ -444,6 +444,18 @@
       "skills": [
         "./visual-creative/remotion"
       ]
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "description": "Postgres performance optimization and best practices from Supabase: query performance, schema design, connection management, and security.",
+      "category": "no-code-builder",
+      "author": {
+        "name": "Supabase",
+        "url": "https://github.com/supabase/agent-skills"
+      },
+      "skills": [
+        "./no-code-builder/supabase-postgres-best-practices"
+      ]
     }
   ]
 }

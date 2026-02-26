@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Plugins-32-blue?style=for-the-badge" alt="Plugins">
-  <img src="https://img.shields.io/badge/Skills-61-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Plugins-33-blue?style=for-the-badge" alt="Plugins">
+  <img src="https://img.shields.io/badge/Skills-62-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Version-v2.0.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
@@ -38,7 +38,7 @@ Skillbox 是一个精心整理的 Claude Code 技能合集。我们将相关的�
 
 | 类别 | 说明 | 插件数量 | 包含技能 |
 |------|------|:--------:|:--------:|
-| **零代码构建** | 不写代码也能完成前端开发、测试与自动化工作流 | 7 | 16 |
+| **零代码构建** | 不写代码也能完成前端开发、测试与自动化工作流 | 8 | 17 |
 | **办公自动化** | Word、Excel、PPT、PDF 统一处理套件 | 3 | 6 |
 | **内容流水线** | 网页采集、视频下载、AI内容创作全流程 | 5 | 16 |
 | **沉浸式研读** | 深度阅读分析与行动转化 | 3 | 4 |
@@ -103,7 +103,7 @@ claude plugin add document-suite
 ## 📂 完整列表 (v2.0)
 
 <details>
-<summary>点击展开 32 个插件 / 61 个技能详细清单</summary>
+<summary>点击展开 33 个插件 / 62 个技能详细清单</summary>
 
 ### 零代码构建 (No-Code Builder)
 
@@ -159,6 +159,11 @@ claude plugin add document-suite
 > 根据当前执行的任务，自动更新终端窗口标题。
 
 **来源:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
+
+#### 8. supabase-postgres-best-practices
+> 来自 Supabase 的 Postgres 性能优化与最佳实践：涵盖查询性能、架构设计、连接管理及安全规范。
+
+**来源:** [Supabase](https://github.com/supabase/agent-skills)
 
 ---
 

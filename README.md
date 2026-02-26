@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Plugins-32-blue?style=for-the-badge" alt="Plugins">
-  <img src="https://img.shields.io/badge/Skills-61-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Plugins-33-blue?style=for-the-badge" alt="Plugins">
+  <img src="https://img.shields.io/badge/Skills-62-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Version-v2.0.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 </p>
@@ -38,7 +38,7 @@ Skillbox is a curated collection of skills for Claude Code. We group related ski
 
 | Category | Description | Plugins | Skills |
 |------|------|:--------:|:--------:|
-| **No-Code Builder** | Web development, testing, and automation workflows without writing code. | 7 | 16 |
+| **No-Code Builder** | Web development, testing, and automation workflows without writing code. | 8 | 17 |
 | **Office Automation** | Unified processing suite for Word, Excel, PPT, and PDF. | 3 | 6 |
 | **Content Pipeline** | Full workflow for web harvesting, video downloading, and AI content creation. | 5 | 16 |
 | **Immersive Reading** | Deep reading analysis and action conversion. | 3 | 4 |
@@ -103,7 +103,7 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 ## 📂 Full List (v2.0)
 
 <details>
-<summary>Click to expand the detailed list of 32 plugins / 61 skills</summary>
+<summary>Click to expand the detailed list of 33 plugins / 62 skills</summary>
 
 ### No-Code Builder
 
@@ -159,6 +159,11 @@ Once the plugin is installed, Claude will **automatically identify** when to cal
 > Automatically updates terminal window title based on current task.
 
 **Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
+
+#### 8. supabase-postgres-best-practices
+> Postgres performance optimization and best practices from Supabase: query performance, schema design, connection management, and security.
+
+**Source:** [Supabase](https://github.com/supabase/agent-skills)
 
 ---
 

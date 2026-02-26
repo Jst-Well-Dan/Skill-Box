@@ -14,7 +14,7 @@
 !/.claude-plugin/
 /.claude-plugin/*
 !/.claude-plugin/marketplace.json
-
+!/_translated
 # Keep .gitignore itself
 !.gitignore
 
