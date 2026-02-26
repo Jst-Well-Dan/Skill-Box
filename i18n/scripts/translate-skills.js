@@ -22,7 +22,9 @@ const __dirname = path.dirname(__filename);
 const CONFIG = {
     skillBoxDir: path.join(__dirname, '..', '..'),
     i18nSkillsDir: path.join(__dirname, '..', 'skills'),
-    glmScriptsDir: path.join(__dirname, '..', '..', '..', '..', 'glm-api-caller', 'scripts'),
+    glmScriptsDir: process.env.GLM_API_CALLER_DIR
+        ? path.join(process.env.GLM_API_CALLER_DIR, 'scripts')
+        : path.join(__dirname, '..', '..', '..', 'Skill Box Website', 'glm-api-caller', 'scripts'),
     outputDir: path.join(__dirname, '..', '..', '..', '..', 'translations'),
     promptsFile: path.join(__dirname, '..', '..', '..', '..', 'translations', 'prompts.jsonl'),
     model: 'glm-4-flash',

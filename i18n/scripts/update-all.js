@@ -31,7 +31,9 @@ const steps = [
         command: 'node src/Skill-Box/i18n/scripts/translate-i18n.js',
         required: false,
         checkEnv: () => {
-            const envFile = join(__dirname, '../../../../glm-api-caller/.env');
+            const envFile = process.env.GLM_API_CALLER_DIR 
+                ? join(process.env.GLM_API_CALLER_DIR, '.env') 
+                : join(__dirname, '../../../Skill Box Website/glm-api-caller/.env');
             if (!existsSync(envFile)) {
                 return false;
             }
@@ -43,7 +45,9 @@ const steps = [
         command: 'node src/Skill-Box/i18n/scripts/translate-skills.js',
         required: false,
         checkEnv: () => {
-            const envFile = join(__dirname, '../../../../glm-api-caller/.env');
+            const envFile = process.env.GLM_API_CALLER_DIR 
+                ? join(process.env.GLM_API_CALLER_DIR, '.env') 
+                : join(__dirname, '../../../Skill Box Website/glm-api-caller/.env');
             return existsSync(envFile);
         }
     }
@@ -118,7 +122,7 @@ async function main() {
         console.error('错误:', error.message);
         console.log('\n💡 故障排查:');
         console.log('   1. 检查网络连接');
-        console.log('   2. 验证 API Key 配置 (glm-api-caller/.env)');
+        console.log('   2. 验证 API Key 配置 (GLM_API_CALLER_DIR/.env 或默认路径)');
         console.log('   3. 查看详细日志');
         console.log('   4. 尝试单独运行失败的步骤\n');
         process.exit(1);

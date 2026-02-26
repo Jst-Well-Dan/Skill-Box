@@ -284,6 +284,10 @@
       "name": "Slack Gif Creator",
       "description": "Toolkit for creating animated GIFs optimized for Slack."
     },
+    "supabase-postgres-best-practices": {
+      "name": "Supabase Postgres Best Practices",
+      "description": "Postgres performance optimization and best practices from Supabase: query performance, schema design, connection management, and security."
+    },
     "terminal-title": {
       "name": "Terminal Title",
       "description": "Automatically updates terminal window title based on current task."

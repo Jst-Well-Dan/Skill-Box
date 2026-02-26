@@ -17,7 +17,9 @@ const __dirname = path.dirname(__filename);
 
 // Simple env loader to avoid dotenv dependency
 function loadEnv() {
-    const envPath = path.join(__dirname, '..', 'glm-api-caller', '.env');
+    const envPath = process.env.GLM_API_CALLER_DIR
+        ? path.join(process.env.GLM_API_CALLER_DIR, '.env')
+        : path.join(__dirname, '..', '..', '..', 'Skill Box Website', 'glm-api-caller', '.env');
     if (fs.existsSync(envPath)) {
         const content = fs.readFileSync(envPath, 'utf-8');
         content.split(/\r?\n/).forEach(line => {
@@ -37,7 +39,9 @@ const CONFIG = {
     marketplaceFile: path.join(__dirname, '..', '..', '.claude-plugin', 'marketplace.json'),
     zhCNFile: path.join(__dirname, '..', 'locales', 'marketplace.zh.json'),
     enFile: path.join(__dirname, '..', 'locales', 'marketplace.en.json'),
-    glmScriptsDir: path.join(__dirname, '..', '..', '..', '..', 'glm-api-caller', 'scripts'),
+    glmScriptsDir: process.env.GLM_API_CALLER_DIR
+        ? path.join(process.env.GLM_API_CALLER_DIR, 'scripts')
+        : path.join(__dirname, '..', '..', '..', 'Skill Box Website', 'glm-api-caller', 'scripts'),
     apiKey: process.env.GLM_API_KEY,
     model: 'glm-4-flash'
 };
