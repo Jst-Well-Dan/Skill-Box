@@ -10,7 +10,7 @@
         {
             "name": "anthropic-brand-guidelines",
             "description": "Applies Anthropic's official brand colors and typography to any sort of artifact.",
-            "category": "brand-marketing",
+            "category": "productivity",
             "author": {
                 "name": "Anthropic",
                 "url": "https://github.com/anthropics/skills"
@@ -20,21 +20,9 @@
             ]
         },
         {
-            "name": "internal-comms",
-            "description": "Resources to help write all kinds of internal communications.",
-            "category": "brand-marketing",
-            "author": {
-                "name": "ComposioHQ",
-                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-            },
-            "skills": [
-                "./brand-marketing/internal-comms"
-            ]
-        },
-        {
             "name": "raffle-winner-picker",
             "description": "Picks random winners for giveaways, raffles, and contests.",
-            "category": "brand-marketing",
+            "category": "productivity",
             "author": {
                 "name": "ComposioHQ",
                 "url": "https://github.com/ComposioHQ/awesome-claude-skills"
@@ -109,21 +97,9 @@
             ]
         },
         {
-            "name": "deep-reading",
-            "description": "Deep reading collaborative system using multi-layered AI agents to help transform articles from 'read' to 'understood' to 'mastered', with actionable plans.",
-            "category": "immersive-reading",
-            "author": {
-                "name": "Jst-Well-Dan",
-                "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-            },
-            "skills": [
-                "./immersive-reading/deep-reading"
-            ]
-        },
-        {
             "name": "notebooklm-integration",
             "description": "Query Google NotebookLM notebooks for source-grounded answers.",
-            "category": "immersive-reading",
+            "category": "productivity",
             "author": {
                 "name": "PleasePrompto",
                 "url": "https://github.com/PleasePrompto/notebooklm-skill"
@@ -133,21 +109,9 @@
             ]
         },
         {
-            "name": "family-history-research",
-            "description": "Assistance with planning family history and genealogy research projects.",
-            "category": "immersive-reading",
-            "author": {
-                "name": "ComposioHQ",
-                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-            },
-            "skills": [
-                "./immersive-reading/family-history-research"
-            ]
-        },
-        {
             "name": "frontend-builder",
             "description": "End-to-end frontend development: design interfaces, build artifacts, follow best practices, and deploy.",
-            "category": "no-code-builder",
+            "category": "dev-tools",
             "authors": [
                 {
                     "name": "Anthropic",
@@ -167,34 +131,9 @@
             ]
         },
         {
-            "name": "testing-toolkit",
-            "description": "Complete testing toolkit: PICT design, TDD methodology, automated test fixing, and E2E testing.",
-            "category": "no-code-builder",
-            "authors": [
-                {
-                    "name": "ComposioHQ",
-                    "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-                },
-                {
-                    "name": "obra",
-                    "url": "https://github.com/obra/superpowers"
-                },
-                {
-                    "name": "mhattingpete",
-                    "url": "https://github.com/mhattingpete"
-                }
-            ],
-            "skills": [
-                "./no-code-builder/pypict-claude-skill",
-                "./no-code-builder/test-driven-development",
-                "./no-code-builder/test-fixing",
-                "./no-code-builder/webapp-testing"
-            ]
-        },
-        {
             "name": "dev-workflow",
             "description": "Streamline development: brainstorm features, push changes, and auto-generate changelogs.",
-            "category": "no-code-builder",
+            "category": "dev-tools",
             "authors": [
                 {
                     "name": "ComposioHQ",
@@ -218,7 +157,7 @@
         {
             "name": "skill-creator",
             "description": "Guide for creating and updating effective Claude skills.",
-            "category": "no-code-builder",
+            "category": "ai-meta",
             "author": {
                 "name": "Anthropic",
                 "url": "https://github.com/anthropics/skills"
@@ -230,7 +169,7 @@
         {
             "name": "mcp-builder",
             "description": "Guide for creating high-quality MCP (Model Context Protocol) servers.",
-            "category": "no-code-builder",
+            "category": "ai-meta",
             "author": {
                 "name": "ComposioHQ",
                 "url": "https://github.com/ComposioHQ/awesome-claude-skills"
@@ -242,7 +181,7 @@
         {
             "name": "developer-growth-analysis",
             "description": "Identify coding patterns and growth areas from chat history.",
-            "category": "no-code-builder",
+            "category": "ai-meta",
             "author": {
                 "name": "ComposioHQ",
                 "url": "https://github.com/ComposioHQ/awesome-claude-skills"
@@ -252,21 +191,9 @@
             ]
         },
         {
-            "name": "terminal-title",
-            "description": "Automatically updates terminal window title based on current task.",
-            "category": "no-code-builder",
-            "author": {
-                "name": "ComposioHQ",
-                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-            },
-            "skills": [
-                "./no-code-builder/terminal-title"
-            ]
-        },
-        {
             "name": "document-suite",
             "description": "Complete office document toolkit: create, edit, and analyze Word, Excel, PowerPoint, and PDF.",
-            "category": "office-automation",
+            "category": "productivity",
             "author": {
                 "name": "Anthropic",
                 "url": "https://github.com/anthropics/skills"
@@ -281,7 +208,7 @@
         {
             "name": "markdown-to-epub-converter",
             "description": "Convert markdown documents and chat summaries into EPUB ebook files.",
-            "category": "office-automation",
+            "category": "productivity",
             "author": {
                 "name": "ComposioHQ",
                 "url": "https://github.com/ComposioHQ/awesome-claude-skills"
@@ -293,7 +220,7 @@
         {
             "name": "file-organizer",
             "description": "Intelligently organizes files and folders by understanding context.",
-            "category": "office-automation",
+            "category": "productivity",
             "author": {
                 "name": "ComposioHQ",
                 "url": "https://github.com/ComposioHQ/awesome-claude-skills"
@@ -305,7 +232,7 @@
         {
             "name": "obsidian-visual-suite",
             "description": "Complete visualization toolkit for Obsidian: Excalidraw, Mermaid, and Canvas.",
-            "category": "visual-creative",
+            "category": "obsidian",
             "author": {
                 "name": "Axton Liu",
                 "url": "https://github.com/axtonliu/axton-obsidian-visual-skills"
@@ -448,7 +375,7 @@
         {
             "name": "supabase-postgres-best-practices",
             "description": "Postgres performance optimization and best practices from Supabase: query performance, schema design, connection management, and security.",
-            "category": "no-code-builder",
+            "category": "dev-tools",
             "author": {
                 "name": "Supabase",
                 "url": "https://github.com/supabase/agent-skills"
@@ -511,7 +438,7 @@
             "name": "github-cli",
             "description": "GitHub operations via gh CLI: manage issues, PRs, CI runs, code review, and API queries with structured JSON output.",
             "tier": "community",
-            "category": "no-code-builder",
+            "category": "dev-tools",
             "author": {
                 "name": "OpenClaw",
                 "url": "https://github.com/openclaw/openclaw"
@@ -523,7 +450,7 @@
         {
             "name": "skill-seekers",
             "description": "Powerful universal preprocessor that turns docs, repos, and PDFs into structured AI knowledge assets/skills.",
-            "category": "no-code-builder",
+            "category": "ai-meta",
             "author": {
                 "name": "Yusuf Karaaslan",
                 "url": "https://github.com/yusufkaraaslan/Skill_Seekers"
@@ -535,7 +462,7 @@
         {
             "name": "obsidian-toolkit",
             "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle.",
-            "category": "learning-research",
+            "category": "obsidian",
             "author": {
                 "name": "Steph Ango (kepano)",
                 "url": "https://github.com/kepano/obsidian-skills"
@@ -552,7 +479,7 @@
             "name": "productivity-toolkit",
             "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed).",
             "tier": "community",
-            "category": "office-productivity",
+            "category": "productivity",
             "author": {
                 "name": "OpenClaw",
                 "url": "https://github.com/openclaw/openclaw"

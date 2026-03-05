@@ -136,10 +136,6 @@
       "name": "数据可视化套件",
       "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表，GeoPandas用于地理空间，NetworkX用于网络分析，以及SymPy用于符号数学。"
     },
-    "deep-reading": {
-      "name": "深度阅读",
-      "description": "深度阅读协作系统，采用多层人工智能代理，助力将文章从“阅读”转变为“理解”，进而达到“精通”，并提供可执行的计划。适用于用户需要深入理解复杂文章/论文、系统整理阅读笔记、批判性思考内容、发现隐藏的逻辑问题和假设，或将知识转化为行动计划时使用。触发关键词：深度阅读、批判性思维、阅读笔记、文章分析、苏格拉底提问、行动计划。"
-    },
     "deep-reading-analyst": {
       "name": "深度阅读分析器",
       "description": "使用5种经过验证的思维模型（麦肯锡沟通框架、全面任务清单、批判性思维、逆向思维、系统思维）对文章、论文和长篇内容进行系统分析的分析框架。"
@@ -224,10 +220,6 @@
       "name": "家族史研究规划",
       "description": "提供家族史和家谱研究项目规划方面的协助，帮助您追溯家族历史和血统关系。"
     },
-    "family-history-research": {
-      "name": "家族史研究",
-      "description": "提供家族史和家谱研究项目规划方面的协助。"
-    },
     "file-organizer": {
       "name": "文件整理器",
       "description": "通过理解上下文、查找重复项并建议更好的组织结构来智能地组织文件和文件夹。"
@@ -275,10 +267,6 @@
     "image-enhancer": {
       "name": "图像增强器",
       "description": "通过增强分辨率、清晰度和清晰度来提高图像和截图质量，用于专业演示和文档。"
-    },
-    "internal-comms": {
-      "name": "内部通讯",
-      "description": "帮助撰写内部通讯，包括 3P 更新、公司新闻通讯、常见问题解答、状态报告和使用公司特定格式的项目更新。"
     },
     "invoice-organizer": {
       "name": "发票整理器",
@@ -492,10 +480,6 @@
       "name": "模板技能",
       "description": "演示创建新 Claude 技能的结构和格式的模板技能。"
     },
-    "terminal-title": {
-      "name": "终端标题",
-      "description": "自动更新终端窗口标题以反映当前的高级任务。帮助开发人员管理多个 Claude Code 终端。"
-    },
     "test-driven-development": {
       "name": "测试驱动开发",
       "description": "在实施任何功能或错误修复时使用，在编写实施代码之前 - 首先编写测试，观察它失败，编写最少的代码使其通过。"
@@ -503,10 +487,6 @@
     "test-fixing": {
       "name": "测试修复",
       "description": "使用智能错误分组运行测试并系统地修复所有失败的测试。"
-    },
-    "testing-toolkit": {
-      "name": "测试工具集",
-      "description": "完整的测试工具包：PICT 设计、TDD 方法论、自动化测试修复和端到端测试。"
     },
     "theme-factory": {
       "name": "主题工厂",

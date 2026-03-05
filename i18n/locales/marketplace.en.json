@@ -116,10 +116,6 @@
       "name": "Data Visualization Suite",
       "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
     },
-    "deep-reading": {
-      "name": "Deep Reading",
-      "description": "Deep reading collaborative system using multi-layered AI agents to help transform articles from 'read' to 'understood' to 'mastered', with actionable plans."
-    },
     "deep-reading-analyst-skill": {
       "name": "deep-reading-analyst",
       "description": "Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (McKinsey Communication Framework, Comprehensive Task Checklist, Critical Thinking, Inversion Thinking, Systems Thinking)."
@@ -196,10 +192,6 @@
       "name": "Family History Planning",
       "description": "Provides assistance with planning family history and genealogy research projects."
     },
-    "family-history-research": {
-      "name": "Family History Research",
-      "description": "Assistance with planning family history and genealogy research projects."
-    },
     "file-organizer": {
       "name": "File Organizer",
       "description": "Intelligently organizes files and folders by understanding context."
@@ -243,10 +235,6 @@
     "image-enhancer": {
       "name": "Image Enhancer",
       "description": "Improves quality of images/screenshots by enhancing resolution and clarity."
-    },
-    "internal-comms": {
-      "name": "Internal Comms",
-      "description": "Resources to help write all kinds of internal communications."
     },
     "invoice-processor": {
       "name": "Invoice Processor",
@@ -428,10 +416,6 @@
       "name": "Sympy",
       "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
     },
-    "terminal-title": {
-      "name": "Terminal Title",
-      "description": "Automatically updates terminal window title based on current task."
-    },
     "test-driven-development": {
       "name": "test-driven-development",
       "description": "Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first"
@@ -439,10 +423,6 @@
     "test-fixing": {
       "name": "test-fixing",
       "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass."
-    },
-    "testing-toolkit": {
-      "name": "Testing Toolkit",
-      "description": "Complete testing toolkit: PICT design, TDD methodology, automated test fixing, and E2E testing."
     },
     "theme-factory": {
       "name": "Theme Factory",
