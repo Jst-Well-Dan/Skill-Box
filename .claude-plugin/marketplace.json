@@ -1,6 +1,6 @@
 {
     "name": "Skill-Box",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "An collection of practical skills that transforms your AI assistant from a generalist into a powerful specialist.",
     "owner": {
         "name": "Jst-Well-Dan",
@@ -521,16 +521,31 @@
             ]
         },
         {
-            "name": "obsidian-vault-manager",
-            "description": "Work with Obsidian vaults via obsidian-cli: search, create, move, and rename notes with automatic wikilink updates.",
-            "tier": "community",
-            "category": "learning-research",
+            "name": "skill-seekers",
+            "description": "Powerful universal preprocessor that turns docs, repos, and PDFs into structured AI knowledge assets/skills.",
+            "category": "no-code-builder",
             "author": {
-                "name": "OpenClaw",
-                "url": "https://github.com/openclaw/openclaw"
+                "name": "Yusuf Karaaslan",
+                "url": "https://github.com/yusufkaraaslan/Skill_Seekers"
             },
             "skills": [
-                "./learning-research/obsidian"
+                "./no-code-builder/skill-seekers"
+            ]
+        },
+        {
+            "name": "obsidian-toolkit",
+            "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle.",
+            "category": "learning-research",
+            "author": {
+                "name": "Steph Ango (kepano)",
+                "url": "https://github.com/kepano/obsidian-skills"
+            },
+            "skills": [
+                "./learning-research/obsidian-toolkit/obsidian-markdown",
+                "./learning-research/obsidian-toolkit/obsidian-bases",
+                "./learning-research/obsidian-toolkit/json-canvas",
+                "./learning-research/obsidian-toolkit/obsidian-cli",
+                "./learning-research/obsidian-toolkit/defuddle"
             ]
         },
         {

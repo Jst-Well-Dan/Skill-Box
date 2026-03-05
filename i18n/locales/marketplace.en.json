@@ -124,6 +124,10 @@
       "name": "deep-reading-analyst",
       "description": "Systematic analysis framework for articles, papers, and long-form content using 5 proven thinking models (McKinsey Communication Framework, Comprehensive Task Checklist, Critical Thinking, Inversion Thinking, Systems Thinking)."
     },
+    "defuddle": {
+      "name": "Defuddle",
+      "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle."
+    },
     "dev-workflow": {
       "name": "Dev Workflow",
       "description": "Streamline development: brainstorm features, push changes, and auto-generate changelogs."
@@ -248,6 +252,10 @@
       "name": "Invoice Processor",
       "description": "Automatically process invoices (发票) from PDFs/images to Excel spreadsheets using AI vision recognition. Use this skill when users mention \"发票\", \"invoice\", \"处理发票\", \"识别发票\", \"提取发票\", or need to convert invoice files to Excel format."
     },
+    "json-canvas": {
+      "name": "Json Canvas",
+      "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle."
+    },
     "markdown-to-epub-converter": {
       "name": "Markdown To Epub Converter",
       "description": "Convert markdown documents and chat summaries into EPUB ebook files."
@@ -288,9 +296,25 @@
       "name": "Obsidian",
       "description": "Work with Obsidian vaults via obsidian-cli: search, create, move, and rename notes with automatic wikilink updates."
     },
+    "obsidian-bases": {
+      "name": "Obsidian Bases",
+      "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle."
+    },
     "obsidian-canvas-creator": {
       "name": "obsidian-canvas-creator",
       "description": "Create Obsidian Canvas files from text content, supporting both MindMap and freeform layouts. Use this skill when users want to visualize content as an interactive canvas, create mind maps, or organize information spatially in Obsidian format."
+    },
+    "obsidian-cli": {
+      "name": "Obsidian Cli",
+      "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle."
+    },
+    "obsidian-markdown": {
+      "name": "Obsidian Markdown",
+      "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle."
+    },
+    "obsidian-toolkit": {
+      "name": "Obsidian Toolkit",
+      "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle."
     },
     "obsidian-vault-manager": {
       "name": "Obsidian Vault Manager",
@@ -379,6 +403,10 @@
     "skill-creator": {
       "name": "Skill Creator",
       "description": "Guide for creating and updating effective Claude skills."
+    },
+    "skill-seekers": {
+      "name": "Skill Seekers",
+      "description": "Powerful universal preprocessor that turns docs, repos, and PDFs into structured AI knowledge assets/skills."
     },
     "slack-gif-creator": {
       "name": "Slack Gif Creator",

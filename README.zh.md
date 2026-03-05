@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="./_logo/Skillbox-with-words 1.svg" alt="Skillbox Logo" width="600">
 </p>
 
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/技能-85-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/技能-90-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/分类-7-blue?style=for-the-badge" alt="Categories">
   <img src="https://img.shields.io/badge/平台-16+-green?style=for-the-badge" alt="Platforms">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="License">
@@ -46,10 +46,10 @@
 
 | 分类 | 说明 | 技能数 |
 | :--- | :--- | :---: |
-| **零代码构建 (No-Code Builder)** | 前端开发、测试、DevOps 工作流——无需深度编码 | 18 |
+| **零代码构建 (No-Code Builder)** | 前端开发、测试、DevOps 及 AI 技能构建 | 19 |
 | **办公生产力 (Office & Productivity)** | Word/Excel/PPT/PDF 处理、Notion、Trello 及效率集成 | 10 |
 | **内容流水线 (Content Pipeline)** | 网页采集、视频下载、AI 内容创作、TTS 及多平台分发 | 21 |
-| **学习与研读 (Learning & Research)** | 深度阅读分析、Obsidian 联动、NotebookLM 及知识管理 | 4 |
+| **学习与研读 (Learning & Research)** | 深度阅读分析、Obsidian 全能套件、NotebookLM 及知识管理 | 8 |
 | **视觉与创意 (Visual & Creative)** | 视觉设计、图像生成、视频制作、Excalidraw/Mermaid 图表 | 11 |
 | **品牌与营销 (Brand & Marketing)** | 品牌规范、内部沟通及互动工具 | 3 |
 | **商业分析师 (Business Analyst)** | 数据可视化、金融建模、SEC 研究及发票处理 | 18 |
@@ -69,7 +69,7 @@
 ### 📝 深度学习与第二大脑
 > *个人知识管理 (PKM) 的核心链路，解决“读完就忘”和“笔记混乱”的痛点*
 - **`deep-reading`** — 拒绝简单总结，套用麦肯锡、系统思维等 5 大思维模型对长文进行“逆向工程”
-- **`obsidian`** — 通过命令行无缝管理本地 Obsidian 知识库，自动维护双向链接
+- **`obsidian-toolkit`** — 黑曜石全能工作流：自动化 CLI、Markdown 专家指南、数据库式 Bases 视图及 JSON 画布管理
 - **`excalidraw-diagram`** — 将文字逻辑一键转化为 Obsidian 可用的 Excalidraw 架构图和思维导图
 
 ### �️ 深度内容采编
@@ -109,9 +109,9 @@ claude plugin install Jst-Well-Dan/Skill-Box
 ## 📂 完整技能清单
 
 <details>
-<summary>点击展开 7 大分类 / 85 个技能完整列表</summary>
+<summary>点击展开 7 大分类 / 90 个技能完整列表</summary>
 
-### 零代码构建 No-Code Builder（18 个技能）
+### 零代码构建 No-Code Builder（19 个技能）
 
 | # | 技能 | 说明 | 来源 |
 | :--- | :--- | :--- | :--- |
@@ -133,6 +133,7 @@ claude plugin install Jst-Well-Dan/Skill-Box
 | 16 | `developer-growth-analysis` | 从对话历史中分析编码模式与成长空间 | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 17 | `terminal-title` | 根据当前任务自动更新终端窗口标题 | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 18 | `supabase-postgres-best-practices` | 来自 Supabase 的 Postgres 性能优化最佳实践 | [Supabase](https://github.com/supabase/agent-skills) |
+| 19 | `skill-seekers` | 强大的通用的预处理工具，将文档、仓库和 PDF 转化为 AI 技能 | [Yusuf Karaaslan](https://github.com/yusufkaraaslan/Skill_Seekers) |
 
 ---
 
@@ -181,12 +182,12 @@ claude plugin install Jst-Well-Dan/Skill-Box
 
 ---
 
-### 学习与研读 Learning & Research（4 个技能）
+### 学习与研读 Learning & Research（8 个技能）
 
 | # | 技能 | 说明 | 来源 |
 | :--- | :--- | :--- | :--- |
 | 1 | `deep-reading` | 5 大思维模型深度分析（麦肯锡、系统思维等） | [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box) |
-| 2 | `obsidian` | 通过 CLI 管理 Obsidian 知识库：搜索、创建、链接笔记 | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 2 | `obsidian-toolkit` | **黑曜石全能套件**: `markdown`, `bases`, `json-canvas`, `cli`, `defuddle` | [Steph Ango](https://github.com/kepano/obsidian-skills) |
 | 3 | `notebooklm-integration` | 查询 Google NotebookLM 获取有据可查的回答 | [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill) |
 | 4 | `family-history-research` | 家谱与家族史研究规划 | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 
@@ -267,7 +268,7 @@ Skill Box 技能兼容 **16+ AI Agent**。可使用下方路径表手动安装�
 | **Gemini CLI** | `.gemini/skills/` | `~/.gemini/skills/` |
 | **Roo Code** | `.roo/skills/` | `~/.roo/skills/` |
 | **Antigravity** | `.agent/skills/` | `~/.gemini/antigravity/skills/` |
-| **Clawdbot** | `skills/` | `~/.clawdbot/skills/` |
+| **OpenClaw** | `skills/` | `~/.OpenClaw/skills/` |
 | **Goose** | `.goose/skills/` | `~/.config/goose/skills/` |
 | **OpenCode** | `.opencode/skills/` | `~/.config/opencode/skills/` |
 | **Kilo Code** | `.kilocode/skills/` | `~/.kilocode/skills/` |
@@ -294,7 +295,7 @@ Skill Box 技能兼容 **16+ AI Agent**。可使用下方路径表手动安装�
 
 Skill Box 是站在开源社区巨人肩膀上的产物。特别感谢所有技能作者与来源仓库：
 
-[Anthropic](https://github.com/anthropics/skills) · [Vercel Labs](https://github.com/vercel-labs/agent-skills) · [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) · [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) · [obra](https://github.com/obra/superpowers) · [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) · [OpenClaw](https://github.com/openclaw/openclaw) · [Supabase](https://github.com/supabase/agent-skills) · [Remotion](https://github.com/remotion-dev/skills) · [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills) · [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) · [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill) · [staruhub](https://github.com/staruhub/ClaudeSkills)
+[Anthropic](https://github.com/anthropics/skills) · [Vercel Labs](https://github.com/vercel-labs/agent-skills) · [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) · [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) · [obra](https://github.com/obra/superpowers) · [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) · [OpenClaw](https://github.com/openclaw/openclaw) · [Supabase](https://github.com/supabase/agent-skills) · [Remotion](https://github.com/remotion-dev/skills) · [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills) · [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) · [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill) · [staruhub](https://github.com/staruhub/ClaudeSkills) · [Steph Ango (kepano)](https://github.com/kepano/obsidian-skills) · [Yusuf Karaaslan](https://github.com/yusufkaraaslan/Skill_Seekers)
 
 ---
 

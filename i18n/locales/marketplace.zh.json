@@ -148,6 +148,10 @@
       "name": "深度阅读分析",
       "description": "系统分析框架，适用于文章、论文和长篇内容，采用五种经过验证的思维模型（麦肯锡沟通框架、全面任务清单、批判性思维、逆向思维、系统思维）。"
     },
+    "defuddle": {
+      "name": "消除混淆",
+      "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化，以及使用Defuddle的干净网页提取。"
+    },
     "dev-workflow": {
       "name": "开发流程",
       "description": "简化开发流程：头脑风暴功能，推进变更，自动生成变更日志。"
@@ -284,6 +288,10 @@
       "name": "发票处理器",
       "description": "自动处理PDFs/images中的发票，将其转换为Excel表格，利用AI视觉识别技术。当用户提及“发票”、“发票处理”、“识别发票”、“提取发票”或需要将发票文件转换为Excel格式时，可使用此技能。"
     },
+    "json-canvas": {
+      "name": "JSON画布",
+      "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化，以及Defuddle的清洁网络提取。"
+    },
     "lead-research-assistant": {
       "name": "潜在客户研究助手",
       "description": "通过分析您的产品、搜索目标公司并提供可操作的外展策略来识别和筛选高质量潜在客户。"
@@ -336,9 +344,25 @@
       "name": "黑曜石",
       "description": "通过 obsidian-cli 与 Obsidian 保险库协同工作：搜索、创建、移动和重命名笔记，并自动更新维基链接。"
     },
+    "obsidian-bases": {
+      "name": "黑曜石基础",
+      "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化以及Defuddle的整洁网络提取。"
+    },
     "obsidian-canvas-creator": {
       "name": "Obsidian Canvas 画布创建器",
       "description": "从文本内容创建 Obsidian Canvas 文件，支持思维导图和自由布局。适用于将内容可视化为交互式画布或空间化组织信息。"
+    },
+    "obsidian-cli": {
+      "name": "黑曜石客户端",
+      "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化，以及使用Defuddle的干净网页提取。"
+    },
+    "obsidian-markdown": {
+      "name": "黑曜石标记",
+      "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化以及Defuddle的干净网页提取。"
+    },
+    "obsidian-toolkit": {
+      "name": "黑曜石工具包",
+      "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、命令行自动化以及使用Defuddle的整洁网页提取。"
     },
     "obsidian-vault-manager": {
       "name": "黑曜石库管",
@@ -435,6 +459,10 @@
     "skill-creator": {
       "name": "技能创建器",
       "description": "为创建有效的 Claude 技能提供指导，通过专业知识、工作流程和工具集成扩展功能。"
+    },
+    "skill-seekers": {
+      "name": "技能探索者",
+      "description": "强大的通用预处理器，可将文档、代码库和PDF文件转化为结构化人工智能知识资产/技能。"
     },
     "slack-gif-creator": {
       "name": "Slack GIF 创建器",

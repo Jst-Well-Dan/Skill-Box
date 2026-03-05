@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="./_logo/Skillbox-with-words 1.svg" alt="Skillbox Logo" width="600">
 </p>
 
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-85-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Skills-90-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Categories-7-blue?style=for-the-badge" alt="Categories">
   <img src="https://img.shields.io/badge/Platforms-16+-green?style=for-the-badge" alt="Platforms">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="License">
@@ -46,10 +46,10 @@ Unlike repositories that simply list skills by technical function, Skill Box org
 
 | Category | Description | Skills |
 | :--- | :--- | :---: |
-| **No-Code Builder** | Frontend development, testing, DevOps workflows — build without deep coding | 18 |
+| **No-Code Builder** | Frontend development, testing, DevOps, and AI skill building | 19 |
 | **Office & Productivity** | Word/Excel/PPT/PDF processing, Notion, Trello, and productivity integrations | 10 |
 | **Content Pipeline** | Web scraping, video downloading, AI content creation, TTS, and multi-platform publishing | 21 |
-| **Learning & Research** | Deep reading analysis, Obsidian integration, NotebookLM, and knowledge management | 4 |
+| **Learning & Research** | Deep reading analysis, Obsidian toolkit, NotebookLM, and knowledge management | 8 |
 | **Visual & Creative** | Visual design, image generation, video production, Excalidraw/Mermaid diagrams | 11 |
 | **Brand & Marketing** | Brand guidelines, internal communications, and engagement tools | 3 |
 | **Business Analyst** | Data visualization, financial modeling, SEC research, and invoice processing | 18 |
@@ -69,7 +69,7 @@ Unlike repositories that simply list skills by technical function, Skill Box org
 ### 📝 Deep Learning & Second Brain
 > *The core Personal Knowledge Management (PKM) loop.*
 - **`deep-reading`** — Beyond summaries: Reverse-engineer long-form content using 5 mental models (e.g., McKinsey Framework, Systems Thinking)
-- **`obsidian`** — Manage your local Obsidian vault via CLI, maintaining bidirectional Wikilinks seamlessly
+- **`obsidian-toolkit`** — The ultimate Obsidian workflow: automated CLI, expert Markdown guides, database-style Bases views, and JSON Canvas management
 - **`excalidraw-diagram`** — Instantly transform structural text logic into interactive Obsidian Excalidraw diagrams and mind maps
 
 ### 🕸️ Content Harvesting Pipeline
@@ -109,9 +109,9 @@ Once installed, your AI agent will **automatically identify** when to invoke rel
 ## 📂 Full Skill List
 
 <details>
-<summary>Click to expand the complete list of 85 skills across 7 categories</summary>
+<summary>Click to expand the complete list of 90 skills across 7 categories</summary>
 
-### No-Code Builder (18 skills)
+### No-Code Builder (19 skills)
 
 | # | Skill | Description | Source |
 | :--- | :--- | :--- | :--- |
@@ -133,6 +133,7 @@ Once installed, your AI agent will **automatically identify** when to invoke rel
 | 16 | `developer-growth-analysis` | Identify coding patterns and growth areas from chat history | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 17 | `terminal-title` | Auto-update terminal window title based on current task | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 18 | `supabase-postgres-best-practices` | Postgres performance optimization from Supabase | [Supabase](https://github.com/supabase/agent-skills) |
+| 19 | `skill-seekers` | Universal preprocessor to turn docs, repos, and PDFs into AI skills | [Yusuf Karaaslan](https://github.com/yusufkaraaslan/Skill_Seekers) |
 
 ---
 
@@ -181,12 +182,12 @@ Once installed, your AI agent will **automatically identify** when to invoke rel
 
 ---
 
-### Learning & Research (4 skills)
+### Learning & Research (8 skills)
 
 | # | Skill | Description | Source |
 | :--- | :--- | :--- | :--- |
 | 1 | `deep-reading` | Deep analysis using 5 mental models (McKinsey, Systems Thinking, etc.) | [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box) |
-| 2 | `obsidian` | Manage Obsidian vaults: search, create, link notes via CLI | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 2 | `obsidian-toolkit` | **Obsidian Toolkit**: `markdown`, `bases`, `json-canvas`, `cli`, `defuddle` | [Steph Ango](https://github.com/kepano/obsidian-skills) |
 | 3 | `notebooklm-integration` | Query Google NotebookLM for source-grounded answers | [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill) |
 | 4 | `family-history-research` | Family history and genealogy research planning | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 
@@ -267,7 +268,7 @@ Use [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill) for intera
 | **Gemini CLI** | `.gemini/skills/` | `~/.gemini/skills/` |
 | **Roo Code** | `.roo/skills/` | `~/.roo/skills/` |
 | **Antigravity** | `.agent/skills/` | `~/.gemini/antigravity/skills/` |
-| **Clawdbot** | `skills/` | `~/.clawdbot/skills/` |
+| **OpenClaw** | `skills/` | `~/.OpenClaw/skills/` |
 | **Goose** | `.goose/skills/` | `~/.config/goose/skills/` |
 | **OpenCode** | `.opencode/skills/` | `~/.config/opencode/skills/` |
 | **Kilo Code** | `.kilocode/skills/` | `~/.kilocode/skills/` |
@@ -294,7 +295,7 @@ We welcome contributions! Whether it's a new skill, an improvement, or a bug rep
 
 Skill Box is built on the shoulders of the open-source community. Special thanks to all skill authors and source repositories:
 
-[Anthropic](https://github.com/anthropics/skills) · [Vercel Labs](https://github.com/vercel-labs/agent-skills) · [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) · [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) · [obra](https://github.com/obra/superpowers) · [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) · [OpenClaw](https://github.com/openclaw/openclaw) · [Supabase](https://github.com/supabase/agent-skills) · [Remotion](https://github.com/remotion-dev/skills) · [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills) · [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) · [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill) · [staruhub](https://github.com/staruhub/ClaudeSkills)
+[Anthropic](https://github.com/anthropics/skills) · [Vercel Labs](https://github.com/vercel-labs/agent-skills) · [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) · [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) · [obra](https://github.com/obra/superpowers) · [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) · [OpenClaw](https://github.com/openclaw/openclaw) · [Supabase](https://github.com/supabase/agent-skills) · [Remotion](https://github.com/remotion-dev/skills) · [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills) · [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) · [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill) · [staruhub](https://github.com/staruhub/ClaudeSkills) · [Steph Ango (kepano)](https://github.com/kepano/obsidian-skills) · [Yusuf Karaaslan](https://github.com/yusufkaraaslan/Skill_Seekers)
 
 ---
 
