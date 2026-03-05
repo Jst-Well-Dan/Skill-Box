@@ -71,7 +71,7 @@ async function runStep(step, index) {
     try {
         execSync(step.command, {
             stdio: 'inherit',
-            cwd: join(__dirname, '..')
+            cwd: process.cwd()
         });
         console.log(`\n✅ ${step.name} 完成`);
         return true;

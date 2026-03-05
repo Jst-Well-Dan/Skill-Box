@@ -12,6 +12,10 @@
       "name": "Algorithmic Art",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations."
     },
+    "alpha-vantage": {
+      "name": "Alpha Vantage",
+      "description": "Financial and SEC research toolkit: SEC EDGAR filings (10-K/10-Q/8-K), US Treasury fiscal data, hedge fund risk monitor, and real-time market data via Alpha Vantage."
+    },
     "anthropic-brand-guidelines": {
       "name": "Anthropic Brand Guidelines",
       "description": "Applies Anthropic's official brand colors and typography to any sort of artifact."
@@ -19,6 +23,10 @@
     "artifacts-builder": {
       "name": "artifacts-builder",
       "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts."
+    },
+    "audio-content-suite": {
+      "name": "Audio Content Suite",
+      "description": "Audio and speech toolkit: OpenAI Whisper API for transcription, offline local TTS via sherpa-onnx, and URL/file/YouTube summarization with summarize.sh."
     },
     "baoyu-article-illustrator": {
       "name": "baoyu-article-illustrator",
@@ -104,6 +112,10 @@
       "name": "Data Analysis Toolkit",
       "description": "Complete data analysis toolkit: CSV summarization, pivot tables, and variance analysis for comprehensive business data insights."
     },
+    "data-visualization-suite": {
+      "name": "Data Visualization Suite",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
     "deep-reading": {
       "name": "Deep Reading",
       "description": "Deep reading collaborative system using multi-layered AI agents to help transform articles from 'read' to 'understood' to 'mastered', with actionable plans."
@@ -148,6 +160,14 @@
       "name": "Docx",
       "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
     },
+    "eda-workflows": {
+      "name": "Eda Workflows",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
+    "edgartools": {
+      "name": "Edgartools",
+      "description": "Financial and SEC research toolkit: SEC EDGAR filings (10-K/10-Q/8-K), US Treasury fiscal data, hedge fund risk monitor, and real-time market data via Alpha Vantage."
+    },
     "excalidraw-diagram": {
       "name": "excalidraw-diagram",
       "description": "Generate Excalidraw diagrams from text content for Obsidian. Use when user asks to create diagrams, flowcharts, mind maps, or visual representations in Excalidraw format. Triggers on \"Excalidraw\", \"画图\", \"流程图\", \"思维导图\", \"可视化\", \"diagram\"."
@@ -180,6 +200,10 @@
       "name": "File Organizer",
       "description": "Intelligently organizes files and folders by understanding context."
     },
+    "financial-data-research": {
+      "name": "Financial Data Research",
+      "description": "Financial and SEC research toolkit: SEC EDGAR filings (10-K/10-Q/8-K), US Treasury fiscal data, hedge fund risk monitor, and real-time market data via Alpha Vantage."
+    },
     "financial-modeling-suite": {
       "name": "Financial Modeling Suite",
       "description": "Professional financial modeling suite for DCF valuation and LBO analysis. Perfect for investment banking and corporate finance."
@@ -192,9 +216,25 @@
       "name": "Frontend Design",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics."
     },
+    "geopandas": {
+      "name": "Geopandas",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
     "git-pushing": {
       "name": "git-pushing",
       "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests."
+    },
+    "github": {
+      "name": "Github",
+      "description": "GitHub operations via gh CLI: manage issues, PRs, CI runs, code review, and API queries with structured JSON output."
+    },
+    "github-cli": {
+      "name": "Github Cli",
+      "description": "GitHub operations via gh CLI: manage issues, PRs, CI runs, code review, and API queries with structured JSON output."
+    },
+    "hedgefundmonitor": {
+      "name": "Hedgefundmonitor",
+      "description": "Financial and SEC research toolkit: SEC EDGAR filings (10-K/10-Q/8-K), US Treasury fiscal data, hedge fund risk monitor, and real-time market data via Alpha Vantage."
     },
     "image-enhancer": {
       "name": "Image Enhancer",
@@ -212,6 +252,10 @@
       "name": "Markdown To Epub Converter",
       "description": "Convert markdown documents and chat summaries into EPUB ebook files."
     },
+    "matplotlib": {
+      "name": "Matplotlib",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
     "mcp-builder": {
       "name": "Mcp Builder",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers."
@@ -219,6 +263,14 @@
     "mermaid-visualizer": {
       "name": "mermaid-visualizer",
       "description": "Transform text content into professional Mermaid diagrams for presentations and documentation. Use when users ask to visualize concepts, create flowcharts, or make diagrams from text. Supports process flows, system architectures, comparisons, mindmaps, and more with built-in syntax error prevention."
+    },
+    "nano-pdf": {
+      "name": "Nano Pdf",
+      "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed)."
+    },
+    "networkx": {
+      "name": "Networkx",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
     },
     "notebooklm": {
       "name": "Notebooklm",
@@ -228,13 +280,33 @@
       "name": "Notebooklm Integration",
       "description": "Query Google NotebookLM notebooks for source-grounded answers."
     },
+    "notion": {
+      "name": "Notion",
+      "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed)."
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "description": "Work with Obsidian vaults via obsidian-cli: search, create, move, and rename notes with automatic wikilink updates."
+    },
     "obsidian-canvas-creator": {
       "name": "obsidian-canvas-creator",
       "description": "Create Obsidian Canvas files from text content, supporting both MindMap and freeform layouts. Use this skill when users want to visualize content as an interactive canvas, create mind maps, or organize information spatially in Obsidian format."
     },
+    "obsidian-vault-manager": {
+      "name": "Obsidian Vault Manager",
+      "description": "Work with Obsidian vaults via obsidian-cli: search, create, move, and rename notes with automatic wikilink updates."
+    },
     "obsidian-visual-suite": {
       "name": "Obsidian Visual Suite",
       "description": "Complete visualization toolkit for Obsidian: Excalidraw, Mermaid, and Canvas."
+    },
+    "openai-image-gen": {
+      "name": "Openai Image Gen",
+      "description": "Visual media creation and processing: batch AI image generation via OpenAI Images API with gallery, and video frame extraction using ffmpeg."
+    },
+    "openai-whisper-api": {
+      "name": "Openai Whisper Api",
+      "description": "Audio and speech toolkit: OpenAI Whisper API for transcription, offline local TTS via sherpa-onnx, and URL/file/YouTube summarization with summarize.sh."
     },
     "pdf": {
       "name": "Pdf",
@@ -244,9 +316,25 @@
       "name": "Pict Test Designer",
       "description": "Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for any piece of requirements or code. Analyzes inputs, generates PICT models with parameters, values, and constraints for valid scenarios using pairwise testing. Outputs the PICT model, markdown table of test cases, and expected results."
     },
+    "plotly": {
+      "name": "Plotly",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
+    "podcast": {
+      "name": "Podcast",
+      "description": "Generate AI podcasts with dual-speaker dialogue using Volcano Engine TTS. Supports multiple audio formats, adjustable speech rate, and streaming reception."
+    },
+    "podcast-generator": {
+      "name": "Podcast Generator",
+      "description": "Generate AI podcasts with dual-speaker dialogue using Volcano Engine TTS. Supports multiple audio formats, adjustable speech rate, and streaming reception."
+    },
     "pptx": {
       "name": "Pptx",
       "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
+    },
+    "productivity-toolkit": {
+      "name": "Productivity Toolkit",
+      "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed)."
     },
     "pypict-claude-skill": {
       "name": "pict-test-designer",
@@ -272,6 +360,18 @@
       "name": "Remotion Best Practices",
       "description": "Comprehensive guide for Remotion video creation: React-based video production, animations, audio, captions, 3D content, and 46 best practices."
     },
+    "scientific-visualization": {
+      "name": "Scientific Visualization",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
+    "seaborn": {
+      "name": "Seaborn",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
+    "sherpa-onnx-tts": {
+      "name": "Sherpa Onnx Tts",
+      "description": "Audio and speech toolkit: OpenAI Whisper API for transcription, offline local TTS via sherpa-onnx, and URL/file/YouTube summarization with summarize.sh."
+    },
     "ship-learn-next": {
       "name": "ship-learn-next",
       "description": "Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content into concrete action steps, reps, or a learning quest."
@@ -284,9 +384,21 @@
       "name": "Slack Gif Creator",
       "description": "Toolkit for creating animated GIFs optimized for Slack."
     },
+    "statistical-analysis": {
+      "name": "Statistical Analysis",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
+    "summarize": {
+      "name": "Summarize",
+      "description": "Audio and speech toolkit: OpenAI Whisper API for transcription, offline local TTS via sherpa-onnx, and URL/file/YouTube summarization with summarize.sh."
+    },
     "supabase-postgres-best-practices": {
       "name": "Supabase Postgres Best Practices",
       "description": "Postgres performance optimization and best practices from Supabase: query performance, schema design, connection management, and security."
+    },
+    "sympy": {
+      "name": "Sympy",
+      "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
     },
     "terminal-title": {
       "name": "Terminal Title",
@@ -308,6 +420,14 @@
       "name": "Theme Factory",
       "description": "Toolkit for styling artifacts with preset or on-the-fly themes."
     },
+    "trello": {
+      "name": "Trello",
+      "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed)."
+    },
+    "usfiscaldata": {
+      "name": "Usfiscaldata",
+      "description": "Financial and SEC research toolkit: SEC EDGAR filings (10-K/10-Q/8-K), US Treasury fiscal data, hedge fund risk monitor, and real-time market data via Alpha Vantage."
+    },
     "vercel-deploy": {
       "name": "Vercel Deploy",
       "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link."
@@ -319,6 +439,18 @@
     "vercel-react-best-practices": {
       "name": "Vercel React Best Practices",
       "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
+    },
+    "video-frames": {
+      "name": "Video Frames",
+      "description": "Visual media creation and processing: batch AI image generation via OpenAI Images API with gallery, and video frame extraction using ffmpeg."
+    },
+    "visual-media-toolkit": {
+      "name": "Visual Media Toolkit",
+      "description": "Visual media creation and processing: batch AI image generation via OpenAI Images API with gallery, and video frame extraction using ffmpeg."
+    },
+    "weather": {
+      "name": "Weather",
+      "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed)."
     },
     "web-design-guidelines": {
       "name": "Web Design Guidelines",
@@ -332,9 +464,17 @@
       "name": "webapp-testing",
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
     },
+    "x-social-publisher": {
+      "name": "X Social Publisher",
+      "description": "Publish and manage X (Twitter) posts, replies, and media via xurl CLI with full API access."
+    },
     "xlsx": {
       "name": "Xlsx",
       "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
+    },
+    "xurl": {
+      "name": "Xurl",
+      "description": "Publish and manage X (Twitter) posts, replies, and media via xurl CLI with full API access."
     },
     "youtube-transcript": {
       "name": "youtube-transcript",

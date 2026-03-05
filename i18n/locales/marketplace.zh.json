@@ -12,6 +12,10 @@
       "name": "算法艺术",
       "description": "使用 p5.js 通过种子随机性和交互式参数探索创建算法艺术。当用户请求使用代码创作艺术、生成艺术、算法艺术、流场或粒子系统时使用。创建原创算法艺术而不是复制现有艺术家的作品以避免版权侵犯。"
     },
+    "alpha-vantage": {
+      "name": "阿尔法优势",
+      "description": "财务与SEC研究工具包：SEC EDGAR文件（10-K/10-Q/8-K）、美国财政部财政数据、对冲基金风险监控以及通过Alpha Vantage提供的实时市场数据。"
+    },
     "anthropic-brand-guidelines": {
       "name": "Anthropic品牌指南",
       "description": "将Anthropic的官方品牌色彩和字体应用于任何类型的物品。"
@@ -23,6 +27,10 @@
     "artifacts-builder": {
       "name": "Artifact 构建器",
       "description": "使用 modern 前端技术（包括 React、Tailwind CSS 和 shadcn/ui）构建精美的多组件 Claude.ai HTML artifacts。"
+    },
+    "audio-content-suite": {
+      "name": "音频内容套件",
+      "description": "音频与语音工具包：使用OpenAI Whisper API进行转录，通过sherpa-onnx实现离线本地TTS，以及使用summarize.sh进行URL/文件/YouTube内容摘要。"
     },
     "baoyu-article-illustrator": {
       "name": "文章插图助手",
@@ -124,6 +132,10 @@
       "name": "数据分析工具",
       "description": "全面数据分析工具包：提供CSV汇总、数据透视表和方差分析，助力深入洞察企业数据。"
     },
+    "data-visualization-suite": {
+      "name": "数据可视化套件",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表，GeoPandas用于地理空间，NetworkX用于网络分析，以及SymPy用于符号数学。"
+    },
     "deep-reading": {
       "name": "深度阅读",
       "description": "深度阅读协作系统，采用多层人工智能代理，助力将文章从“阅读”转变为“理解”，进而达到“精通”，并提供可执行的计划。适用于用户需要深入理解复杂文章/论文、系统整理阅读笔记、批判性思考内容、发现隐藏的逻辑问题和假设，或将知识转化为行动计划时使用。触发关键词：深度阅读、批判性思维、阅读笔记、文章分析、苏格拉底提问、行动计划。"
@@ -176,6 +188,14 @@
       "name": "域名头脑风暴器",
       "description": "生成创意域名想法，并检查多个 TLD（包括 .com、.io、.dev 和 .ai 扩展名）的可用性。"
     },
+    "eda-workflows": {
+      "name": "工作流程",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表制作，GeoPandas用于地理空间数据，NetworkX用于网络分析，SymPy用于符号数学。"
+    },
+    "edgartools": {
+      "name": "爱德华工具",
+      "description": "财务与SEC研究工具包：SEC EDGAR申报文件（10-K/10-Q/8-K）、美国财政部财政数据、对冲基金风险监控以及通过Alpha Vantage提供的实时市场数据。"
+    },
     "excalidraw-diagram": {
       "name": "Excalidraw 绘图助手",
       "description": "从文本内容为 Obsidian 生成 Excalidraw 图表。适用于创建流程图、思维导图或各种可视化表示。"
@@ -208,6 +228,10 @@
       "name": "文件整理器",
       "description": "通过理解上下文、查找重复项并建议更好的组织结构来智能地组织文件和文件夹。"
     },
+    "financial-data-research": {
+      "name": "金融研究",
+      "description": "金融和SEC研究工具包：SEC EDGAR申报文件（10-K/10-Q/8-K）、美国财政部财政数据、对冲基金风险监控以及通过Alpha Vantage提供的实时市场数据。"
+    },
     "financial-modeling-suite": {
       "name": "财务建模套件",
       "description": "专业DCF估值和LBO分析财务建模套件。适用于投资银行和公司金融。"
@@ -224,9 +248,25 @@
       "name": "前端设计",
       "description": "创建独特的、生产级前端界面，具有高设计质量。当用户要求构建 Web 组件、页面或应用程序时使用此技能。生成富有创意、精致的代码，避免通用的 AI 美学。"
     },
+    "geopandas": {
+      "name": "地理数据",
+      "description": "科学数据可视化与分析工具集：Matplotlib、Seaborn、Plotly用于图表制作，GeoPandas用于地理空间数据，NetworkX用于网络分析，SymPy用于符号数学。"
+    },
     "git-pushing": {
       "name": "Git 推送",
       "description": "使用常规提交消息暂存、提交和推送 git 更改。当用户想要提交和推送更改、提到推送到远程或要求保存和推送他们的工作时使用。"
+    },
+    "github": {
+      "name": "代码托管",
+      "description": "通过 gh CLI 进行 GitHub 操作：管理问题、拉取请求、CI 运行、代码审查以及 API 查询，并输出结构化的 JSON 格式数据。"
+    },
+    "github-cli": {
+      "name": "代码命令行",
+      "description": "通过 gh CLI 进行 GitHub 操作：管理问题、Pull Requests、CI 构建、代码审查和 API 查询，并以结构化的 JSON 格式输出。"
+    },
+    "hedgefundmonitor": {
+      "name": "对冲基金监控",
+      "description": "金融与SEC研究工具包：SEC EDGAR文件（10-K/10-Q/8-K）、美国财政部财政数据、对冲基金风险监控以及通过Alpha Vantage获取的实时市场数据。"
     },
     "image-enhancer": {
       "name": "图像增强器",
@@ -252,6 +292,10 @@
       "name": "Markdown 转 EPUB 转换器",
       "description": "将 markdown 文档和聊天摘要转换为格式化的 EPUB 电子书文件，可以在任何设备上阅读或上传到 Kindle。"
     },
+    "matplotlib": {
+      "name": "绘图工具",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly 用于图表，GeoPandas 用于地理空间，NetworkX 用于网络分析，SymPy 用于符号数学。"
+    },
     "mcp-builder": {
       "name": "MCP 构建器",
       "description": "指导使用 Python 或 TypeScript 创建高质量的 MCP（模型上下文协议）服务器，以将外部 API 和服务与 LLM 集成。"
@@ -268,6 +312,14 @@
       "name": "Move 代码质量技能",
       "description": "根据官方 Move Book 代码质量检查表分析 Move 语言包。在审查 Move 代码、检查 Move 2024 Edition 合规性或分析 Move 包的最佳实践时使用此技能。"
     },
+    "nano-pdf": {
+      "name": "纳米PDF",
+      "description": "必备生产力集成：Notion 知识管理、Trello 项目看板、nano-pdf 自然语言 PDF 编辑，以及实时天气查询（无需API密钥）。"
+    },
+    "networkx": {
+      "name": "网络分析",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表制作，GeoPandas用于地理空间分析，NetworkX用于网络分析，以及SymPy用于符号数学。"
+    },
     "notebooklm": {
       "name": "NotebookLM 集成",
       "description": "使用此技能直接从 Claude Code 查询您的 Google NotebookLM 笔记本，获取来自 Gemini 的基于来源、有引用支持的答案。支持浏览器自动化、笔记本库管理和持久认证。通过仅基于文档的响应大幅减少幻觉问题。"
@@ -276,13 +328,33 @@
       "name": "NotebookLM 集成",
       "description": "使用此技能直接从 Claude Code 查询您的 Google NotebookLM 笔记本，以获得来自 Gemini 的基于来源、有引用支持的答案。"
     },
+    "notion": {
+      "name": "概念笔记",
+      "description": "必备生产力集成：Notion 知识管理、Trello 项目看板、nano-pdf 自然语言 PDF 编辑和实时天气查询（无需 API 密钥）。"
+    },
+    "obsidian": {
+      "name": "黑曜石",
+      "description": "通过 obsidian-cli 与 Obsidian 保险库协同工作：搜索、创建、移动和重命名笔记，并自动更新维基链接。"
+    },
     "obsidian-canvas-creator": {
       "name": "Obsidian Canvas 画布创建器",
       "description": "从文本内容创建 Obsidian Canvas 文件，支持思维导图和自由布局。适用于将内容可视化为交互式画布或空间化组织信息。"
     },
+    "obsidian-vault-manager": {
+      "name": "黑曜石库管",
+      "description": "通过 obsidian-cli 与 Obsidian 保险库协同工作：搜索、创建、移动和重命名笔记，并自动更新维基链接。"
+    },
     "obsidian-visual-suite": {
       "name": "Obsidian绘图套件",
       "description": "Obsidian 完整可视化工具包：Excalidraw、Mermaid 和 Canvas。"
+    },
+    "openai-image-gen": {
+      "name": "图像生成",
+      "description": "视觉媒体创作与处理：通过OpenAI Images API进行批量AI图像生成，并使用ffmpeg提取视频帧。"
+    },
+    "openai-whisper-api": {
+      "name": "Openai Whisper 接口",
+      "description": "音频与语音工具包：OpenAI Whisper API 进行转录，通过 sherpa-onnx 实现离线本地语音合成，以及使用 summarize.sh 进行 URL、文件和 YouTube 视频摘要。"
     },
     "pdf": {
       "name": "PDF 文档处理",
@@ -292,9 +364,25 @@
       "name": "PICT 测试用例设计器",
       "description": "使用 PICT（成对独立组合测试）为任何需求或代码设计全面的测试用例。分析输入参数，使用成对测试生成带有参数、值和有效场景约束的 PICT 模型。输出 PICT 模型、测试用例的 Markdown 表格和预期结果。"
     },
+    "plotly": {
+      "name": "数据可视化",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表制作，GeoPandas用于地理空间数据，NetworkX用于网络分析，SymPy用于符号数学。"
+    },
+    "podcast": {
+      "name": "播客",
+      "description": "使用Volcano Engine TTS生成双声演员对话的AI播客。支持多种音频格式，可调节语速和流式接收。"
+    },
+    "podcast-generator": {
+      "name": "播客生成器",
+      "description": "使用火山引擎TTS生成双声优对话的AI播客。支持多种音频格式、可调语速和流媒体接收。"
+    },
     "pptx": {
       "name": "PPT 演示文稿处理",
       "description": "演示文稿的创建、编辑和分析功能。当 Claude 需要处理演示文稿（.pptx 文件）时使用，包括：(1) 创建新演示文稿，(2) 修改或编辑内容，(3) 处理布局，(4) 添加批注或演讲者备注，或其他任何演示文稿任务。"
+    },
+    "productivity-toolkit": {
+      "name": "效率工具包",
+      "description": "必备生产力集成：Notion 知识管理、Trello 项目看板、nano-pdf 自然语言 PDF 编辑和实时天气查询（无需API密钥）。"
     },
     "pypict-claude-skill": {
       "name": "PyPICT 测试技能",
@@ -328,6 +416,18 @@
       "name": "根因追踪",
       "description": "当错误在执行深处发生并且您需要追溯以找到原始触发器时使用 - 通过调用堆栈向后系统地追踪错误。"
     },
+    "scientific-visualization": {
+      "name": "科学可视化",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表，GeoPandas用于地理空间分析，NetworkX用于网络分析，以及SymPy用于符号数学。"
+    },
+    "seaborn": {
+      "name": "海恩图",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表，GeoPandas用于地理空间数据，NetworkX用于网络分析，SymPy用于符号数学。"
+    },
+    "sherpa-onnx-tts": {
+      "name": "语音合成",
+      "description": "音频和语音工具包：使用 OpenAI Whisper API 进行转录，通过 sherpa-onnx 实现离线本地语音合成，以及使用 summarize.sh 对 URL、文件和 YouTube 视频进行总结。"
+    },
     "ship-learn-next": {
       "name": "发布-学习-下一步",
       "description": "使用 Ship-Learn-Next 框架将学习内容（如 YouTube 转录、文章、教程）转化为可操作的实施计划。"
@@ -340,9 +440,21 @@
       "name": "Slack GIF 创建器",
       "description": "创建针对 Slack 优化的动画 GIF，具有大小约束验证器和可组合的动画原语。"
     },
+    "statistical-analysis": {
+      "name": "统计分析",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表制作，GeoPandas用于地理空间分析，NetworkX用于网络分析，以及SymPy用于符号数学。"
+    },
+    "summarize": {
+      "name": "总结",
+      "description": "音频和语音工具包：使用 OpenAI Whisper API 进行转录，通过 sherpa-onnx 实现离线本地语音合成，以及使用 summarize.sh 进行 URL、文件和 YouTube 视频摘要。"
+    },
     "supabase-postgres-best-practices": {
       "name": "Supabase Postgres 最佳实践",
       "description": "来自 Supabase 的 Postgres 性能优化和最佳实践：查询性能、架构设计、连接管理和安全。"
+    },
+    "sympy": {
+      "name": "数学计算",
+      "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表，GeoPandas用于地理空间，NetworkX用于网络分析，SymPy用于符号数学。"
     },
     "tapestry": {
       "name": "Tapestry 内容提取",
@@ -372,6 +484,14 @@
       "name": "主题工厂",
       "description": "将专业字体和颜色主题应用于 artifacts，包括幻灯片、文档、报告和 HTML 登录页面，提供 10 个预设主题。"
     },
+    "trello": {
+      "name": "特蕾板",
+      "description": "必备生产力集成：Notion 知识管理、Trello 项目看板、nano-pdf 自然语言 PDF 编辑和实时天气查询（无需API密钥）。"
+    },
+    "usfiscaldata": {
+      "name": "美国税务数据",
+      "description": "金融和SEC研究工具包：SEC EDGAR申报（10-K/10-Q/8-K）、美国财政部财政数据、对冲基金风险监控，以及通过Alpha Vantage提供的实时市场数据。"
+    },
     "using-git-worktrees": {
       "name": "使用 Git Worktrees",
       "description": "在开始需要与当前工作区隔离的功能工作或执行实施计划之前使用 - 创建具有智能目录选择和安全验证的隔离 git worktrees。"
@@ -392,6 +512,18 @@
       "name": "视频下载器",
       "description": "从 YouTube 和其他平台下载视频以供离线观看、编辑或存档，支持各种格式和质量选项。"
     },
+    "video-frames": {
+      "name": "视频帧",
+      "description": "视觉媒体创作与处理：通过OpenAI Images API进行批量AI图像生成，并使用ffmpeg进行视频帧提取。"
+    },
+    "visual-media-toolkit": {
+      "name": "视觉工具包",
+      "description": "视觉媒体创作与处理：通过OpenAI Images API进行批量AI图像生成，并使用ffmpeg提取视频帧。"
+    },
+    "weather": {
+      "name": "天气",
+      "description": "核心生产力集成：Notion 知识管理、Trello 项目看板、nano-pdf 自然语言 PDF 编辑和实时天气查询（无需 API 密钥）。"
+    },
     "web-design-guidelines": {
       "name": "Web 设计指南",
       "description": "审查 UI 代码是否符合 Web 界面设计指南。当被要求\\\"审查我的 UI\\\"、\\\"检查可访问性\\\"、\\\"审计设计\\\"、\\\"审查用户体验\\\"或\\\"根据最佳实践检查我的网站\\\"时使用。"
@@ -404,9 +536,17 @@
       "name": "Web 应用测试",
       "description": "使用 Playwright 测试本地 Web 应用程序，以验证前端功能、调试 UI 行为和捕获屏幕截图。"
     },
+    "x-social-publisher": {
+      "name": "社交发布者",
+      "description": "发布和管理X（Twitter）帖子、回复和媒体，通过xurl CLI全面访问API。"
+    },
     "xlsx": {
       "name": "Excel 表格处理",
       "description": "全面的电子表格创建、编辑和分析功能，支持公式、格式设置、数据分析和可视化。当 Claude 需要处理电子表格（.xlsx、.xlsm、.csv、.tsv 等）时使用，包括：(1) 创建带有公式和格式的新电子表格，(2) 读取或分析数据，(3) 在保留公式的同时修改现有电子表格，(4) 在电子表格中进行数据分析和可视化，或 (5) 重新计算公式。"
+    },
+    "xurl": {
+      "name": "链接助手",
+      "description": "发布和管理X（Twitter）帖子、回复和媒体，通过xurl CLI使用完整API访问。"
     },
     "youtube-transcript": {
       "name": "YouTube 转录",

@@ -7,69 +7,76 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Plugins-33-blue?style=for-the-badge" alt="Plugins">
-  <img src="https://img.shields.io/badge/Skills-62-orange?style=for-the-badge" alt="Skills">
-  <img src="https://img.shields.io/badge/Version-v2.0.0-blue?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/badge/Skills-85-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Categories-7-blue?style=for-the-badge" alt="Categories">
+  <img src="https://img.shields.io/badge/Platforms-16+-green?style=for-the-badge" alt="Platforms">
+  <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="License">
 </p>
 
 <p align="center">
-  <em>Curated Practical Skills · Continuously Updated · Modular Refactor</em>
+  <em>A Curated Skill Collection for AI Agents — Cross-Platform · Scenario-Driven · Continuously Evolving</em>
 </p>
 
 ---
 
-**Bridging Technical Divides, Empowering AI for Everyone**
+## What is Skill Box?
 
-From automated workflows to professional content creation, unlock the infinite possibilities of AI.
+**Skill Box** is a **cross-AI-Agent skill curation platform**. Its value lies not in "collecting", but in **filtering + integrating + lowering the barrier to use**.
 
-Skillbox is a curated collection of skills for Claude Code. We group related skills into powerful plugins to make installation and usage more efficient.
+Unlike repositories that simply list skills by technical function, Skill Box organizes skills around **user roles and real workflows** — so you find what you need by thinking about *what you want to accomplish*, not *what API to call*.
 
----
+### 🎯 The Skill Box Ecosystem
 
-## 🔗 Important Links
+| Component | Role | Link |
+| :--- | :--- | :--- |
+| **Skill Box** (this repo) | Core content layer — the curated skill library | You are here |
+| **Skill Box Website** | Discovery layer — browse skills visually | [skill-box.zwtj.site](https://skill-box.zwtj.site/) |
+| **Skillbox Studio** | Action layer — visual installation tool | [GitHub](https://github.com/Jst-Well-Dan/Skillbox-Studio) |
 
-- **Skillbox Official Site**: [https://skill-box.zwtj.site/](https://skill-box.zwtj.site/) - Browse available skills visually
-- **Skillbox Studio**: [https://github.com/Jst-Well-Dan/Skillbox-Studio](https://github.com/Jst-Well-Dan/Skillbox-Studio) - Visual management tool
+### 💡 Why Skill Box?
 
----
-
-## Plugin Categories
-
-| Category | Description | Plugins | Skills |
-|------|------|:--------:|:--------:|
-| **No-Code Builder** | Web development, testing, and automation workflows without writing code. | 8 | 17 |
-| **Office Automation** | Unified processing suite for Word, Excel, PPT, and PDF. | 3 | 6 |
-| **Content Pipeline** | Full workflow for web harvesting, video downloading, and AI content creation. | 5 | 16 |
-| **Immersive Reading** | Deep reading analysis and action conversion. | 3 | 4 |
-| **Visual & Creative** | Visual design, video production, Obsidian visualization, and theme styling. | 8 | 10 |
-| **Brand & Marketing** | Brand guidelines, internal communications, and raffle tools. | 3 | 3 |
-| **Business Analyst** | Data analysis toolkit, financial modeling, and invoice recognition. | 3 | 6 |
+- **Cross-platform**: Works with **16+ AI Agents** — Claude Code, Cursor, Windsurf, Gemini CLI, Amp, and more
+- **Scenario-driven categories**: Organized by what you *do*, not what skills *are*
+- **Complete toolchain**: Website + Desktop Studio lower the barrier for non-technical users
+- **Quality tiers**: Every skill is clearly labeled as `🎖️ Curated` (author-verified) or `🌐 Community` (quality-checked)
 
 ---
 
-## 🌟 Featured Plugins
+## 📋 Skill Categories
 
-### 📥 Content Harvester (content-harvester)
-> *One-stop harvesting for web and multi-media resources*
-- **web-fetch**: Scrape web content into Markdown.
-- **advanced-video-downloader**: Download videos from YouTube, Bilibili, and 1000+ other platforms.
-- **youtube-transcript**: Extract YouTube transcripts automatically.
+| Category | Description | Skills |
+| :--- | :--- | :---: |
+| **No-Code Builder** | Frontend development, testing, DevOps workflows — build without deep coding | 18 |
+| **Office & Productivity** | Word/Excel/PPT/PDF processing, Notion, Trello, and productivity integrations | 10 |
+| **Content Pipeline** | Web scraping, video downloading, AI content creation, TTS, and multi-platform publishing | 21 |
+| **Learning & Research** | Deep reading analysis, Obsidian integration, NotebookLM, and knowledge management | 4 |
+| **Visual & Creative** | Visual design, image generation, video production, Excalidraw/Mermaid diagrams | 11 |
+| **Brand & Marketing** | Brand guidelines, internal communications, and engagement tools | 3 |
+| **Business Analyst** | Data visualization, financial modeling, SEC research, and invoice processing | 18 |
 
-### 📊 Data Analysis Toolkit (data-analysis-toolkit)
-> *From data cleaning to deep insights*
-- **csv-data-summarizer**: One-click CSV summary and visualization.
-- **excel-pivot-wizard**: Create advanced pivot tables and dashboards.
-- **excel-variance-analyzer**: Root cause analysis for budget vs. actual variance.
+---
 
-### 📑 Document Suite (document-suite)
-> *Unified handling for the entire Office suite*
-- **docx / xlsx / pptx / pdf**: Create, edit, and analyze Word/Excel/PPT/PDF while preserving formatting.
+## 🌟 Curated Workflows
 
-### 🧠 Reading to Action (reading-to-action)
-> *Transform high-quality input into actual output*
-- **deep-reading-analyst**: Deep analysis of articles using 5 major mental models.
-- **ship-learn-next**: Develop action-oriented learning and execution plans.
+> *“Not just atomic tools—these are end-to-end, battle-tested solutions verified in daily practice.”*
+
+### 💼 Investment Banking & Finance
+> *Automating time-consuming financial modeling and SEC data extraction.*
+- **`alpha-vantage` & `edgartools`** — Terminal-native SEC filings (10-K/10-Q) extraction and fundamental analysis
+- **`excel-dcf-modeler` & `excel-lbo-modeler`** — Auto-build professional DCF (Discounted Cash Flow) and LBO (Leveraged Buyout) financial models
+- **`invoice-processor`** — AI vision recognition to process PDF/image invoices directly into formatted Excel ledgers
+
+### 📝 Deep Learning & Second Brain
+> *The core Personal Knowledge Management (PKM) loop.*
+- **`deep-reading`** — Beyond summaries: Reverse-engineer long-form content using 5 mental models (e.g., McKinsey Framework, Systems Thinking)
+- **`obsidian`** — Manage your local Obsidian vault via CLI, maintaining bidirectional Wikilinks seamlessly
+- **`excalidraw-diagram`** — Instantly transform structural text logic into interactive Obsidian Excalidraw diagrams and mind maps
+
+### 🕸️ Content Harvesting Pipeline
+> *Bypassing walled gardens and closed platforms.*
+- **`web-fetch`** — Highly optimized scraper that bypasses anti-bot measures (Perfect parsing for WeChat Official Articles)
+- **`advanced-video-downloader`** — High-speed video/audio extraction from YouTube, Bilibili, and 1000+ platforms
+- **`youtube-transcript`** — Effortlessly extract high-accuracy video transcripts for your text processing corpus
 
 ---
 
@@ -77,297 +84,178 @@ Skillbox is a curated collection of skills for Claude Code. We group related ski
 
 ### Method 1: One-Click Install (Recommended)
 
-Run the following command in your terminal to install the entire skill library:
-
 ```bash
 claude plugin install Jst-Well-Dan/Skill-Box
 ```
 
-### Method 2: Install Specific Plugins
+### Method 2: Use Skillbox Studio
 
-With the refactored structure, you can easily install functional groups. For example, to install the Office suite:
+Download [Skillbox Studio](https://github.com/Jst-Well-Dan/Skillbox-Studio) for a visual, point-and-click installation experience.
 
-```bash
-claude plugin add document-suite
-```
+### Method 3: Manual Installation
+
+Copy any skill folder into your agent's skill directory. See the [Platform Compatibility](#-supported-platforms) section below for paths.
 
 ### Using Skills
 
-Once the plugin is installed, Claude will **automatically identify** when to call the relevant skills. For example:
+Once installed, your AI agent will **automatically identify** when to invoke relevant skills. For example:
 
-- "Analyze this PDF and summarize it into Word" → Automatically calls **document-suite**
-- "Scrape this webpage and analyze its business model" → Automatically calls **content-harvester** and **data-analysis-toolkit**
+- *"Analyze this PDF and summarize it into Word"* → Calls **docx** + **pdf**
+- *"Scrape this webpage and analyze its business model"* → Calls **web-fetch** + **csv-data-summarizer**
+- *"Download this YouTube video and extract the transcript"* → Calls **advanced-video-downloader** + **youtube-transcript**
 
 ---
 
-## 📂 Full List (v2.0)
+## 📂 Full Skill List
 
 <details>
-<summary>Click to expand the detailed list of 33 plugins / 62 skills</summary>
+<summary>Click to expand the complete list of 85 skills across 7 categories</summary>
 
-### No-Code Builder
+### No-Code Builder (18 skills)
 
-#### 1. frontend-builder
-> End-to-end frontend development: design interfaces, build artifacts, follow best practices, and deploy.
-
-**Included Skills:**
-- `artifacts-builder` - Building frontend artifacts
-- `frontend-design` - Frontend UI design
-- `react-best-practices` - React best practices
-- `vercel-deploy` - Deployment to Vercel
-- `web-design-guidelines` - Web UI design guidelines compliance check
-
-**Source:** [Anthropic](https://github.com/anthropics/skills) | [Vercel Labs](https://github.com/vercel-labs/agent-skills)
-
-#### 2. testing-toolkit
-> Complete testing toolkit: PICT design, TDD methodology, automated test fixing, and E2E testing.
-
-**Included Skills:**
-- `pypict` - PICT combinatorial test design
-- `tdd` - Test Driven Development
-- `test-fixing` - Automated test fixing
-- `webapp-testing` - Web app end-to-end testing
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) | [obra](https://github.com/obra/superpowers) | [mhattingpete](https://github.com/mhattingpete)
-
-#### 3. dev-workflow
-> Streamline development: brainstorm features, push changes, and auto-generate changelogs.
-
-**Included Skills:**
-- `changelog-generator` - Automatic changelog generation
-- `dev-brainstorming` - Development brainstorming
-- `git-pushing` - Git commit and push
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) | [obra](https://github.com/obra/superpowers) | [mhattingpete](https://github.com/mhattingpete/claude-skills-marketplace)
-
-#### 4. skill-creator
-> Guide for creating and updating effective Claude skills.
-
-**Source:** [Anthropic](https://github.com/anthropics/skills)
-
-#### 5. mcp-builder
-> Guide for creating high-quality MCP (Model Context Protocol) servers.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
-
-#### 6. developer-growth-analysis
-> Identify coding patterns and growth areas from chat history.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
-
-#### 7. terminal-title
-> Automatically updates terminal window title based on current task.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
-
-#### 8. supabase-postgres-best-practices
-> Postgres performance optimization and best practices from Supabase: query performance, schema design, connection management, and security.
-
-**Source:** [Supabase](https://github.com/supabase/agent-skills)
+| # | Skill | Description | Source |
+| :--- | :--- | :--- | :--- |
+| 1 | `artifacts-builder` | Build multi-component HTML artifacts with React, Tailwind, shadcn/ui | [Anthropic](https://github.com/anthropics/skills) |
+| 2 | `frontend-design` | Create distinctive, production-grade frontend interfaces | [Anthropic](https://github.com/anthropics/skills) |
+| 3 | `react-best-practices` | React & Next.js performance optimization from Vercel Engineering | [Vercel Labs](https://github.com/vercel-labs/agent-skills) |
+| 4 | `vercel-deploy` | Deploy applications to Vercel with preview URLs | [Vercel Labs](https://github.com/vercel-labs/agent-skills) |
+| 5 | `web-design-guidelines` | UI code review for Web Interface Guidelines compliance | [Anthropic](https://github.com/anthropics/skills) |
+| 6 | `pypict-claude-skill` | PICT combinatorial test case design | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 7 | `test-driven-development` | TDD methodology: write tests first, then implement | [obra](https://github.com/obra/superpowers) |
+| 8 | `test-fixing` | Systematically fix all failing tests with smart error grouping | [mhattingpete](https://github.com/mhattingpete) |
+| 9 | `webapp-testing` | E2E web app testing with Playwright | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 10 | `changelog-generator` | Auto-generate changelogs from git commits | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 11 | `development-brainstorming` | Collaborative technical design brainstorming | [obra](https://github.com/obra/superpowers) |
+| 12 | `git-pushing` | Stage, commit, and push with conventional messages | [mhattingpete](https://github.com/mhattingpete) |
+| 13 | `github` | GitHub operations via gh CLI: issues, PRs, CI, code review | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 14 | `skill-creator` | Guide for creating effective Claude skills | [Anthropic](https://github.com/anthropics/skills) |
+| 15 | `mcp-builder` | Guide for building MCP (Model Context Protocol) servers | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 16 | `developer-growth-analysis` | Identify coding patterns and growth areas from chat history | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 17 | `terminal-title` | Auto-update terminal window title based on current task | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 18 | `supabase-postgres-best-practices` | Postgres performance optimization from Supabase | [Supabase](https://github.com/supabase/agent-skills) |
 
 ---
 
-### Office Automation
+### Office & Productivity (10 skills)
 
-#### 8. document-suite
-> Complete office document toolkit: create, edit, and analyze Word, Excel, PowerPoint, and PDF.
-
-**Included Skills:**
-- `docx` - Word document processing
-- `pdf` - PDF document processing
-- `pptx` - PowerPoint processing
-- `xlsx` - Excel spreadsheet processing
-
-**Source:** [Anthropic](https://github.com/anthropics/skills)
-
-#### 9. markdown-to-epub-converter
-> Convert markdown documents and chat summaries into EPUB ebook files.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
-
-#### 10. file-organizer
-> Intelligently organizes files and folders by understanding context.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
+| # | Skill | Description | Source |
+| :--- | :--- | :--- | :--- |
+| 1 | `document-skills-docx` | Word document creation, editing, tracked changes | [Anthropic](https://github.com/anthropics/skills) |
+| 2 | `document-skills-xlsx` | Excel spreadsheet processing with formulas | [Anthropic](https://github.com/anthropics/skills) |
+| 3 | `document-skills-pptx` | PowerPoint creation and editing | [Anthropic](https://github.com/anthropics/skills) |
+| 4 | `document-skills-pdf` | PDF manipulation, extraction, and form filling | [Anthropic](https://github.com/anthropics/skills) |
+| 5 | `markdown-to-epub-converter` | Convert Markdown to EPUB ebook files | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 6 | `file-organizer` | Intelligent file organization by context | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 7 | `nano-pdf` | Natural language PDF editing via nano-pdf CLI | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 8 | `notion` | Notion knowledge management integration | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 9 | `trello` | Trello project board management | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 10 | `weather` | Real-time weather queries (no API key needed) | [OpenClaw](https://github.com/openclaw/openclaw) |
 
 ---
 
-### Content Pipeline
+### Content Pipeline (21 skills)
 
-#### 11. content-harvester
-> Complete content harvesting: scrape webpages, download videos, and extract YouTube transcripts.
-
-**Included Skills:**
-- `advanced-video-downloader` - Multi-platform video downloader
-- `web-fetch` - Web scraping to Markdown
-- `youtube-transcript` - YouTube transcript extraction
-
-**Source:** [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box)
-
-#### 12. content-research-writer
-> Assists in writing high-quality content with research, citations, and section feedback.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
-
-#### 13. baoyu-content-creation-suite
-> Complete content creation workflow: AI image generation, multi-platform publishing (Xiaohongshu/X/WeChat), article illustrations, slide decks, comics, and infographics.
-
-**Included Skills:**
-- `xhs-images` - Xiaohongshu image generation
-- `post-to-x` - Post to X (Twitter)
-- `post-to-wechat` - Post to WeChat Official Account
-- `article-illustrator` - Article illustrations
-- `cover-image` - Cover image generation
-- `slide-deck` - Slide deck creation
-- `comic` - Comic generation
-- `infographic` - Infographic creation
-- `gemini-web` - Gemini web search
-- `image-gen` - AI image generation
-
-**Source:** [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills)
-
-#### 14. baoyu-x-to-markdown
-> Convert X (Twitter) posts to Markdown format.
-
-**Source:** [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills)
-
-#### 15. baoyu-url-to-markdown
-> Convert web page content to Markdown format.
-
-**Source:** [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills)
+| # | Skill | Description | Source |
+| :--- | :--- | :--- | :--- |
+| 1 | `web-fetch` | Scrape web content to Markdown (incl. WeChat articles) | [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box) |
+| 2 | `advanced-video-downloader` | Download videos from YouTube, Bilibili, 1000+ platforms | [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box) |
+| 3 | `youtube-transcript` | Extract YouTube video transcripts | [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box) |
+| 4 | `content-research-writer` | Research-backed content writing with citations | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 5 | `baoyu-xhs-images` | Xiaohongshu (RedNote) infographic series | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 6 | `baoyu-post-to-x` | Post to X (Twitter) via Chrome automation | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 7 | `baoyu-post-to-wechat` | Post to WeChat Official Account | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 8 | `baoyu-article-illustrator` | AI article illustration generation | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 9 | `baoyu-cover-image` | Article cover image generation (20 styles) | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 10 | `baoyu-slide-deck` | Professional slide deck image generation | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 11 | `baoyu-comic` | Knowledge comic creation (multiple art styles) | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 12 | `baoyu-infographic` | Professional infographics (20 layouts × 17 styles) | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 13 | `baoyu-danger-gemini-web` | Image & text generation via Gemini Web API | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 14 | `baoyu-image-gen` | Image generation via OpenAI/Google official APIs | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 15 | `baoyu-danger-x-to-markdown` | Convert X (Twitter) posts to Markdown | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 16 | `baoyu-url-to-markdown` | Convert web pages to Markdown | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 17 | `baoyu-compress-image` | Batch image compression and optimization | [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) |
+| 18 | `openai-whisper-api` | Speech-to-text via OpenAI Whisper API | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 19 | `sherpa-onnx-tts` | Offline local text-to-speech (privacy-friendly) | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 20 | `summarize` | URL/file/YouTube content summarization | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 21 | `xurl` | X (Twitter) CLI operations and publishing | [OpenClaw](https://github.com/openclaw/openclaw) |
 
 ---
 
-### Immersive Reading
+### Learning & Research (4 skills)
 
-#### 16. reading-to-action
-> Transform reading into results: deep multi-model analysis and actionable learning pathways.
-
-**Included Skills:**
-- `deep-reading-analyst` - Deep analysis using 5 mental models
-- `ship-learn-next` - Learning action plans
-
-**Source:** [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box)
-
-#### 17. notebooklm-integration
-> Query Google NotebookLM notebooks for source-grounded answers.
-
-**Source:** [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill)
-
-#### 18. family-history-research
-> Assistance with planning family history and genealogy research projects.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
+| # | Skill | Description | Source |
+| :--- | :--- | :--- | :--- |
+| 1 | `deep-reading` | Deep analysis using 5 mental models (McKinsey, Systems Thinking, etc.) | [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box) |
+| 2 | `obsidian` | Manage Obsidian vaults: search, create, link notes via CLI | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 3 | `notebooklm-integration` | Query Google NotebookLM for source-grounded answers | [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill) |
+| 4 | `family-history-research` | Family history and genealogy research planning | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 
 ---
 
-### Visual & Creative
+### Visual & Creative (11 skills)
 
-#### 19. obsidian-visual-suite
-> Complete visualization toolkit for Obsidian: Excalidraw, Mermaid, and Canvas.
-
-**Included Skills:**
-- `excalidraw-diagram` - Excalidraw diagrams
-- `mermaid-visualizer` - Mermaid visualization
-- `obsidian-canvas-creator` - Obsidian Canvas
-
-**Source:** [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills)
-
-#### 20. algorithmic-art
-> Creating algorithmic art using p5.js with seeded randomness.
-
-**Source:** [Anthropic](https://github.com/anthropics/skills)
-
-#### 21. canvas-design
-> Create beautiful static visual art and posters.
-
-**Source:** [Anthropic](https://github.com/anthropics/skills)
-
-#### 22. image-enhancer
-> Improves quality of images/screenshots by enhancing resolution and clarity.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
-
-#### 23. slack-gif-creator
-> Toolkit for creating animated GIFs optimized for Slack.
-
-**Source:** [Anthropic](https://github.com/anthropics/skills)
-
-#### 24. theme-factory
-> Toolkit for styling artifacts with preset or on-the-fly themes.
-
-**Source:** [Anthropic](https://github.com/anthropics/skills)
-
-#### 25. baoyu-compress-image
-> Batch compress images and optimize file sizes.
-
-**Source:** [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills)
-
-#### 26. remotion-best-practices
-> Comprehensive guide for Remotion video creation: React-based video production, animations, audio, captions, 3D content, and 46 best practices.
-
-**Source:** [Remotion](https://github.com/remotion-dev/skills)
+| # | Skill | Description | Source |
+| :--- | :--- | :--- | :--- |
+| 1 | `excalidraw-diagram` | Generate Excalidraw diagrams for Obsidian | [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills) |
+| 2 | `mermaid-visualizer` | Transform text into professional Mermaid diagrams | [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills) |
+| 3 | `obsidian-canvas-creator` | Create Obsidian Canvas files (MindMap & freeform) | [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills) |
+| 4 | `algorithmic-art` | Generative algorithmic art with p5.js | [Anthropic](https://github.com/anthropics/skills) |
+| 5 | `canvas-design` | Beautiful static visual art and poster creation | [Anthropic](https://github.com/anthropics/skills) |
+| 6 | `image-enhancer` | Enhance image resolution and clarity | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 7 | `slack-gif-creator` | Animated GIF creation optimized for Slack | [Anthropic](https://github.com/anthropics/skills) |
+| 8 | `theme-factory` | Style artifacts with preset or custom themes | [Anthropic](https://github.com/anthropics/skills) |
+| 9 | `openai-image-gen` | Batch AI image generation via OpenAI Images API | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 10 | `video-frames` | Video frame and thumbnail extraction via ffmpeg | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 11 | `remotion` | React-based video creation with 46 best practices | [Remotion](https://github.com/remotion-dev/skills) |
 
 ---
 
-### Brand & Marketing
+### Brand & Marketing (3 skills)
 
-#### 27. anthropic-brand-guidelines
-> Applies Anthropic's official brand colors and typography to any sort of artifact.
-
-**Source:** [Anthropic](https://github.com/anthropics/skills)
-
-#### 28. internal-comms
-> Resources to help write all kinds of internal communications.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
-
-#### 29. raffle-winner-picker
-> Picks random winners for giveaways, raffles, and contests.
-
-**Source:** [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills)
+| # | Skill | Description | Source |
+| :--- | :--- | :--- | :--- |
+| 1 | `Anthropic-brand-guidelines` | Apply Anthropic's brand colors and typography | [Anthropic](https://github.com/anthropics/skills) |
+| 2 | `internal-comms` | Write various internal communications | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 3 | `raffle-winner-picker` | Random winner selection for giveaways and contests | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 
 ---
 
-### Business Analyst
+### Business Analyst (18 skills)
 
-#### 30. data-analysis-toolkit
-> Complete data analysis toolkit: CSV summarization, pivot tables, and variance analysis for comprehensive business data insights.
-
-**Included Skills:**
-- `csv-data-summarizer` - CSV data analysis and visualization
-- `excel-pivot-wizard` - Excel pivot tables
-- `excel-variance-analyzer` - Variance analysis
-
-**Source:** [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
-
-#### 31. financial-modeling-suite
-> Professional financial modeling suite for DCF valuation and LBO analysis. Perfect for investment banking and corporate finance.
-
-**Included Skills:**
-- `excel-dcf-modeler` - DCF valuation model
-- `excel-lbo-modeler` - LBO analysis model
-
-**Source:** [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
-
-#### 32. invoice-processor
-> Automatically process invoices from PDFs/images to Excel using AI vision.
-
-**Source:** [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box)
+| # | Skill | Description | Source |
+| :--- | :--- | :--- | :--- |
+| 1 | `csv-data-summarizer` | CSV analysis, summary stats, and quick visualizations | [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
+| 2 | `excel-pivot-wizard` | Excel pivot table generation | [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
+| 3 | `excel-variance-analyzer` | Variance and deviation analysis | [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
+| 4 | `excel-dcf-modeler` | DCF valuation financial model | [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
+| 5 | `excel-lbo-modeler` | LBO analysis financial model | [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) |
+| 6 | `invoice-processor` | PDF/image invoice extraction to Excel via AI vision | [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box) |
+| 7 | `matplotlib` | Publication-quality static charts | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 8 | `seaborn` | Statistical data visualization | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 9 | `plotly` | Interactive charts and dashboards | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 10 | `geopandas` | Geospatial data analysis and mapping | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 11 | `networkx` | Network/graph analysis and visualization | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 12 | `sympy` | Symbolic mathematics computation | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 13 | `scientific-visualization` | Comprehensive scientific visualization toolkit | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 14 | `statistical-analysis` | Standardized EDA and statistical validation | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 15 | `edgartools` | SEC EDGAR filings research (10-K/10-Q/8-K) | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 16 | `alpha-vantage` | Real-time market data via Alpha Vantage API | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 17 | `hedgefundmonitor` | Hedge fund risk monitoring and analysis | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| 18 | `usfiscaldata` | US Treasury fiscal data access | [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) |
 
 </details>
 
 ---
 
-## Supported Platforms & Configuration
+## 🖥️ Supported Platforms
 
-Skillbox skills are not only compatible with Claude Code but can also be installed in various other AI agents.
+Skill Box skills are compatible with **16+ AI Agents**. Use the path table below for manual installation, or try the one-click tool.
 
-**One-Click Configuration Tool (Recommended)**
-You can use the script provided by [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill) for quick configuration, supporting interactive selection and automatic installation.
+**One-Click Configuration Tool (Recommended):**
+Use [vercel-labs/add-skill](https://github.com/vercel-labs/add-skill) for interactive selection and automatic installation.
 
-**Manual Path Reference**
-If manual installation is required, please refer to the path configurations in the table below. Use the `-g` or `--global` flag to install to the global path.
+<details>
+<summary>Click to expand the full platform compatibility table</summary>
 
 | AI Agent | Project Path | Global Path |
 | :--- | :--- | :--- |
@@ -388,19 +276,29 @@ If manual installation is required, please refer to the path configurations in t
 | **Codex** | `.codex/skills/` | `~/.codex/skills/` |
 | **Droid** | `.factory/skills/` | `~/.factory/skills/` |
 
+</details>
+
 ---
 
-## Contributions & Feedback
+## 🤝 Contributing
 
-Welcome to submit new plugin ideas or improve existing skills!
+We welcome contributions! Whether it's a new skill, an improvement, or a bug report — every bit helps.
 
-- Found a bug? [Submit an Issue](https://github.com/Jst-Well-Dan/Skill-Box/issues)
-- Have an idea? [Start a Discussion](https://github.com/Jst-Well-Dan/Skill-Box/discussions)
-- Want to contribute? Check out the [Skill Creation Guide](./no-code-builder/skill-creator/SKILL.md)
+- 🐛 Found a bug? → [Submit an Issue](https://github.com/Jst-Well-Dan/Skill-Box/issues)
+- 💡 Have an idea? → [Start a Discussion](https://github.com/Jst-Well-Dan/Skill-Box/discussions)
+- ✍️ Want to contribute? → Check out the [Skill Creation Guide](./no-code-builder/skill-creator/SKILL.md)
+
+---
+
+## 📜 Acknowledgements
+
+Skill Box is built on the shoulders of the open-source community. Special thanks to all skill authors and source repositories:
+
+[Anthropic](https://github.com/anthropics/skills) · [Vercel Labs](https://github.com/vercel-labs/agent-skills) · [Jim Liu (宝玉)](https://github.com/JimLiu/baoyu-skills) · [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) · [obra](https://github.com/obra/superpowers) · [K-Dense-AI](https://github.com/K-Dense-AI/claude-scientific-skills) · [OpenClaw](https://github.com/openclaw/openclaw) · [Supabase](https://github.com/supabase/agent-skills) · [Remotion](https://github.com/remotion-dev/skills) · [Axton Liu](https://github.com/axtonliu/axton-obsidian-visual-skills) · [Jeremy Longshore](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) · [PleasePrompto](https://github.com/PleasePrompto/notebooklm-skill) · [staruhub](https://github.com/staruhub/ClaudeSkills)
 
 ---
 
 <p align="center">
   <b>Load Skills, Level Up.</b><br>
-  <em>by Jst-Well-Dan</em>
+  <em>by <a href="https://github.com/Jst-Well-Dan">Jst-Well-Dan</a></em>
 </p>

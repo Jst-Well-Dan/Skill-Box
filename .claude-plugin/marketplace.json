@@ -1,461 +1,597 @@
 {
-  "name": "Skill-Box",
-  "version": "2.0.0",
-  "description": "An collection of practical skills that transforms your AI assistant from a generalist into a powerful specialist.",
-  "owner": {
-    "name": "Jst-Well-Dan",
-    "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-  },
-  "plugins": [
-    {
-      "name": "anthropic-brand-guidelines",
-      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact.",
-      "category": "brand-marketing",
-      "author": {
-        "name": "Anthropic",
-        "url": "https://github.com/anthropics/skills"
-      },
-      "skills": [
-        "./brand-marketing/Anthropic-brand-guidelines"
-      ]
-    },
-    {
-      "name": "internal-comms",
-      "description": "Resources to help write all kinds of internal communications.",
-      "category": "brand-marketing",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./brand-marketing/internal-comms"
-      ]
-    },
-    {
-      "name": "raffle-winner-picker",
-      "description": "Picks random winners for giveaways, raffles, and contests.",
-      "category": "brand-marketing",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./brand-marketing/raffle-winner-picker"
-      ]
-    },
-    {
-      "name": "data-analysis-toolkit",
-      "description": "Complete data analysis toolkit: CSV summarization, pivot tables, and variance analysis for comprehensive business data insights.",
-      "category": "business-analyst",
-      "author": {
-        "name": "Jeremy Longshore",
-        "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
-      },
-      "skills": [
-        "./business-analyst/csv-data-summarizer",
-        "./business-analyst/excel-pivot-wizard",
-        "./business-analyst/excel-variance-analyzer"
-      ]
-    },
-    {
-      "name": "financial-modeling-suite",
-      "description": "Professional financial modeling suite for DCF valuation and LBO analysis. Perfect for investment banking and corporate finance.",
-      "category": "business-analyst",
-      "author": {
-        "name": "Jeremy Longshore",
-        "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
-      },
-      "skills": [
-        "./business-analyst/excel-dcf-modeler",
-        "./business-analyst/excel-lbo-modeler"
-      ]
-    },
-    {
-      "name": "invoice-processor",
-      "description": "Automatically process invoices from PDFs/images to Excel using AI vision.",
-      "category": "business-analyst",
-      "author": {
+    "name": "Skill-Box",
+    "version": "2.0.0",
+    "description": "An collection of practical skills that transforms your AI assistant from a generalist into a powerful specialist.",
+    "owner": {
         "name": "Jst-Well-Dan",
         "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-      },
-      "skills": [
-        "./business-analyst/invoice-processor"
-      ]
     },
-    {
-      "name": "content-harvester",
-      "description": "Complete content harvesting: scrape webpages, download videos, and extract YouTube transcripts.",
-      "category": "content-pipeline",
-      "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-      },
-      "skills": [
-        "./content-pipeline/advanced-video-downloader",
-        "./content-pipeline/web-fetch",
-        "./content-pipeline/youtube-transcript"
-      ]
-    },
-    {
-      "name": "content-research-writer",
-      "description": "Assists in writing high-quality content with research, citations, and section feedback.",
-      "category": "content-pipeline",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./content-pipeline/content-research-writer"
-      ]
-    },
-    {
-      "name": "deep-reading",
-      "description": "Deep reading collaborative system using multi-layered AI agents to help transform articles from 'read' to 'understood' to 'mastered', with actionable plans.",
-      "category": "immersive-reading",
-      "author": {
-        "name": "Jst-Well-Dan",
-        "url": "https://github.com/Jst-Well-Dan/Skill-Box"
-      },
-      "skills": [
-        "./immersive-reading/deep-reading"
-      ]
-    },
-    {
-      "name": "notebooklm-integration",
-      "description": "Query Google NotebookLM notebooks for source-grounded answers.",
-      "category": "immersive-reading",
-      "author": {
-        "name": "PleasePrompto",
-        "url": "https://github.com/PleasePrompto/notebooklm-skill"
-      },
-      "skills": [
-        "./immersive-reading/notebooklm-integration"
-      ]
-    },
-    {
-      "name": "family-history-research",
-      "description": "Assistance with planning family history and genealogy research projects.",
-      "category": "immersive-reading",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./immersive-reading/family-history-research"
-      ]
-    },
-    {
-      "name": "frontend-builder",
-      "description": "End-to-end frontend development: design interfaces, build artifacts, follow best practices, and deploy.",
-      "category": "no-code-builder",
-      "authors": [
+    "plugins": [
         {
-          "name": "Anthropic",
-          "url": "https://github.com/anthropics/skills"
+            "name": "anthropic-brand-guidelines",
+            "description": "Applies Anthropic's official brand colors and typography to any sort of artifact.",
+            "category": "brand-marketing",
+            "author": {
+                "name": "Anthropic",
+                "url": "https://github.com/anthropics/skills"
+            },
+            "skills": [
+                "./brand-marketing/Anthropic-brand-guidelines"
+            ]
         },
         {
-          "name": "Vercel Labs",
-          "url": "https://github.com/vercel-labs/agent-skills"
+            "name": "internal-comms",
+            "description": "Resources to help write all kinds of internal communications.",
+            "category": "brand-marketing",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./brand-marketing/internal-comms"
+            ]
+        },
+        {
+            "name": "raffle-winner-picker",
+            "description": "Picks random winners for giveaways, raffles, and contests.",
+            "category": "brand-marketing",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./brand-marketing/raffle-winner-picker"
+            ]
+        },
+        {
+            "name": "data-analysis-toolkit",
+            "description": "Complete data analysis toolkit: CSV summarization, pivot tables, and variance analysis for comprehensive business data insights.",
+            "category": "business-analyst",
+            "author": {
+                "name": "Jeremy Longshore",
+                "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
+            },
+            "skills": [
+                "./business-analyst/csv-data-summarizer",
+                "./business-analyst/excel-pivot-wizard",
+                "./business-analyst/excel-variance-analyzer"
+            ]
+        },
+        {
+            "name": "financial-modeling-suite",
+            "description": "Professional financial modeling suite for DCF valuation and LBO analysis. Perfect for investment banking and corporate finance.",
+            "category": "business-analyst",
+            "author": {
+                "name": "Jeremy Longshore",
+                "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills"
+            },
+            "skills": [
+                "./business-analyst/excel-dcf-modeler",
+                "./business-analyst/excel-lbo-modeler"
+            ]
+        },
+        {
+            "name": "invoice-processor",
+            "description": "Automatically process invoices from PDFs/images to Excel using AI vision.",
+            "category": "business-analyst",
+            "author": {
+                "name": "Jst-Well-Dan",
+                "url": "https://github.com/Jst-Well-Dan/Skill-Box"
+            },
+            "skills": [
+                "./business-analyst/invoice-processor"
+            ]
+        },
+        {
+            "name": "content-harvester",
+            "description": "Complete content harvesting: scrape webpages, download videos, and extract YouTube transcripts.",
+            "category": "content-pipeline",
+            "author": {
+                "name": "Jst-Well-Dan",
+                "url": "https://github.com/Jst-Well-Dan/Skill-Box"
+            },
+            "skills": [
+                "./content-pipeline/advanced-video-downloader",
+                "./content-pipeline/web-fetch",
+                "./content-pipeline/youtube-transcript"
+            ]
+        },
+        {
+            "name": "content-research-writer",
+            "description": "Assists in writing high-quality content with research, citations, and section feedback.",
+            "category": "content-pipeline",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./content-pipeline/content-research-writer"
+            ]
+        },
+        {
+            "name": "deep-reading",
+            "description": "Deep reading collaborative system using multi-layered AI agents to help transform articles from 'read' to 'understood' to 'mastered', with actionable plans.",
+            "category": "immersive-reading",
+            "author": {
+                "name": "Jst-Well-Dan",
+                "url": "https://github.com/Jst-Well-Dan/Skill-Box"
+            },
+            "skills": [
+                "./immersive-reading/deep-reading"
+            ]
+        },
+        {
+            "name": "notebooklm-integration",
+            "description": "Query Google NotebookLM notebooks for source-grounded answers.",
+            "category": "immersive-reading",
+            "author": {
+                "name": "PleasePrompto",
+                "url": "https://github.com/PleasePrompto/notebooklm-skill"
+            },
+            "skills": [
+                "./immersive-reading/notebooklm-integration"
+            ]
+        },
+        {
+            "name": "family-history-research",
+            "description": "Assistance with planning family history and genealogy research projects.",
+            "category": "immersive-reading",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./immersive-reading/family-history-research"
+            ]
+        },
+        {
+            "name": "frontend-builder",
+            "description": "End-to-end frontend development: design interfaces, build artifacts, follow best practices, and deploy.",
+            "category": "no-code-builder",
+            "authors": [
+                {
+                    "name": "Anthropic",
+                    "url": "https://github.com/anthropics/skills"
+                },
+                {
+                    "name": "Vercel Labs",
+                    "url": "https://github.com/vercel-labs/agent-skills"
+                }
+            ],
+            "skills": [
+                "./no-code-builder/artifacts-builder",
+                "./no-code-builder/frontend-design",
+                "./no-code-builder/react-best-practices",
+                "./no-code-builder/vercel-deploy-claimable",
+                "./no-code-builder/web-design-guidelines"
+            ]
+        },
+        {
+            "name": "testing-toolkit",
+            "description": "Complete testing toolkit: PICT design, TDD methodology, automated test fixing, and E2E testing.",
+            "category": "no-code-builder",
+            "authors": [
+                {
+                    "name": "ComposioHQ",
+                    "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+                },
+                {
+                    "name": "obra",
+                    "url": "https://github.com/obra/superpowers"
+                },
+                {
+                    "name": "mhattingpete",
+                    "url": "https://github.com/mhattingpete"
+                }
+            ],
+            "skills": [
+                "./no-code-builder/pypict-claude-skill",
+                "./no-code-builder/test-driven-development",
+                "./no-code-builder/test-fixing",
+                "./no-code-builder/webapp-testing"
+            ]
+        },
+        {
+            "name": "dev-workflow",
+            "description": "Streamline development: brainstorm features, push changes, and auto-generate changelogs.",
+            "category": "no-code-builder",
+            "authors": [
+                {
+                    "name": "ComposioHQ",
+                    "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+                },
+                {
+                    "name": "obra",
+                    "url": "https://github.com/obra/superpowers"
+                },
+                {
+                    "name": "mhattingpete",
+                    "url": "https://github.com/mhattingpete/claude-skills-marketplace"
+                }
+            ],
+            "skills": [
+                "./no-code-builder/changelog-generator",
+                "./no-code-builder/development-brainstorming",
+                "./no-code-builder/git-pushing"
+            ]
+        },
+        {
+            "name": "skill-creator",
+            "description": "Guide for creating and updating effective Claude skills.",
+            "category": "no-code-builder",
+            "author": {
+                "name": "Anthropic",
+                "url": "https://github.com/anthropics/skills"
+            },
+            "skills": [
+                "./no-code-builder/skill-creator"
+            ]
+        },
+        {
+            "name": "mcp-builder",
+            "description": "Guide for creating high-quality MCP (Model Context Protocol) servers.",
+            "category": "no-code-builder",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./no-code-builder/mcp-builder"
+            ]
+        },
+        {
+            "name": "developer-growth-analysis",
+            "description": "Identify coding patterns and growth areas from chat history.",
+            "category": "no-code-builder",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./no-code-builder/developer-growth-analysis"
+            ]
+        },
+        {
+            "name": "terminal-title",
+            "description": "Automatically updates terminal window title based on current task.",
+            "category": "no-code-builder",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./no-code-builder/terminal-title"
+            ]
+        },
+        {
+            "name": "document-suite",
+            "description": "Complete office document toolkit: create, edit, and analyze Word, Excel, PowerPoint, and PDF.",
+            "category": "office-automation",
+            "author": {
+                "name": "Anthropic",
+                "url": "https://github.com/anthropics/skills"
+            },
+            "skills": [
+                "./office-automation/document-skills-docx",
+                "./office-automation/document-skills-pdf",
+                "./office-automation/document-skills-pptx",
+                "./office-automation/document-skills-xlsx"
+            ]
+        },
+        {
+            "name": "markdown-to-epub-converter",
+            "description": "Convert markdown documents and chat summaries into EPUB ebook files.",
+            "category": "office-automation",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./office-automation/markdown-to-epub-converter"
+            ]
+        },
+        {
+            "name": "file-organizer",
+            "description": "Intelligently organizes files and folders by understanding context.",
+            "category": "office-automation",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./office-automation/file-organizer"
+            ]
+        },
+        {
+            "name": "obsidian-visual-suite",
+            "description": "Complete visualization toolkit for Obsidian: Excalidraw, Mermaid, and Canvas.",
+            "category": "visual-creative",
+            "author": {
+                "name": "Axton Liu",
+                "url": "https://github.com/axtonliu/axton-obsidian-visual-skills"
+            },
+            "skills": [
+                "./visual-creative/excalidraw-diagram",
+                "./visual-creative/mermaid-visualizer",
+                "./visual-creative/obsidian-canvas-creator"
+            ]
+        },
+        {
+            "name": "algorithmic-art",
+            "description": "Creating algorithmic art using p5.js with seeded randomness.",
+            "category": "visual-creative",
+            "author": {
+                "name": "Anthropic",
+                "url": "https://github.com/anthropics/skills"
+            },
+            "skills": [
+                "./visual-creative/algorithmic-art"
+            ]
+        },
+        {
+            "name": "canvas-design",
+            "description": "Create beautiful static visual art and posters.",
+            "category": "visual-creative",
+            "author": {
+                "name": "Anthropic",
+                "url": "https://github.com/anthropics/skills"
+            },
+            "skills": [
+                "./visual-creative/canvas-design"
+            ]
+        },
+        {
+            "name": "image-enhancer",
+            "description": "Improves quality of images/screenshots by enhancing resolution and clarity.",
+            "category": "visual-creative",
+            "author": {
+                "name": "ComposioHQ",
+                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+            },
+            "skills": [
+                "./visual-creative/image-enhancer"
+            ]
+        },
+        {
+            "name": "slack-gif-creator",
+            "description": "Toolkit for creating animated GIFs optimized for Slack.",
+            "category": "visual-creative",
+            "author": {
+                "name": "Anthropic",
+                "url": "https://github.com/anthropics/skills"
+            },
+            "skills": [
+                "./visual-creative/slack-gif-creator"
+            ]
+        },
+        {
+            "name": "theme-factory",
+            "description": "Toolkit for styling artifacts with preset or on-the-fly themes.",
+            "category": "visual-creative",
+            "author": {
+                "name": "Anthropic",
+                "url": "https://github.com/anthropics/skills"
+            },
+            "skills": [
+                "./visual-creative/theme-factory"
+            ]
+        },
+        {
+            "name": "baoyu-content-creation-suite",
+            "description": "Complete content creation workflow: AI image generation, multi-platform publishing (Xiaohongshu/X/WeChat), article illustrations, slide decks, comics, and infographics.",
+            "category": "content-pipeline",
+            "author": {
+                "name": "Jim Liu (宝玉)",
+                "url": "https://github.com/JimLiu/baoyu-skills"
+            },
+            "skills": [
+                "./content-pipeline/baoyu-xhs-images",
+                "./content-pipeline/baoyu-post-to-x",
+                "./content-pipeline/baoyu-post-to-wechat",
+                "./content-pipeline/baoyu-article-illustrator",
+                "./content-pipeline/baoyu-cover-image",
+                "./content-pipeline/baoyu-slide-deck",
+                "./content-pipeline/baoyu-comic",
+                "./content-pipeline/baoyu-infographic",
+                "./content-pipeline/baoyu-danger-gemini-web",
+                "./content-pipeline/baoyu-image-gen"
+            ]
+        },
+        {
+            "name": "baoyu-x-to-markdown",
+            "description": "Convert X (Twitter) posts to Markdown format.",
+            "category": "content-pipeline",
+            "author": {
+                "name": "Jim Liu (宝玉)",
+                "url": "https://github.com/JimLiu/baoyu-skills"
+            },
+            "skills": [
+                "./content-pipeline/baoyu-danger-x-to-markdown"
+            ]
+        },
+        {
+            "name": "baoyu-compress-image",
+            "description": "Batch compress images and optimize file sizes.",
+            "category": "visual-creative",
+            "author": {
+                "name": "Jim Liu (宝玉)",
+                "url": "https://github.com/JimLiu/baoyu-skills"
+            },
+            "skills": [
+                "./content-pipeline/baoyu-compress-image"
+            ]
+        },
+        {
+            "name": "baoyu-url-to-markdown",
+            "description": "Convert web page content to Markdown format.",
+            "category": "content-pipeline",
+            "author": {
+                "name": "Jim Liu (宝玉)",
+                "url": "https://github.com/JimLiu/baoyu-skills"
+            },
+            "skills": [
+                "./content-pipeline/baoyu-url-to-markdown"
+            ]
+        },
+        {
+            "name": "remotion-best-practices",
+            "description": "Comprehensive guide for Remotion video creation: React-based video production, animations, audio, captions, 3D content, and 46 best practices.",
+            "category": "visual-creative",
+            "author": {
+                "name": "Remotion",
+                "url": "https://github.com/remotion-dev/skills"
+            },
+            "skills": [
+                "./visual-creative/remotion"
+            ]
+        },
+        {
+            "name": "supabase-postgres-best-practices",
+            "description": "Postgres performance optimization and best practices from Supabase: query performance, schema design, connection management, and security.",
+            "category": "no-code-builder",
+            "author": {
+                "name": "Supabase",
+                "url": "https://github.com/supabase/agent-skills"
+            },
+            "skills": [
+                "./no-code-builder/supabase-postgres-best-practices"
+            ]
+        },
+        {
+            "name": "data-visualization-suite",
+            "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math.",
+            "tier": "community",
+            "category": "business-analyst",
+            "author": {
+                "name": "K-Dense-AI",
+                "url": "https://github.com/K-Dense-AI/claude-scientific-skills"
+            },
+            "skills": [
+                "./business-analyst/matplotlib",
+                "./business-analyst/seaborn",
+                "./business-analyst/plotly",
+                "./business-analyst/scientific-visualization",
+                "./business-analyst/geopandas",
+                "./business-analyst/networkx",
+                "./business-analyst/sympy",
+                "./business-analyst/eda-workflows",
+                "./business-analyst/statistical-analysis"
+            ]
+        },
+        {
+            "name": "financial-data-research",
+            "description": "Financial and SEC research toolkit: SEC EDGAR filings (10-K/10-Q/8-K), US Treasury fiscal data, hedge fund risk monitor, and real-time market data via Alpha Vantage.",
+            "tier": "community",
+            "category": "business-analyst",
+            "author": {
+                "name": "K-Dense-AI",
+                "url": "https://github.com/K-Dense-AI/claude-scientific-skills"
+            },
+            "skills": [
+                "./business-analyst/edgartools",
+                "./business-analyst/usfiscaldata",
+                "./business-analyst/hedgefundmonitor",
+                "./business-analyst/alpha-vantage"
+            ]
+        },
+        {
+            "name": "podcast-generator",
+            "description": "Generate AI podcasts with dual-speaker dialogue using Volcano Engine TTS. Supports multiple audio formats, adjustable speech rate, and streaming reception.",
+            "tier": "community",
+            "category": "content-pipeline",
+            "author": {
+                "name": "staruhub",
+                "url": "https://github.com/staruhub/ClaudeSkills"
+            },
+            "skills": [
+                "./content-pipeline/podcast"
+            ]
+        },
+        {
+            "name": "github-cli",
+            "description": "GitHub operations via gh CLI: manage issues, PRs, CI runs, code review, and API queries with structured JSON output.",
+            "tier": "community",
+            "category": "no-code-builder",
+            "author": {
+                "name": "OpenClaw",
+                "url": "https://github.com/openclaw/openclaw"
+            },
+            "skills": [
+                "./no-code-builder/github"
+            ]
+        },
+        {
+            "name": "obsidian-vault-manager",
+            "description": "Work with Obsidian vaults via obsidian-cli: search, create, move, and rename notes with automatic wikilink updates.",
+            "tier": "community",
+            "category": "learning-research",
+            "author": {
+                "name": "OpenClaw",
+                "url": "https://github.com/openclaw/openclaw"
+            },
+            "skills": [
+                "./learning-research/obsidian"
+            ]
+        },
+        {
+            "name": "productivity-toolkit",
+            "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed).",
+            "tier": "community",
+            "category": "office-productivity",
+            "author": {
+                "name": "OpenClaw",
+                "url": "https://github.com/openclaw/openclaw"
+            },
+            "skills": [
+                "./office-productivity/notion",
+                "./office-productivity/trello",
+                "./office-productivity/nano-pdf",
+                "./office-productivity/weather"
+            ]
+        },
+        {
+            "name": "audio-content-suite",
+            "description": "Audio and speech toolkit: OpenAI Whisper API for transcription, offline local TTS via sherpa-onnx, and URL/file/YouTube summarization with summarize.sh.",
+            "tier": "community",
+            "category": "content-pipeline",
+            "authors": [
+                {
+                    "name": "OpenClaw",
+                    "url": "https://github.com/openclaw/openclaw"
+                }
+            ],
+            "skills": [
+                "./content-pipeline/openai-whisper-api",
+                "./content-pipeline/sherpa-onnx-tts",
+                "./content-pipeline/summarize"
+            ]
+        },
+        {
+            "name": "visual-media-toolkit",
+            "description": "Visual media creation and processing: batch AI image generation via OpenAI Images API with gallery, and video frame extraction using ffmpeg.",
+            "tier": "community",
+            "category": "visual-creative",
+            "author": {
+                "name": "OpenClaw",
+                "url": "https://github.com/openclaw/openclaw"
+            },
+            "skills": [
+                "./visual-creative/openai-image-gen",
+                "./visual-creative/video-frames"
+            ]
+        },
+        {
+            "name": "x-social-publisher",
+            "description": "Publish and manage X (Twitter) posts, replies, and media via xurl CLI with full API access.",
+            "tier": "community",
+            "category": "content-pipeline",
+            "author": {
+                "name": "OpenClaw",
+                "url": "https://github.com/openclaw/openclaw"
+            },
+            "skills": [
+                "./content-pipeline/xurl"
+            ]
         }
-      ],
-      "skills": [
-        "./no-code-builder/artifacts-builder",
-        "./no-code-builder/frontend-design",
-        "./no-code-builder/react-best-practices",
-        "./no-code-builder/vercel-deploy-claimable",
-        "./no-code-builder/web-design-guidelines"
-      ]
-    },
-    {
-      "name": "testing-toolkit",
-      "description": "Complete testing toolkit: PICT design, TDD methodology, automated test fixing, and E2E testing.",
-      "category": "no-code-builder",
-      "authors": [
-        {
-          "name": "ComposioHQ",
-          "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-        },
-        {
-          "name": "obra",
-          "url": "https://github.com/obra/superpowers"
-        },
-        {
-          "name": "mhattingpete",
-          "url": "https://github.com/mhattingpete"
-        }
-      ],
-      "skills": [
-        "./no-code-builder/pypict-claude-skill",
-        "./no-code-builder/test-driven-development",
-        "./no-code-builder/test-fixing",
-        "./no-code-builder/webapp-testing"
-      ]
-    },
-    {
-      "name": "dev-workflow",
-      "description": "Streamline development: brainstorm features, push changes, and auto-generate changelogs.",
-      "category": "no-code-builder",
-      "authors": [
-        {
-          "name": "ComposioHQ",
-          "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-        },
-        {
-          "name": "obra",
-          "url": "https://github.com/obra/superpowers"
-        },
-        {
-          "name": "mhattingpete",
-          "url": "https://github.com/mhattingpete/claude-skills-marketplace"
-        }
-      ],
-      "skills": [
-        "./no-code-builder/changelog-generator",
-        "./no-code-builder/development-brainstorming",
-        "./no-code-builder/git-pushing"
-      ]
-    },
-    {
-      "name": "skill-creator",
-      "description": "Guide for creating and updating effective Claude skills.",
-      "category": "no-code-builder",
-      "author": {
-        "name": "Anthropic",
-        "url": "https://github.com/anthropics/skills"
-      },
-      "skills": [
-        "./no-code-builder/skill-creator"
-      ]
-    },
-    {
-      "name": "mcp-builder",
-      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers.",
-      "category": "no-code-builder",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./no-code-builder/mcp-builder"
-      ]
-    },
-    {
-      "name": "developer-growth-analysis",
-      "description": "Identify coding patterns and growth areas from chat history.",
-      "category": "no-code-builder",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./no-code-builder/developer-growth-analysis"
-      ]
-    },
-    {
-      "name": "terminal-title",
-      "description": "Automatically updates terminal window title based on current task.",
-      "category": "no-code-builder",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./no-code-builder/terminal-title"
-      ]
-    },
-    {
-      "name": "document-suite",
-      "description": "Complete office document toolkit: create, edit, and analyze Word, Excel, PowerPoint, and PDF.",
-      "category": "office-automation",
-      "author": {
-        "name": "Anthropic",
-        "url": "https://github.com/anthropics/skills"
-      },
-      "skills": [
-        "./office-automation/document-skills-docx",
-        "./office-automation/document-skills-pdf",
-        "./office-automation/document-skills-pptx",
-        "./office-automation/document-skills-xlsx"
-      ]
-    },
-    {
-      "name": "markdown-to-epub-converter",
-      "description": "Convert markdown documents and chat summaries into EPUB ebook files.",
-      "category": "office-automation",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./office-automation/markdown-to-epub-converter"
-      ]
-    },
-    {
-      "name": "file-organizer",
-      "description": "Intelligently organizes files and folders by understanding context.",
-      "category": "office-automation",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./office-automation/file-organizer"
-      ]
-    },
-    {
-      "name": "obsidian-visual-suite",
-      "description": "Complete visualization toolkit for Obsidian: Excalidraw, Mermaid, and Canvas.",
-      "category": "visual-creative",
-      "author": {
-        "name": "Axton Liu",
-        "url": "https://github.com/axtonliu/axton-obsidian-visual-skills"
-      },
-      "skills": [
-        "./visual-creative/excalidraw-diagram",
-        "./visual-creative/mermaid-visualizer",
-        "./visual-creative/obsidian-canvas-creator"
-      ]
-    },
-    {
-      "name": "algorithmic-art",
-      "description": "Creating algorithmic art using p5.js with seeded randomness.",
-      "category": "visual-creative",
-      "author": {
-        "name": "Anthropic",
-        "url": "https://github.com/anthropics/skills"
-      },
-      "skills": [
-        "./visual-creative/algorithmic-art"
-      ]
-    },
-    {
-      "name": "canvas-design",
-      "description": "Create beautiful static visual art and posters.",
-      "category": "visual-creative",
-      "author": {
-        "name": "Anthropic",
-        "url": "https://github.com/anthropics/skills"
-      },
-      "skills": [
-        "./visual-creative/canvas-design"
-      ]
-    },
-    {
-      "name": "image-enhancer",
-      "description": "Improves quality of images/screenshots by enhancing resolution and clarity.",
-      "category": "visual-creative",
-      "author": {
-        "name": "ComposioHQ",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-      },
-      "skills": [
-        "./visual-creative/image-enhancer"
-      ]
-    },
-    {
-      "name": "slack-gif-creator",
-      "description": "Toolkit for creating animated GIFs optimized for Slack.",
-      "category": "visual-creative",
-      "author": {
-        "name": "Anthropic",
-        "url": "https://github.com/anthropics/skills"
-      },
-      "skills": [
-        "./visual-creative/slack-gif-creator"
-      ]
-    },
-    {
-      "name": "theme-factory",
-      "description": "Toolkit for styling artifacts with preset or on-the-fly themes.",
-      "category": "visual-creative",
-      "author": {
-        "name": "Anthropic",
-        "url": "https://github.com/anthropics/skills"
-      },
-      "skills": [
-        "./visual-creative/theme-factory"
-      ]
-    },
-    {
-      "name": "baoyu-content-creation-suite",
-      "description": "Complete content creation workflow: AI image generation, multi-platform publishing (Xiaohongshu/X/WeChat), article illustrations, slide decks, comics, and infographics.",
-      "category": "content-pipeline",
-      "author": {
-        "name": "Jim Liu (宝玉)",
-        "url": "https://github.com/JimLiu/baoyu-skills"
-      },
-      "skills": [
-        "./content-pipeline/baoyu-xhs-images",
-        "./content-pipeline/baoyu-post-to-x",
-        "./content-pipeline/baoyu-post-to-wechat",
-        "./content-pipeline/baoyu-article-illustrator",
-        "./content-pipeline/baoyu-cover-image",
-        "./content-pipeline/baoyu-slide-deck",
-        "./content-pipeline/baoyu-comic",
-        "./content-pipeline/baoyu-infographic",
-        "./content-pipeline/baoyu-danger-gemini-web",
-        "./content-pipeline/baoyu-image-gen"
-      ]
-    },
-    {
-      "name": "baoyu-x-to-markdown",
-      "description": "Convert X (Twitter) posts to Markdown format.",
-      "category": "content-pipeline",
-      "author": {
-        "name": "Jim Liu (宝玉)",
-        "url": "https://github.com/JimLiu/baoyu-skills"
-      },
-      "skills": [
-        "./content-pipeline/baoyu-danger-x-to-markdown"
-      ]
-    },
-    {
-      "name": "baoyu-compress-image",
-      "description": "Batch compress images and optimize file sizes.",
-      "category": "visual-creative",
-      "author": {
-        "name": "Jim Liu (宝玉)",
-        "url": "https://github.com/JimLiu/baoyu-skills"
-      },
-      "skills": [
-        "./content-pipeline/baoyu-compress-image"
-      ]
-    },
-    {
-      "name": "baoyu-url-to-markdown",
-      "description": "Convert web page content to Markdown format.",
-      "category": "content-pipeline",
-      "author": {
-        "name": "Jim Liu (宝玉)",
-        "url": "https://github.com/JimLiu/baoyu-skills"
-      },
-      "skills": [
-        "./content-pipeline/baoyu-url-to-markdown"
-      ]
-    },
-    {
-      "name": "remotion-best-practices",
-      "description": "Comprehensive guide for Remotion video creation: React-based video production, animations, audio, captions, 3D content, and 46 best practices.",
-      "category": "visual-creative",
-      "author": {
-        "name": "Remotion",
-        "url": "https://github.com/remotion-dev/skills"
-      },
-      "skills": [
-        "./visual-creative/remotion"
-      ]
-    },
-    {
-      "name": "supabase-postgres-best-practices",
-      "description": "Postgres performance optimization and best practices from Supabase: query performance, schema design, connection management, and security.",
-      "category": "no-code-builder",
-      "author": {
-        "name": "Supabase",
-        "url": "https://github.com/supabase/agent-skills"
-      },
-      "skills": [
-        "./no-code-builder/supabase-postgres-best-practices"
-      ]
-    }
-  ]
+    ]
 }
