@@ -20,6 +20,10 @@
       "name": "Anthropic品牌指南",
       "description": "将Anthropic的官方品牌色彩和字体应用于任何类型的物品。"
     },
+    "anthropic-frontend-design": {
+      "name": "Anthropic 前端设计",
+      "description": "Anthropic 官方出品的专业 UI 设计与动态 Artifact 构建工具。"
+    },
     "article-extractor": {
       "name": "文章提取器",
       "description": "从 URL 提取干净的文章内容（博客文章、文章、教程）并保存为可读文本。当用户想要从 URL 下载、提取或保存文章/博客文章时使用，无需广告、导航或杂乱信息。"
@@ -276,6 +280,10 @@
       "name": "发票处理器",
       "description": "自动处理PDFs/images中的发票，将其转换为Excel表格，利用AI视觉识别技术。当用户提及“发票”、“发票处理”、“识别发票”、“提取发票”或需要将发票文件转换为Excel格式时，可使用此技能。"
     },
+    "jina-cli": {
+      "name": "金娜客户端",
+      "description": "阅读网页内容并使用Jina AI Reader API进行网络搜索。适用于从URL提取内容、阅读社交媒体帖子（X/Twitter）或搜索最新信息。"
+    },
     "json-canvas": {
       "name": "JSON画布",
       "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化，以及Defuddle的清洁网络提取。"
@@ -295,6 +303,10 @@
     "mcp-builder": {
       "name": "MCP 构建器",
       "description": "指导使用 Python 或 TypeScript 创建高质量的 MCP（模型上下文协议）服务器，以将外部 API 和服务与 LLM 集成。"
+    },
+    "md-to-pdf": {
+      "name": "Markdown 转 PDF",
+      "description": "将 Markdown 文件转换为 PDF，支持 CJK 中文字体、图片嵌入和批量处理。支持单文件和目录批量转换。"
     },
     "meeting-insights-analyzer": {
       "name": "会议洞察分析器",
@@ -512,6 +524,10 @@
       "name": "Vercel部署",
       "description": "部署应用和网站至 Vercel。在用户请求部署操作，如“部署我的应用”、“将此部署至生产环境”、“创建预览部署”、“部署并提供链接”或“推送到线上”时使用此技能。无需身份验证 - 返回预览 URL 和可认领的部署链接。"
     },
+    "vercel-frontend-suite": {
+      "name": "Vercel 前端套件",
+      "description": "Vercel Labs 出品的优质 React 开发与部署套件：包含最佳实践、设计指南及即时部署功能。"
+    },
     "vercel-react-best-practices": {
       "name": "Vercel React 最佳实践",
       "description": "来自 Vercel 工程团队的 React 和 Next.js 性能优化指南。在编写、审查或重构 React/Next.js 代码时使用此技能，以确保最佳性能模式。适用于涉及 React 组件、Next.js 页面、数据获取、打包优化或性能改进的任务。"
@@ -523,6 +539,10 @@
     "video-frames": {
       "name": "视频帧",
       "description": "视觉媒体创作与处理：通过OpenAI Images API进行批量AI图像生成，并使用ffmpeg进行视频帧提取。"
+    },
+    "video-frames-toolkit": {
+      "name": "视频帧提取工具",
+      "description": "使用 ffmpeg 进行视频帧和缩略图提取，用于视觉分析和内容创作。"
     },
     "visual-media-toolkit": {
       "name": "视觉工具包",
@@ -536,13 +556,13 @@
       "name": "Web 设计指南",
       "description": "审查 UI 代码是否符合 Web 界面设计指南。当被要求\\\"审查我的 UI\\\"、\\\"检查可访问性\\\"、\\\"审计设计\\\"、\\\"审查用户体验\\\"或\\\"根据最佳实践检查我的网站\\\"时使用。"
     },
-    "web-fetch": {
-      "name": "网页内容抓取",
-      "description": "当用户想要抓取网页内容并将其转换为干净的 Markdown 时使用此技能。处理诸如「将此网页保存为 Markdown」、「获取这篇文章」或「抓取网页内容」等工作流程。支持使用 crawl4ai 进行通用网页抓取，以及专门的微信公众号文章获取。"
-    },
     "webapp-testing": {
       "name": "Web 应用测试",
       "description": "使用 Playwright 测试本地 Web 应用程序，以验证前端功能、调试 UI 行为和捕获屏幕截图。"
+    },
+    "weixin-fetch": {
+      "name": "微信文章抓取",
+      "description": "当用户想要抓取微信公众号文章并转换为干净的 Markdown 时使用此技能。使用基于 Playwright 的浏览器自动化，配合反机器人绕过功能，可靠提取微信内容。"
     },
     "x-social-publisher": {
       "name": "社交发布者",

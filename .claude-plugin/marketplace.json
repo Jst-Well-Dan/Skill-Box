@@ -1,6 +1,6 @@
 {
     "name": "Skill-Box",
-    "version": "2.1.0",
+    "version": "2.3.0",
     "description": "An collection of practical skills that transforms your AI assistant from a generalist into a powerful specialist.",
     "owner": {
         "name": "Jst-Well-Dan",
@@ -17,7 +17,8 @@
             },
             "skills": [
                 "./brand-marketing/Anthropic-brand-guidelines"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "raffle-winner-picker",
@@ -29,7 +30,8 @@
             },
             "skills": [
                 "./brand-marketing/raffle-winner-picker"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "data-analysis-toolkit",
@@ -43,7 +45,8 @@
                 "./business-analyst/csv-data-summarizer",
                 "./business-analyst/excel-pivot-wizard",
                 "./business-analyst/excel-variance-analyzer"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "financial-modeling-suite",
@@ -56,7 +59,8 @@
             "skills": [
                 "./business-analyst/excel-dcf-modeler",
                 "./business-analyst/excel-lbo-modeler"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "invoice-processor",
@@ -68,11 +72,13 @@
             },
             "skills": [
                 "./business-analyst/invoice-processor"
-            ]
+            ],
+            "tier": "curated",
+            "curatedNote": "自建技能，日常用于批量处理发票和报销单据，从 PDF/图片自动提取关键字段到 Excel，显著减少手工录入时间。"
         },
         {
             "name": "content-harvester",
-            "description": "Complete content harvesting: scrape webpages, download videos, and extract YouTube transcripts.",
+            "description": "Complete content harvesting: download videos, extract YouTube transcripts, and fetch WeChat articles.",
             "category": "content-pipeline",
             "author": {
                 "name": "Jst-Well-Dan",
@@ -80,9 +86,11 @@
             },
             "skills": [
                 "./content-pipeline/advanced-video-downloader",
-                "./content-pipeline/web-fetch",
+                "./content-pipeline/weixin-fetch",
                 "./content-pipeline/youtube-transcript"
-            ]
+            ],
+            "tier": "curated",
+            "curatedNote": "日常高频使用的内容采集三件套：weixin-fetch 抓微信公众号文章（Playwright 反爬）、yt-dlp 下载视频、YouTube 字幕提取。是内容工作流的基础设施。"
         },
         {
             "name": "content-research-writer",
@@ -94,7 +102,8 @@
             },
             "skills": [
                 "./content-pipeline/content-research-writer"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "notebooklm-integration",
@@ -106,29 +115,39 @@
             },
             "skills": [
                 "./immersive-reading/notebooklm-integration"
-            ]
+            ],
+            "tier": "community"
         },
         {
-            "name": "frontend-builder",
-            "description": "End-to-end frontend development: design interfaces, build artifacts, follow best practices, and deploy.",
+            "name": "anthropic-frontend-design",
+            "description": "Anthropic's official tools for professional UI design and dynamic artifact construction.",
             "category": "dev-tools",
-            "authors": [
-                {
-                    "name": "Anthropic",
-                    "url": "https://github.com/anthropics/skills"
-                },
-                {
-                    "name": "Vercel Labs",
-                    "url": "https://github.com/vercel-labs/agent-skills"
-                }
-            ],
+            "author": {
+                "name": "Anthropic",
+                "url": "https://github.com/anthropics/skills"
+            },
             "skills": [
                 "./no-code-builder/artifacts-builder",
-                "./no-code-builder/frontend-design",
+                "./no-code-builder/frontend-design"
+            ],
+            "tier": "curated",
+            "curatedNote": "Anthropic 官方出品的前端设计与 Artifacts 构建工具。其提供的设计系统是构建高质量、跨平台交互界面的核心基石。"
+        },
+        {
+            "name": "vercel-frontend-suite",
+            "description": "Premium React development and deployment suite from Vercel Labs: best practices, design guidelines, and instant deployment.",
+            "category": "dev-tools",
+            "author": {
+                "name": "Vercel Labs",
+                "url": "https://github.com/vercel-labs/agent-skills"
+            },
+            "skills": [
                 "./no-code-builder/react-best-practices",
                 "./no-code-builder/vercel-deploy-claimable",
                 "./no-code-builder/web-design-guidelines"
-            ]
+            ],
+            "tier": "curated",
+            "curatedNote": "Vercel Labs 官方出品的前端工程化套件。集成了 React 最佳实践与 Vercel 自动化部署能力，特别适合快速原型开发与线上发布。"
         },
         {
             "name": "dev-workflow",
@@ -152,7 +171,8 @@
                 "./no-code-builder/changelog-generator",
                 "./no-code-builder/development-brainstorming",
                 "./no-code-builder/git-pushing"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "skill-creator",
@@ -164,7 +184,9 @@
             },
             "skills": [
                 "./no-code-builder/skill-creator"
-            ]
+            ],
+            "tier": "curated",
+            "curatedNote": "Anthropic 官方的技能创建指南。每次为 Skill Box 开发新技能时的必备参考，确保 SKILL.md 结构和 frontmatter 规范一致。"
         },
         {
             "name": "mcp-builder",
@@ -176,7 +198,8 @@
             },
             "skills": [
                 "./no-code-builder/mcp-builder"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "developer-growth-analysis",
@@ -188,7 +211,8 @@
             },
             "skills": [
                 "./no-code-builder/developer-growth-analysis"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "document-suite",
@@ -203,7 +227,9 @@
                 "./office-automation/document-skills-pdf",
                 "./office-automation/document-skills-pptx",
                 "./office-automation/document-skills-xlsx"
-            ]
+            ],
+            "tier": "curated",
+            "curatedNote": "Anthropic 官方的办公文档处理全家桶。处理 Word/Excel/PPT/PDF 的首选技能，生成报告和数据表格时频繁调用。"
         },
         {
             "name": "markdown-to-epub-converter",
@@ -215,7 +241,8 @@
             },
             "skills": [
                 "./office-automation/markdown-to-epub-converter"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "file-organizer",
@@ -227,7 +254,8 @@
             },
             "skills": [
                 "./office-automation/file-organizer"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "obsidian-visual-suite",
@@ -241,7 +269,8 @@
                 "./visual-creative/excalidraw-diagram",
                 "./visual-creative/mermaid-visualizer",
                 "./visual-creative/obsidian-canvas-creator"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "algorithmic-art",
@@ -253,7 +282,8 @@
             },
             "skills": [
                 "./visual-creative/algorithmic-art"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "canvas-design",
@@ -265,7 +295,8 @@
             },
             "skills": [
                 "./visual-creative/canvas-design"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "image-enhancer",
@@ -277,7 +308,8 @@
             },
             "skills": [
                 "./visual-creative/image-enhancer"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "slack-gif-creator",
@@ -289,7 +321,8 @@
             },
             "skills": [
                 "./visual-creative/slack-gif-creator"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "theme-factory",
@@ -301,11 +334,12 @@
             },
             "skills": [
                 "./visual-creative/theme-factory"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "baoyu-content-creation-suite",
-            "description": "Complete content creation workflow: AI image generation, multi-platform publishing (Xiaohongshu/X/WeChat), article illustrations, slide decks, comics, and infographics.",
+            "description": "Complete content creation workflow: AI image generation, multi-platform publishing (Xiaohongshu/WeChat), article illustrations, slide decks, comics, and infographics.",
             "category": "content-pipeline",
             "author": {
                 "name": "Jim Liu (宝玉)",
@@ -313,7 +347,6 @@
             },
             "skills": [
                 "./content-pipeline/baoyu-xhs-images",
-                "./content-pipeline/baoyu-post-to-x",
                 "./content-pipeline/baoyu-post-to-wechat",
                 "./content-pipeline/baoyu-article-illustrator",
                 "./content-pipeline/baoyu-cover-image",
@@ -322,19 +355,9 @@
                 "./content-pipeline/baoyu-infographic",
                 "./content-pipeline/baoyu-danger-gemini-web",
                 "./content-pipeline/baoyu-image-gen"
-            ]
-        },
-        {
-            "name": "baoyu-x-to-markdown",
-            "description": "Convert X (Twitter) posts to Markdown format.",
-            "category": "content-pipeline",
-            "author": {
-                "name": "Jim Liu (宝玉)",
-                "url": "https://github.com/JimLiu/baoyu-skills"
-            },
-            "skills": [
-                "./content-pipeline/baoyu-danger-x-to-markdown"
-            ]
+            ],
+            "tier": "curated",
+            "curatedNote": "宝玉出品的多平台内容创作全流程套件。小红书配图、微信发布、文章插图、幻灯片、漫画、信息图一站式覆盖，配合 Gemini Web 和 AI 图片生成能力，是内容创作者的核心工具箱。"
         },
         {
             "name": "baoyu-compress-image",
@@ -346,19 +369,8 @@
             },
             "skills": [
                 "./content-pipeline/baoyu-compress-image"
-            ]
-        },
-        {
-            "name": "baoyu-url-to-markdown",
-            "description": "Convert web page content to Markdown format.",
-            "category": "content-pipeline",
-            "author": {
-                "name": "Jim Liu (宝玉)",
-                "url": "https://github.com/JimLiu/baoyu-skills"
-            },
-            "skills": [
-                "./content-pipeline/baoyu-url-to-markdown"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "remotion-best-practices",
@@ -370,7 +382,8 @@
             },
             "skills": [
                 "./visual-creative/remotion"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "supabase-postgres-best-practices",
@@ -382,7 +395,8 @@
             },
             "skills": [
                 "./no-code-builder/supabase-postgres-best-practices"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "data-visualization-suite",
@@ -457,7 +471,8 @@
             },
             "skills": [
                 "./no-code-builder/skill-seekers"
-            ]
+            ],
+            "tier": "community"
         },
         {
             "name": "obsidian-toolkit",
@@ -473,7 +488,9 @@
                 "./learning-research/obsidian-toolkit/json-canvas",
                 "./learning-research/obsidian-toolkit/obsidian-cli",
                 "./learning-research/obsidian-toolkit/defuddle"
-            ]
+            ],
+            "tier": "curated",
+            "curatedNote": "Obsidian 创始人 kepano 官方出品。涵盖 Obsidian Markdown 语法、Bases 数据库视图、JSON Canvas、CLI 自动化和 Defuddle 网页提取，是 Obsidian 用户的权威技能包。"
         },
         {
             "name": "productivity-toolkit",
@@ -509,8 +526,8 @@
             ]
         },
         {
-            "name": "visual-media-toolkit",
-            "description": "Visual media creation and processing: batch AI image generation via OpenAI Images API with gallery, and video frame extraction using ffmpeg.",
+            "name": "video-frames-toolkit",
+            "description": "Video frame and thumbnail extraction using ffmpeg for visual analysis and content creation.",
             "tier": "community",
             "category": "visual-creative",
             "author": {
@@ -518,7 +535,6 @@
                 "url": "https://github.com/openclaw/openclaw"
             },
             "skills": [
-                "./visual-creative/openai-image-gen",
                 "./visual-creative/video-frames"
             ]
         },
@@ -534,6 +550,33 @@
             "skills": [
                 "./content-pipeline/xurl"
             ]
+        },
+        {
+            "name": "jina-cli",
+            "description": "Reads web content and searches the web using Jina AI Reader API. Use when extracting content from URLs, reading social media posts (X/Twitter), or web searching for current information.",
+            "category": "content-pipeline",
+            "author": {
+                "name": "geekjourneyx",
+                "url": "https://github.com/geekjourneyx/jina-cli"
+            },
+            "skills": [
+                "./content-pipeline/jina-cli"
+            ],
+            "tier": "community"
+        },
+        {
+            "name": "md-to-pdf",
+            "description": "Convert Markdown files to PDF with CJK font support, image embedding, and batch processing. Use when asked to convert markdown to PDF, 转换为PDF, or batch convert MD files.",
+            "category": "office-automation",
+            "author": {
+                "name": "Jst-Well-Dan",
+                "url": "https://github.com/Jst-Well-Dan/Skill-Box"
+            },
+            "skills": [
+                "./office-automation/md-to-pdf"
+            ],
+            "tier": "curated",
+            "curatedNote": "日常高频使用的 Markdown 转 PDF 工具。完美支持中文字体和图片嵌入，支持单文件和批量转换，是内容输出的最后一环。"
         }
     ]
 }

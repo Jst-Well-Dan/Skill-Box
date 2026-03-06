@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/技能-90-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/技能-91-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/分类-7-blue?style=for-the-badge" alt="Categories">
   <img src="https://img.shields.io/badge/平台-16+-green?style=for-the-badge" alt="Platforms">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="License">
@@ -48,7 +48,7 @@
 | :--- | :--- | :---: |
 | **零代码构建 (No-Code Builder)** | 前端开发、测试、DevOps 及 AI 技能构建 | 19 |
 | **办公生产力 (Office & Productivity)** | Word/Excel/PPT/PDF 处理、Notion、Trello 及效率集成 | 10 |
-| **内容流水线 (Content Pipeline)** | 网页采集、视频下载、AI 内容创作、TTS 及多平台分发 | 21 |
+| **内容流水线 (Content Pipeline)** | 网页采集、视频下载、AI 内容创作、TTS 及多平台分发 | 22 |
 | **学习与研读 (Learning & Research)** | 深度阅读分析、Obsidian 全能套件、NotebookLM 及知识管理 | 8 |
 | **视觉与创意 (Visual & Creative)** | 视觉设计、图像生成、视频制作、Excalidraw/Mermaid 图表 | 11 |
 | **品牌与营销 (Brand & Marketing)** | 品牌规范、内部沟通及互动工具 | 3 |
@@ -109,7 +109,7 @@ claude plugin install Jst-Well-Dan/Skill-Box
 ## 📂 完整技能清单
 
 <details>
-<summary>点击展开 7 大分类 / 90 个技能完整列表</summary>
+<summary>点击展开 7 大分类 / 91 个技能完整列表</summary>
 
 ### 零代码构建 No-Code Builder（19 个技能）
 
@@ -119,7 +119,7 @@ claude plugin install Jst-Well-Dan/Skill-Box
 | 2 | `frontend-design` | 创建独特的生产级前端界面 | [Anthropic](https://github.com/anthropics/skills) |
 | 3 | `react-best-practices` | 来自 Vercel 工程团队的 React & Next.js 性能优化 | [Vercel Labs](https://github.com/vercel-labs/agent-skills) |
 | 4 | `vercel-deploy` | 应用部署到 Vercel 并获取预览链接 | [Vercel Labs](https://github.com/vercel-labs/agent-skills) |
-| 5 | `web-design-guidelines` | UI 代码审查与 Web 界面设计规范合规检查 | [Anthropic](https://github.com/anthropics/skills) |
+| 5 | `web-design-guidelines` | UI 代码审查与 Web 界面设计规范合规检查 | [Vercel Labs](https://github.com/vercel-labs/agent-skills) |
 | 6 | `pypict-claude-skill` | PICT 组合测试用例设计 | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 7 | `test-driven-development` | TDD 方法论：先写测试，再实现功能 | [obra](https://github.com/obra/superpowers) |
 | 8 | `test-fixing` | 智能错误分组，系统性修复所有失败测试 | [mhattingpete](https://github.com/mhattingpete) |
@@ -154,7 +154,7 @@ claude plugin install Jst-Well-Dan/Skill-Box
 
 ---
 
-### 内容流水线 Content Pipeline（21 个技能）
+### 内容流水线 Content Pipeline（22 个技能）
 
 | # | 技能 | 说明 | 来源 |
 | :--- | :--- | :--- | :--- |
@@ -179,6 +179,7 @@ claude plugin install Jst-Well-Dan/Skill-Box
 | 19 | `sherpa-onnx-tts` | 离线本地文字转语音（无需云 API） | [OpenClaw](https://github.com/openclaw/openclaw) |
 | 20 | `summarize` | URL/文件/YouTube 内容摘要提取 | [OpenClaw](https://github.com/openclaw/openclaw) |
 | 21 | `xurl` | X (Twitter) CLI 命令行操作与发布 | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 22 | `jina-cli` | 使用 Jina AI 的网页内容读取与搜索 | [geekjourneyx](https://github.com/geekjourneyx/jina-cli) |
 
 ---
 

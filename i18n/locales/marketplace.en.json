@@ -20,6 +20,10 @@
       "name": "Anthropic Brand Guidelines",
       "description": "Applies Anthropic's official brand colors and typography to any sort of artifact."
     },
+    "anthropic-frontend-design": {
+      "name": "Anthropic Frontend Design",
+      "description": "Anthropic's official tools for professional UI design and dynamic artifact construction."
+    },
     "artifacts-builder": {
       "name": "artifacts-builder",
       "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts."
@@ -240,6 +244,10 @@
       "name": "Invoice Processor",
       "description": "Automatically process invoices (发票) from PDFs/images to Excel spreadsheets using AI vision recognition. Use this skill when users mention \"发票\", \"invoice\", \"处理发票\", \"识别发票\", \"提取发票\", or need to convert invoice files to Excel format."
     },
+    "jina-cli": {
+      "name": "Jina Cli",
+      "description": "Reads web content and searches the web using Jina AI Reader API. Use when extracting content from URLs, reading social media posts (X/Twitter), or web searching for current information."
+    },
     "json-canvas": {
       "name": "Json Canvas",
       "description": "Premium agent toolkit for Obsidian: Markdown mastery, Bases (databases), JSON Canvas, CLI automation, and clean web extraction with Defuddle."
@@ -255,6 +263,10 @@
     "mcp-builder": {
       "name": "Mcp Builder",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers."
+    },
+    "md-to-pdf": {
+      "name": "Markdown to PDF",
+      "description": "Convert Markdown files to PDF with CJK font support, image embedding, and batch processing. Supports single file and directory batch conversion."
     },
     "mermaid-visualizer": {
       "name": "mermaid-visualizer",
@@ -444,6 +456,10 @@
       "name": "vercel-deploy",
       "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link."
     },
+    "vercel-frontend-suite": {
+      "name": "Vercel Frontend Suite",
+      "description": "Premium React development and deployment suite from Vercel Labs: best practices, design guidelines, and instant deployment."
+    },
     "vercel-react-best-practices": {
       "name": "Vercel React Best Practices",
       "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
@@ -451,6 +467,10 @@
     "video-frames": {
       "name": "Video Frames",
       "description": "Visual media creation and processing: batch AI image generation via OpenAI Images API with gallery, and video frame extraction using ffmpeg."
+    },
+    "video-frames-toolkit": {
+      "name": "Video Frames Toolkit",
+      "description": "Video frame and thumbnail extraction using ffmpeg for visual analysis and content creation."
     },
     "visual-media-toolkit": {
       "name": "Visual Media Toolkit",
@@ -464,13 +484,13 @@
       "name": "Web Design Guidelines",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
     },
-    "web-fetch": {
-      "name": "Web Fetch",
-      "description": "Use this skill when users want to scrape web content and convert it to clean Markdown. Handles workflows like \"Save this webpage as markdown\", \"Fetch this article\", or \"抓取网页内容\". Supports crawl4ai for general web scraping and specialized WeChat (微信公众号) article fetching."
-    },
     "webapp-testing": {
       "name": "webapp-testing",
       "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+    },
+    "weixin-fetch": {
+      "name": "WeChat Article Fetcher",
+      "description": "Use this skill when users want to fetch WeChat (微信公众号) articles and convert them to clean Markdown. Uses Playwright-based browser automation with anti-bot bypass for reliable content extraction."
     },
     "x-social-publisher": {
       "name": "X Social Publisher",

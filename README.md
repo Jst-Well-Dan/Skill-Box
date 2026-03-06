@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skills-90-orange?style=for-the-badge" alt="Skills">
+  <img src="https://img.shields.io/badge/Skills-91-orange?style=for-the-badge" alt="Skills">
   <img src="https://img.shields.io/badge/Categories-7-blue?style=for-the-badge" alt="Categories">
   <img src="https://img.shields.io/badge/Platforms-16+-green?style=for-the-badge" alt="Platforms">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="License">
@@ -48,7 +48,7 @@ Unlike repositories that simply list skills by technical function, Skill Box org
 | :--- | :--- | :---: |
 | **No-Code Builder** | Frontend development, testing, DevOps, and AI skill building | 19 |
 | **Office & Productivity** | Word/Excel/PPT/PDF processing, Notion, Trello, and productivity integrations | 10 |
-| **Content Pipeline** | Web scraping, video downloading, AI content creation, TTS, and multi-platform publishing | 21 |
+| **Content Pipeline** | Web scraping, video downloading, AI content creation, TTS, and multi-platform publishing | 22 |
 | **Learning & Research** | Deep reading analysis, Obsidian toolkit, NotebookLM, and knowledge management | 8 |
 | **Visual & Creative** | Visual design, image generation, video production, Excalidraw/Mermaid diagrams | 11 |
 | **Brand & Marketing** | Brand guidelines, internal communications, and engagement tools | 3 |
@@ -109,7 +109,7 @@ Once installed, your AI agent will **automatically identify** when to invoke rel
 ## 📂 Full Skill List
 
 <details>
-<summary>Click to expand the complete list of 90 skills across 7 categories</summary>
+<summary>Click to expand the complete list of 91 skills across 7 categories</summary>
 
 ### No-Code Builder (19 skills)
 
@@ -119,7 +119,7 @@ Once installed, your AI agent will **automatically identify** when to invoke rel
 | 2 | `frontend-design` | Create distinctive, production-grade frontend interfaces | [Anthropic](https://github.com/anthropics/skills) |
 | 3 | `react-best-practices` | React & Next.js performance optimization from Vercel Engineering | [Vercel Labs](https://github.com/vercel-labs/agent-skills) |
 | 4 | `vercel-deploy` | Deploy applications to Vercel with preview URLs | [Vercel Labs](https://github.com/vercel-labs/agent-skills) |
-| 5 | `web-design-guidelines` | UI code review for Web Interface Guidelines compliance | [Anthropic](https://github.com/anthropics/skills) |
+| 5 | `web-design-guidelines` | UI code review for Web Interface Guidelines compliance | [Vercel Labs](https://github.com/vercel-labs/agent-skills) |
 | 6 | `pypict-claude-skill` | PICT combinatorial test case design | [ComposioHQ](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 7 | `test-driven-development` | TDD methodology: write tests first, then implement | [obra](https://github.com/obra/superpowers) |
 | 8 | `test-fixing` | Systematically fix all failing tests with smart error grouping | [mhattingpete](https://github.com/mhattingpete) |
@@ -154,7 +154,7 @@ Once installed, your AI agent will **automatically identify** when to invoke rel
 
 ---
 
-### Content Pipeline (21 skills)
+### Content Pipeline (22 skills)
 
 | # | Skill | Description | Source |
 | :--- | :--- | :--- | :--- |
@@ -179,6 +179,7 @@ Once installed, your AI agent will **automatically identify** when to invoke rel
 | 19 | `sherpa-onnx-tts` | Offline local text-to-speech (privacy-friendly) | [OpenClaw](https://github.com/openclaw/openclaw) |
 | 20 | `summarize` | URL/file/YouTube content summarization | [OpenClaw](https://github.com/openclaw/openclaw) |
 | 21 | `xurl` | X (Twitter) CLI operations and publishing | [OpenClaw](https://github.com/openclaw/openclaw) |
+| 22 | `jina-cli` | Web content reader and search using Jina AI | [geekjourneyx](https://github.com/geekjourneyx/jina-cli) |
 
 ---
 
