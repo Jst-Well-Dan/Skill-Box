@@ -580,5 +580,15 @@
       "name": "YouTube 转录",
       "description": "下载 YouTube 视频转录时用户提供 YouTube URL 或要求从 YouTube 下载/获取/提取转录。"
     }
+  },
+  "categories": {
+    "ai-meta": "AI 元能力",
+    "business-analyst": "商业与分析",
+    "content-pipeline": "内容流水线",
+    "dev-tools": "开发工具",
+    "obsidian": "黑曜石",
+    "office-automation": "办公自动化",
+    "productivity": "生产力",
+    "visual-creative": "视觉与创意"
   }
 }

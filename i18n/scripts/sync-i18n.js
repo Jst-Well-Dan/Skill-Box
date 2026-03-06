@@ -19,16 +19,20 @@ try {
   const zhCN = JSON.parse(readFileSync(zhCNFile, 'utf8'));
   const en = JSON.parse(readFileSync(enFile, 'utf8'));
 
-  // Ensure skills object exists
+  // Ensure skills and categories objects exist
   if (!zhCN.skills) zhCN.skills = {};
   if (!en.skills) en.skills = {};
+  if (!zhCN.categories) zhCN.categories = {};
+  if (!en.categories) en.categories = {};
 
   let addedCount = 0;
   const addedSkills = [];
+  const categories = new Set();
 
   // Process each plugin in marketplace
   for (const plugin of marketplace.plugins) {
     const skillId = plugin.name;
+    if (plugin.category) categories.add(plugin.category);
 
     // Check if translation exists
     if (!zhCN.skills[skillId]) {
@@ -49,9 +53,33 @@ try {
     }
   }
 
-  // Sort skills alphabetically
+  // Sync categories
+  const categoryTranslations = {
+    'productivity': { en: 'Productivity', zh: '生产力' },
+    'business-analyst': { en: 'Business & Analyst', zh: '商业与分析' },
+    'content-pipeline': { en: 'Content Pipeline', zh: '内容流水线' },
+    'dev-tools': { en: 'Dev Tools', zh: '开发工具' },
+    'ai-meta': { en: 'AI Meta', zh: 'AI 元能力' },
+    'obsidian': { en: 'Obsidian', zh: '黑曜石' },
+    'visual-creative': { en: 'Visual & Creative', zh: '视觉与创意' },
+    'office-automation': { en: 'Office Automation', zh: '办公自动化' },
+    'learning-research': { en: 'Learning & Research', zh: '学习与研究' }
+  };
+
+  categories.forEach(cat => {
+    if (!en.categories[cat]) {
+      en.categories[cat] = categoryTranslations[cat]?.en || formatSkillName(cat);
+    }
+    if (!zhCN.categories[cat]) {
+      zhCN.categories[cat] = categoryTranslations[cat]?.zh || `[待翻译] ${cat}`;
+    }
+  });
+
+  // Sort skills and categories alphabetically
   zhCN.skills = sortObject(zhCN.skills);
   en.skills = sortObject(en.skills);
+  zhCN.categories = sortObject(zhCN.categories);
+  en.categories = sortObject(en.categories);
 
   // Write back to files
   writeFileSync(zhCNFile, JSON.stringify(zhCN, null, 2) + '\n', 'utf8');
