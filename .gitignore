@@ -2,14 +2,15 @@
 /*
 
 # Keep skill directories
-!/brand-marketing/
 !/business-analyst/
 !/content-pipeline/
-!/immersive-reading/
-!/no-code-builder/
-!/office-automation/
+!/productivity/
+!/dev-tools/
+!/ai-meta/
+!/obsidian/
 !/visual-creative/
 !/i18n/
+!/scripts/
 
 # Keep marketplace.json
 !/.claude-plugin/
@@ -21,6 +22,10 @@
 # Keep README and guides
 !/README.md
 !/README.zh.md
+!/GEMINI.md
+!/CLAUDE.md
+!/requirements.txt
+!/添加技能指南.md
 
 
 # Keep logo directory

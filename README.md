@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  简体中文 | English
+  <a href="./README.zh.md">简体中文</a> | English
 </p>
 
 <p align="center">
@@ -46,13 +46,13 @@ Unlike repositories that list skills by technical function, Skill Box organizes 
 
 | Category | Description | Skills |
 | :--- | :--- | :---: |
-| **Dev Tools** | Frontend development, testing, DevOps, and AI meta-skills | 11 |
-| **Content Pipeline** | Web scraping, video downloading, AI content creation, and publishing | 15 |
-| **Obsidian** | Visual suits for Obsidian: Excalidraw, Mermaid, and Canvas | 3 |
-| **Productivity** | Document processing (Word/Excel/PDF), Notion, and efficiency tools | 13 |
+| **Dev Tools** | Engineering workflows, GitHub CLIs, and DevOps | 11 |
+| **Content Pipeline** | Web scraping, video downloading, and batch publishing | 15 |
+| **Obsidian** | Visual suits for Obsidian: MindMaps, Canvas, and Toolkit | 6 |
+| **Productivity** | Document automation, efficiency tools, and research | 20 |
 | **Visual & Creative** | Visual art, image processing, and video creation | 10 |
 | **Business Analyst** | Data visualization, financial modeling, and SEC research | 18 |
-| **AI Meta** | Skill creation guides and developer growth analysis | 8 |
+| **AI Meta** | Skill creation, MCP building, and growth analysis | 11 |
 
 ---
 
@@ -278,7 +278,7 @@ We welcome new skills, improvement suggestions, or bug reports—every contribut
 
 - 🐛 Found a bug? → [Submit an Issue](https://github.com/Jst-Well-Dan/Skill-Box/issues)
 - 💡 Have an idea? → [Start a Discussion](https://github.com/Jst-Well-Dan/Skill-Box/discussions)
-- ✍️ Want to contribute? → Check out the [Skill Creation Guide](./no-code-builder/skill-creator/SKILL.md)
+- ✍️ Want to contribute? → Check out the [Skill Creation Guide](./ai-meta/skill-creator/SKILL.md)
 
 ---
 

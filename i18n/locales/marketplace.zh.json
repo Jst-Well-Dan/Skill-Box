@@ -13,7 +13,7 @@
       "description": "使用 p5.js 通过种子随机性和交互式参数探索创建算法艺术。当用户请求使用代码创作艺术、生成艺术、算法艺术、流场或粒子系统时使用。创建原创算法艺术而不是复制现有艺术家的作品以避免版权侵犯。"
     },
     "alpha-vantage": {
-      "name": "阿尔法优势",
+      "name": "alpha-vantage",
       "description": "财务与SEC研究工具包：SEC EDGAR文件（10-K/10-Q/8-K）、美国财政部财政数据、对冲基金风险监控以及通过Alpha Vantage提供的实时市场数据。"
     },
     "anthropic-brand-guidelines": {
@@ -341,11 +341,11 @@
       "description": "必备生产力集成：Notion 知识管理、Trello 项目看板、nano-pdf 自然语言 PDF 编辑和实时天气查询（无需 API 密钥）。"
     },
     "obsidian": {
-      "name": "黑曜石",
+      "name": "obsidian",
       "description": "通过 obsidian-cli 与 Obsidian 保险库协同工作：搜索、创建、移动和重命名笔记，并自动更新维基链接。"
     },
     "obsidian-bases": {
-      "name": "黑曜石基础",
+      "name": "obsidian基础",
       "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化以及Defuddle的整洁网络提取。"
     },
     "obsidian-canvas-creator": {
@@ -353,19 +353,19 @@
       "description": "从文本内容创建 Obsidian Canvas 文件，支持思维导图和自由布局。适用于将内容可视化为交互式画布或空间化组织信息。"
     },
     "obsidian-cli": {
-      "name": "黑曜石客户端",
+      "name": "obsidian客户端",
       "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化，以及使用Defuddle的干净网页提取。"
     },
     "obsidian-markdown": {
-      "name": "黑曜石标记",
+      "name": "obsidian-markdown",
       "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、CLI自动化以及Defuddle的干净网页提取。"
     },
     "obsidian-toolkit": {
-      "name": "黑曜石工具包",
+      "name": "obsidian工具包",
       "description": "Obsidian高级代理工具包：Markdown精通、基础（数据库）、JSON画布、命令行自动化以及使用Defuddle的整洁网页提取。"
     },
     "obsidian-vault-manager": {
-      "name": "黑曜石库管",
+      "name": "obsidian仓库管理器",
       "description": "通过 obsidian-cli 与 Obsidian 保险库协同工作：搜索、创建、移动和重命名笔记，并自动更新维基链接。"
     },
     "obsidian-visual-suite": {
@@ -389,7 +389,7 @@
       "description": "使用 PICT（成对独立组合测试）为任何需求或代码设计全面的测试用例。分析输入参数，使用成对测试生成带有参数、值和有效场景约束的 PICT 模型。输出 PICT 模型、测试用例的 Markdown 表格和预期结果。"
     },
     "plotly": {
-      "name": "数据可视化",
+      "name": "plotly数据可视化",
       "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表制作，GeoPandas用于地理空间数据，NetworkX用于网络分析，SymPy用于符号数学。"
     },
     "podcast": {
@@ -445,7 +445,7 @@
       "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表，GeoPandas用于地理空间分析，NetworkX用于网络分析，以及SymPy用于符号数学。"
     },
     "seaborn": {
-      "name": "海恩图",
+      "name": "seaborn数据可视化",
       "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表，GeoPandas用于地理空间数据，NetworkX用于网络分析，SymPy用于符号数学。"
     },
     "sherpa-onnx-tts": {
@@ -505,7 +505,7 @@
       "description": "将专业字体和颜色主题应用于 artifacts，包括幻灯片、文档、报告和 HTML 登录页面，提供 10 个预设主题。"
     },
     "trello": {
-      "name": "特蕾板",
+      "name": "trello",
       "description": "必备生产力集成：Notion 知识管理、Trello 项目看板、nano-pdf 自然语言 PDF 编辑和实时天气查询（无需API密钥）。"
     },
     "usfiscaldata": {
