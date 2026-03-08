@@ -281,7 +281,7 @@
       "description": "自动处理PDFs/images中的发票，将其转换为Excel表格，利用AI视觉识别技术。当用户提及“发票”、“发票处理”、“识别发票”、“提取发票”或需要将发票文件转换为Excel格式时，可使用此技能。"
     },
     "jina-cli": {
-      "name": "金娜客户端",
+      "name": "Jina客户端",
       "description": "阅读网页内容并使用Jina AI Reader API进行网络搜索。适用于从URL提取内容、阅读社交媒体帖子（X/Twitter）或搜索最新信息。"
     },
     "json-canvas": {
@@ -586,7 +586,7 @@
     "business-analyst": "商业与分析",
     "content-pipeline": "内容流水线",
     "dev-tools": "开发工具",
-    "obsidian": "黑曜石",
+    "obsidian": "Obsidian",
     "office-automation": "办公自动化",
     "productivity": "生产力",
     "visual-creative": "视觉与创意"

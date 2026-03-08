@@ -1,6 +1,6 @@
 {
     "name": "Skill-Box",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "An collection of practical skills that transforms your AI assistant from a generalist into a powerful specialist.",
     "owner": {
         "name": "Jst-Well-Dan",
@@ -116,7 +116,8 @@
             "skills": [
                 "./productivity/notebooklm-integration"
             ],
-            "tier": "community"
+            "tier": "curated",
+            "curatedNote": "深度文档分析的生产力利器。支持直接在 Claude 中查询 Google NotebookLM 笔记，回答均基于信源并有引用支持，极大提升了处理海量资料的效率。"
         },
         {
             "name": "anthropic-frontend-design",
@@ -562,7 +563,8 @@
             "skills": [
                 "./content-pipeline/jina-cli"
             ],
-            "tier": "community"
+            "tier": "curated",
+            "curatedNote": "最强大的网页内容结构化工具。基于 Jina AI Reader，能够将任意网页、推文甚至 GitHub 仓库瞬间转化为纯净的 Markdown 格式，是 Agent 获取实时知识的“眼睛”。"
         },
         {
             "name": "md-to-pdf",
