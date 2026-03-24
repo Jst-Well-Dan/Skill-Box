@@ -545,8 +545,8 @@
             "description": "Context7 CLI and MCP setup for AI coding skills management.",
             "category": "dev-tools",
             "author": {
-                "name": "Context7",
-                "url": "https://github.com/context7/cli"
+                "name": "notedit",
+                "url": "https://github.com/notedit/happy-skill"
             },
             "skills": [
                 "./dev-tools/context7-cli"
@@ -558,8 +558,8 @@
             "description": "Fast headless browser for QA testing and site dogfooding.",
             "category": "dev-tools",
             "author": {
-                "name": "Garryslist",
-                "url": "https://github.com/gstack/gstack"
+                "name": "Garry Tan",
+                "url": "https://github.com/garrytan/gstack"
             },
             "skills": [
                 "./dev-tools/gstack"
@@ -571,8 +571,8 @@
             "description": "Expert guide and tools for Google NotebookLM CLI and MCP server.",
             "category": "learning-research",
             "author": {
-                "name": "NotebookLM MCP",
-                "url": "https://github.com/notebooklm/mcp"
+                "name": "Jacob BD",
+                "url": "https://github.com/jacob-bd/notebooklm-mcp-cli"
             },
             "skills": [
                 "./learning-research/nlm-skill"

@@ -125,8 +125,8 @@ claude plugin install Jst-Well-Dan/Skill-Box
 | 9 | `github` | 通过 gh CLI 进行 GitHub 操作：Issue, PR, CI, 代码审查 | [OpenClaw](https://github.com/openclaw/openclaw) |
 | 10 | `supabase-postgres-best-practices` | 来自 Supabase 的 Postgres 性能优化最佳实践 | [Supabase](https://github.com/supabase/agent-skills) |
 | 11 | `md-to-pdf` | 批量将 Markdown 转为 PDF，支持 CJK 字符和图片嵌入 | [Jst-Well-Dan](https://github.com/Jst-Well-Dan/Skill-Box) |
-| 12 | `context7` | Context7 CLI and MCP setup for AI coding skills management. | [Context7](https://github.com/context7/cli) |
-| 13 | `gstack` | Fast headless browser for QA testing and site dogfooding. | [Garryslist](https://github.com/gstack/gstack) |
+| 12 | `context7` | Context7 CLI and MCP setup for AI coding skills management. | [notedit](https://github.com/notedit/happy-skill) |
+| 13 | `gstack` | Fast headless browser for QA testing and site dogfooding. | [Garry Tan](https://github.com/garrytan/gstack) |
 
 ---
 
@@ -244,7 +244,7 @@ claude plugin install Jst-Well-Dan/Skill-Box
 
 | # | 技能 | 说明 | 来源 |
 | :--- | :--- | :--- | :--- |
-| 1 | `notebooklm` | Expert guide and tools for Google NotebookLM CLI and MCP server. | [NotebookLM MCP](https://github.com/notebooklm/mcp) |
+| 1 | `notebooklm` | Expert guide and tools for Google NotebookLM CLI and MCP server. | [Jacob BD](https://github.com/jacob-bd/notebooklm-mcp-cli) |
 
 </details>
 
