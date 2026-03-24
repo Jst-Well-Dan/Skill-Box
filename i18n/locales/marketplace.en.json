@@ -108,6 +108,14 @@
       "name": "Content Research Writer",
       "description": "Assists in writing high-quality content with research, citations, and section feedback."
     },
+    "context7": {
+      "name": "Context7",
+      "description": "Context7 CLI and MCP setup for AI coding skills management."
+    },
+    "context7-cli": {
+      "name": "Context7 Cli",
+      "description": "Context7 CLI and MCP setup for AI coding skills management."
+    },
     "csv-data-summarizer": {
       "name": "csv-data-summarizer",
       "description": "Analyzes CSV files, generates summary stats, and plots quick visualizations using Python and pandas."
@@ -232,6 +240,10 @@
       "name": "Github Cli",
       "description": "GitHub operations via gh CLI: manage issues, PRs, CI runs, code review, and API queries with structured JSON output."
     },
+    "gstack": {
+      "name": "Gstack",
+      "description": "Fast headless browser for QA testing and site dogfooding."
+    },
     "hedgefundmonitor": {
       "name": "Hedgefundmonitor",
       "description": "Financial and SEC research toolkit: SEC EDGAR filings (10-K/10-Q/8-K), US Treasury fiscal data, hedge fund risk monitor, and real-time market data via Alpha Vantage."
@@ -272,6 +284,10 @@
       "name": "mermaid-visualizer",
       "description": "Transform text content into professional Mermaid diagrams for presentations and documentation. Use when users ask to visualize concepts, create flowcharts, or make diagrams from text. Supports process flows, system architectures, comparisons, mindmaps, and more with built-in syntax error prevention."
     },
+    "minimax-tts": {
+      "name": "Minimax Tts",
+      "description": "MiniMax TTS API for text-to-speech, voice cloning and voice design."
+    },
     "nano-pdf": {
       "name": "Nano Pdf",
       "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed)."
@@ -279,6 +295,10 @@
     "networkx": {
       "name": "Networkx",
       "description": "Scientific data visualization and analysis toolkit: Matplotlib, Seaborn, Plotly for charts, GeoPandas for geospatial, NetworkX for network analysis, and SymPy for symbolic math."
+    },
+    "nlm-skill": {
+      "name": "Nlm Skill",
+      "description": "Expert guide and tools for Google NotebookLM CLI and MCP server."
     },
     "notebooklm": {
       "name": "Notebooklm",
@@ -443,6 +463,10 @@
     "trello": {
       "name": "Trello",
       "description": "Essential productivity integrations: Notion knowledge management, Trello project boards, nano-pdf natural-language PDF editing, and real-time weather queries (no API key needed)."
+    },
+    "tts-skill": {
+      "name": "Tts Skill",
+      "description": "MiniMax TTS API for text-to-speech, voice cloning and voice design."
     },
     "usfiscaldata": {
       "name": "Usfiscaldata",

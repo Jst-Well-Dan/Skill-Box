@@ -124,6 +124,14 @@
       "name": "内容研究写作助手",
       "description": "通过进行研究、添加引用、改进钩子并提供逐段反馈来协助撰写高质量内容。"
     },
+    "context7": {
+      "name": "情境识别",
+      "description": "Claude 命令行界面（CLI）和机器配置文件（MCP）设置，用于AI编码技能管理。"
+    },
+    "context7-cli": {
+      "name": "上下文7",
+      "description": "Claude CLI与MCP配置，用于AI编程技能管理。"
+    },
     "csv-data-summarizer": {
       "name": "CSV 数据汇总器",
       "description": "分析 CSV 文件，生成汇总统计信息，并使用 Python 和 pandas 绘制快速可视化。"
@@ -264,6 +272,10 @@
       "name": "代码命令行",
       "description": "通过 gh CLI 进行 GitHub 操作：管理问题、Pull Requests、CI 构建、代码审查和 API 查询，并以结构化的 JSON 格式输出。"
     },
+    "gstack": {
+      "name": "Gstack堆栈",
+      "description": "快速无头浏览器，适用于质量保证测试和网站尝鲜。"
+    },
     "hedgefundmonitor": {
       "name": "对冲基金监控",
       "description": "金融与SEC研究工具包：SEC EDGAR文件（10-K/10-Q/8-K）、美国财政部财政数据、对冲基金风险监控以及通过Alpha Vantage获取的实时市场数据。"
@@ -316,6 +328,10 @@
       "name": "Mermaid 可视化器",
       "description": "将文本内容转换为专业的 Mermaid 图表，用于演示和文档。支持流程图、系统架构、思维导图等，内置语法错误预防。"
     },
+    "minimax-tts": {
+      "name": "最小-最大TTS",
+      "description": "MiniMax语音合成API，支持文本转语音、声音克隆及声音定制。"
+    },
     "move-code-quality-skill": {
       "name": "Move 代码质量技能",
       "description": "根据官方 Move Book 代码质量检查表分析 Move 语言包。在审查 Move 代码、检查 Move 2024 Edition 合规性或分析 Move 包的最佳实践时使用此技能。"
@@ -327,6 +343,10 @@
     "networkx": {
       "name": "网络分析",
       "description": "科学数据可视化与分析工具包：Matplotlib、Seaborn、Plotly用于图表制作，GeoPandas用于地理空间分析，NetworkX用于网络分析，以及SymPy用于符号数学。"
+    },
+    "nlm-skill": {
+      "name": "Nlm技能\r\n自然语言处理",
+      "description": "专业指南与工具，适用于Google NotebookLM CLI和MCP服务器。"
     },
     "notebooklm": {
       "name": "NotebookLM 集成",
@@ -507,6 +527,10 @@
     "trello": {
       "name": "trello",
       "description": "必备生产力集成：Notion 知识管理、Trello 项目看板、nano-pdf 自然语言 PDF 编辑和实时天气查询（无需API密钥）。"
+    },
+    "tts-skill": {
+      "name": "语音合成",
+      "description": "迷你Max TTS语音合成API，支持文本转语音、声音克隆和声音设计。"
     },
     "usfiscaldata": {
       "name": "美国税务数据",

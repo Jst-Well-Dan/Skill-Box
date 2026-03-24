@@ -1,6 +1,6 @@
 {
     "name": "Skill-Box",
-    "version": "2.3.1",
+    "version": "2.4.0",
     "description": "An collection of practical skills that transforms your AI assistant from a generalist into a powerful specialist.",
     "owner": {
         "name": "Jst-Well-Dan",
@@ -233,32 +233,6 @@
             "curatedNote": "Anthropic 官方的办公文档处理全家桶。处理 Word/Excel/PPT/PDF 的首选技能，生成报告和数据表格时频繁调用。"
         },
         {
-            "name": "markdown-to-epub-converter",
-            "description": "Convert markdown documents and chat summaries into EPUB ebook files.",
-            "category": "productivity",
-            "author": {
-                "name": "ComposioHQ",
-                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-            },
-            "skills": [
-                "./productivity/markdown-to-epub-converter"
-            ],
-            "tier": "community"
-        },
-        {
-            "name": "file-organizer",
-            "description": "Intelligently organizes files and folders by understanding context.",
-            "category": "productivity",
-            "author": {
-                "name": "ComposioHQ",
-                "url": "https://github.com/ComposioHQ/awesome-claude-skills"
-            },
-            "skills": [
-                "./productivity/file-organizer"
-            ],
-            "tier": "community"
-        },
-        {
             "name": "obsidian-visual-suite",
             "description": "Complete visualization toolkit for Obsidian: Excalidraw, Mermaid, and Canvas.",
             "category": "obsidian",
@@ -416,7 +390,6 @@
                 "./business-analyst/geopandas",
                 "./business-analyst/networkx",
                 "./business-analyst/sympy",
-                "./business-analyst/eda-workflows",
                 "./business-analyst/statistical-analysis"
             ]
         },
@@ -434,19 +407,6 @@
                 "./business-analyst/usfiscaldata",
                 "./business-analyst/hedgefundmonitor",
                 "./business-analyst/alpha-vantage"
-            ]
-        },
-        {
-            "name": "podcast-generator",
-            "description": "Generate AI podcasts with dual-speaker dialogue using Volcano Engine TTS. Supports multiple audio formats, adjustable speech rate, and streaming reception.",
-            "tier": "community",
-            "category": "content-pipeline",
-            "author": {
-                "name": "staruhub",
-                "url": "https://github.com/staruhub/ClaudeSkills"
-            },
-            "skills": [
-                "./content-pipeline/podcast"
             ]
         },
         {
@@ -579,6 +539,58 @@
             ],
             "tier": "curated",
             "curatedNote": "日常高频使用的 Markdown 转 PDF 工具。完美支持中文字体和图片嵌入，支持单文件和批量转换，是内容输出的最后一环。"
+        },
+        {
+            "name": "context7",
+            "description": "Context7 CLI and MCP setup for AI coding skills management.",
+            "category": "dev-tools",
+            "author": {
+                "name": "Context7",
+                "url": "https://github.com/context7/cli"
+            },
+            "skills": [
+                "./dev-tools/context7-cli"
+            ],
+            "tier": "community"
+        },
+        {
+            "name": "gstack",
+            "description": "Fast headless browser for QA testing and site dogfooding.",
+            "category": "dev-tools",
+            "author": {
+                "name": "Garryslist",
+                "url": "https://github.com/gstack/gstack"
+            },
+            "skills": [
+                "./dev-tools/gstack"
+            ],
+            "tier": "community"
+        },
+        {
+            "name": "notebooklm",
+            "description": "Expert guide and tools for Google NotebookLM CLI and MCP server.",
+            "category": "learning-research",
+            "author": {
+                "name": "NotebookLM MCP",
+                "url": "https://github.com/notebooklm/mcp"
+            },
+            "skills": [
+                "./learning-research/nlm-skill"
+            ],
+            "tier": "community"
+        },
+        {
+            "name": "minimax-tts",
+            "description": "MiniMax TTS API for text-to-speech, voice cloning and voice design.",
+            "category": "content-pipeline",
+            "author": {
+                "name": "MiniMax",
+                "url": "https://github.com/minimax/tts"
+            },
+            "skills": [
+                "./content-pipeline/tts-skill"
+            ],
+            "tier": "community"
         }
     ]
 }
