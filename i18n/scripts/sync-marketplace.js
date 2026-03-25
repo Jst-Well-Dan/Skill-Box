@@ -26,11 +26,10 @@ async function syncMarketplace() {
 
     console.log('🔄 Updating Skill-Box subproject from GitHub...');
 
-    // Pull latest changes from Skill-Box repository
-    execSync('git pull', {
-      cwd: skillBoxDir,
-      stdio: 'inherit'
-    });
+    // Submodule is typically in detached HEAD state; fetch and switch to master before pulling
+    execSync('git fetch origin master', { cwd: skillBoxDir, stdio: 'inherit' });
+    execSync('git checkout master', { cwd: skillBoxDir, stdio: 'inherit' });
+    execSync('git pull origin master', { cwd: skillBoxDir, stdio: 'inherit' });
 
     console.log('✅ Skill-Box marketplace data synced successfully');
 
