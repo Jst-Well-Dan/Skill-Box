@@ -37,8 +37,8 @@ loadEnv();
 
 const CONFIG = {
     marketplaceFile: path.join(__dirname, '..', '..', '.claude-plugin', 'marketplace.json'),
-    zhCNFile: path.join(__dirname, '..', 'locales', 'marketplace.zh.json'),
-    enFile: path.join(__dirname, '..', 'locales', 'marketplace.en.json'),
+    zhCNFile: path.join(__dirname, '..', '..', '..', 'i18n', 'locales', 'marketplace.zh.json'),
+    enFile: path.join(__dirname, '..', '..', '..', 'i18n', 'locales', 'marketplace.en.json'),
     glmScriptsDir: process.env.GLM_API_CALLER_DIR
         ? path.join(process.env.GLM_API_CALLER_DIR, 'scripts')
         : path.join(__dirname, '..', '..', '..', 'Skill Box Website', 'glm-api-caller', 'scripts'),

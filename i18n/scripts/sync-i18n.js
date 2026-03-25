@@ -6,8 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const marketplaceFile = join(__dirname, '../../.claude-plugin/marketplace.json');
-const zhCNFile = join(__dirname, '../locales/marketplace.zh.json');
-const enFile = join(__dirname, '../locales/marketplace.en.json');
+const zhCNFile = join(__dirname, '../../../i18n/locales/marketplace.zh.json');
+const enFile = join(__dirname, '../../../i18n/locales/marketplace.en.json');
 
 console.log('🔄 Syncing i18n translations...\n');
 
