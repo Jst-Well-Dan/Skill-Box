@@ -556,13 +556,13 @@
         {
             "name": "notebooklm",
             "description": "Expert guide and tools for Google NotebookLM CLI and MCP server.",
-            "category": "learning-research",
+            "category": "productivity",
             "author": {
                 "name": "Jacob BD",
                 "url": "https://github.com/jacob-bd/notebooklm-mcp-cli"
             },
             "skills": [
-                "./learning-research/nlm-skill"
+                "./productivity/nlm-skill"
             ],
             "tier": "community"
         },
