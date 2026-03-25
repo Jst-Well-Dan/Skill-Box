@@ -554,19 +554,6 @@
             "tier": "community"
         },
         {
-            "name": "gstack",
-            "description": "Fast headless browser for QA testing and site dogfooding.",
-            "category": "dev-tools",
-            "author": {
-                "name": "Garry Tan",
-                "url": "https://github.com/garrytan/gstack"
-            },
-            "skills": [
-                "./dev-tools/gstack"
-            ],
-            "tier": "community"
-        },
-        {
             "name": "notebooklm",
             "description": "Expert guide and tools for Google NotebookLM CLI and MCP server.",
             "category": "learning-research",

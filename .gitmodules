@@ -1,3 +1,0 @@
-[submodule "dev-tools/gstack"]
-	path = dev-tools/gstack
-	url = https://github.com/garrytan/gstack.git
