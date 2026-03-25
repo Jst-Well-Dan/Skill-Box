@@ -584,8 +584,8 @@
             "description": "MiniMax TTS API for text-to-speech, voice cloning and voice design.",
             "category": "content-pipeline",
             "author": {
-                "name": "MiniMax",
-                "url": "https://github.com/minimax/tts"
+                "name": "notedit",
+                "url": "https://github.com/notedit/happy-skill"
             },
             "skills": [
                 "./content-pipeline/tts-skill"
