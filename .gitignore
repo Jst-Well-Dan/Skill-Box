@@ -22,11 +22,14 @@
 # Keep README and guides
 !/README.md
 !/README.zh.md
+!/README.en.md
 !/GEMINI.md
 !/CLAUDE.md
 !/requirements.txt
 !/添加技能指南.md
 !/.gitmodules
+!/new_lists.md
+!/learning-research/
 
 
 # Keep logo directory
