@@ -35,6 +35,7 @@
 # Keep logo directory
 !/_logo/
 !/_history_docs/
+!/.github/
 
 # Ignore sensitive files in skill directories
 **/.env
