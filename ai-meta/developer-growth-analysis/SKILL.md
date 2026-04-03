@@ -1,6 +1,7 @@
 ---
 name: developer-growth-analysis
-description: Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, generating a personalized growth report with actionable recommendations.
+description: >-
+  Analyze Claude Code chat history to identify coding patterns, skill gaps, and growth opportunities, then generate a personalized development report with actionable recommendations. Use when the user asks for a coding review, wants to understand their development habits, requests a skills assessment, asks about their growth areas, or says "analyze my coding", "developer report", "growth analysis".
 ---
 
 # Developer Growth Analysis
